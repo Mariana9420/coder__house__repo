@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./estilos/styles.css" />
+  <link rel="shortcut icon" href="./images/favicon.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Rancho&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Pridi:wght@500;700&family=Rancho&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Indie+Flower&display=swap"
+    rel="stylesheet">
+
+  <title>Viandas Gaia</title>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <a href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt=" logo de corazon de frutas y verduras" />
+      </a>
+    </div>
+    <div>
+      <h1 class="header__title">Viandas Gaia</h1>
+    </div>
+    <nav class="header__nav">
+      <ul>
+        <li class="header__nav__item">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="./paginas/menu.html">Nuestro menú</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="./paginas/preguntas_frecuentes.html">Preguntas frecuentes</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="./paginas/nosotros.html">Nosotros</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="./paginas/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <img class="header__nav--carrito" src="./images/small-images/carrito_compras_small.png"
+        alt="carrito de compras" />
+    </div>
+  </header>
+
+  <section>
+    <div>
+      <article class="info__contacto__descripcion">
+        <p>Dirección: Av. Siempreviva 123 - Olivos - Buenos Aires</p>
+        <p>Tel.: +54 111-222-444</p>
+        <p>WhatsApp: +54 11 3322-1144</p>
+        <p>E-Mail: viandasGaia@fakemail.com</p>
+        <p>Días y horarios: L a V de 11 a 15 y de 19 a 23 hs</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Cualidades del prod / empresa a añadir en slider o transformación en CSS-->
+  
+  <section>
+    <div class="portada__container">
+      <h1 class="portada__titulo">Rico y nutritivo</h1>
+  
+      <div class="portada__btn__link__al__menu__container">
+        <a href="./paginas/menu.html"><button class="portada__btn__menu" type="button">
+            Ver menú
+          </button></a>
+        </div>
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <h2 class="subtitulo__principal__uno">Qué solución brindamos?</h2>
+    </div>
+    
+    <div class="container propuesta__container">
+      <div class="solucion__image__container">
+        <img src="./images/small-images/viandas_varias.jpg" alt="viandas varias" />
+      </div>
+      <div class="solucion__descripcion__container">
+        <p class="solucion__descripcion">
+          Nuestras viandas están pensadas para incorporar hábitos saludables en el
+          día a día sin tener que limitarse a sólo ensaldas y pasar hambre. Es por
+          eso que proponemos un amplio menú variado donde combinamos todo eso que
+          te encanta con ingredientes saludables naturales preparado en el día por
+          nuestros expertos. Porque sabemos que lograr un equilibrio entre lo rico
+          y saludable es posible.
+        </p>
+        <aside class="aside">
+          <h2 class="aside__titulo"> Quiero saber más!</h2>
+          <p class="aside__descripcion">
+            Mirá nuestra sección de preguntas frecuentes :)
+          </p>
+          <a href="./paginas/preguntas_frecuentes.html">
+            <button type="button" id="btn-link-preguntas">
+              Preguntas frecuentes
+            </button>
+          </a>
+        </aside>
+      </div>
+    </div>
+  
+  </section>
+
+  <main>
+    <div>
+      <h2 class="subtitulo__principal">Lo que nos define</h2>
+    </div>
+    <!-- INICIO GRID CONTAINER-->
+    <div class="container grid__main__container">
+
+      <!--Columna 1-->
+      <div>
+        <article class="articulo__en__columnas__container">
+          <div class="img__redonda__container">
+            <img src="./images/pan_de_carne_centro_1.jpg" alt="Pan de carne" class="img__redonda comidaUno" />
+          </div>
+          <div class="texto__en__columnas__container">
+            <h3 class="subtitulos__especiales cualidadUno">Rico</h3>
+            <p class="parrafos parrafo__descripcion textoUno">Adoptar un estilo de vida saludable no quiere decir que
+              deba ser aburrido y
+              sin sabor! Tentate con nuestros sabrosos platos mientras
+              comés sano y sin culpa</p>
+          </div>
+        </article>
+      </div>
+
+      <!--Columna 2-->
+
+      <div>
+        <article class="articulo__en__columnas__container">
+          <div class="img__redonda__container">
+            <img src="./images/canelones_de_carne_y_acelga_centro_2.jpg" alt="canelones de carne"
+              class="img__redonda comidaDos" />
+          </div>
+          <div class="texto__en__columnas__container">
+            <h3 class="subtitulos__especiales cualidadDos">Sin conservantes</h3>
+            <p class="parrafos parrafo__descripcion textoDos">Todo lo que pedís lo preparamos en el momento y es libre
+              de conservantes
+              que no aportan nada saludable. Nuestra filosofía es: todo libre de
+              conservantes.</p>
+          </div>
+        </article>
+      </div>
+
+      <!--Columna 3-->
+
+      <div>
+        <article class="articulo__en__columnas__container">
+          <div class="img__redonda__container">
+            <img src="./images/ensalada_de_frutas_centro_3.jpg" alt="ensalada de frutas"
+              class="img__redonda comidaTres" />
+          </div>
+          <div class="texto__en__columnas__container">
+            <h3 class="subtitulos__especiales cualidadTres">Natural</h3>
+            <p class="parrafos parrafo__descripcion textoTres"> Dale más energía a tu día y rendí más empezando por
+              incorporar nutrientes y vitaminas en tu dieta. Vas a
+              ver
+              el cambio tanto por fuera como por dentro!</p>
+          </div>
+        </article>
+      </div>
+      <!--FIN DEL GRID CONTAINER -->
+    </div>
+    <div>
+      <a href="./paginas/menu.html"> <button class="btn__secundario btn__menu" id="btn__menu__main" type="button">Ver
+          menú</button></a>
+    </div>
+  </main>
+
+  <section class="contacto__container">
+    <p class="parrafos parrafo__form">
+      Dudas? Querés más información? Tenés una sugerencia o un reclamo? Escribinos y un asesor se estará poniendo en
+      contacto
+      con vos a la brevedad!
+    </p>
+    <form class="form__seccion__contacto">
+      <div class="input__container">
+        <input class="campo" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre*" required />
+        <input class="campo" type="text" name="apellido" placeholder="Ingresa tu apellido*" required />
+        <input class="campo" type="text" name="mail" placeholder="Ingresa tu email*" required />
+
+      </div>
+      <textarea class="campo" name="consulta" id="consulta" cols="50" rows="20"
+        placeholder="Ingresá tu mensaje"></textarea>
+     <input type="submit" class="btn__form"/>
+    </form>
+  </section>
+
+  <section class="container">
+    <article>
+      <h2 class="pagos__titulo">Podés pagar con</h2>
+      <div class="pagos__container">
+        <div class="pagos__medios">
+          <img class="pagos__titulo--img" src="./images/medios_de_pago.jpg" alt="medios de pago" />
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <aside>
+    <div class="iconos__container">
+      <div>
+        <img class="iconos__wspYFlecha" src="./images/small-images/flecha_arriba_subir.png" alt="flecha arriba" />
+      </div>
+      <div>
+        <img class="iconos__wspYFlecha" src="./images/small-images/whatsapp_logo_small.png" alt="whatsApp logo" />
+      </div>
+    </div>
+  </aside>
+
+  <footer>
+    <!----------------------INICIO DEL CONTENEDOR GRID  DEL FOOTER------->
+    <div class="footer__container">
+      <section>
+        <div class="footer__tarjeta">
+          <div class="footer__logo">
+            <a href="./index.html">
+              <img class="footer__tarjeta--logo footer__logo" src="./images/logo.png"
+                alt=" logo de corazon de frutas y verduras" />
+            </a>
+          </div>
+          <div class="footer__tarjeta--descripcion tarjeta__contacto">
+            <p>Dirección: Av. Siempreviva 123; Bs. As - Argentina</p>
+            <p>Horarios: 11 a 15 hs y de 19 a 23 hs.</p>
+            <p>Tel.: +54 111 222 444</p>
+            <p>E-Mail: viandasGaia@fakemail.com</p>
+          </div>
+        </div>
+      </section>
+      <div>
+        <nav class="footer__nav">
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./paginas/menu.html">Nuestro menú</a>
+            </li>
+            <li>
+              <a href="./paginas/preguntas_frecuentes.html">Preguntas frecuentes</a>
+            </li>
+            <li>
+              <a href="./paginas/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a href="./paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <article class="newsletter">
+          <h4 class="newsletter__titulo">¿Qué hay de nuevo? ¡Descubrilo!</h4>
+          <input class="newsletter__footer__input" type="text" name="newsletter" id="newsletter"
+            placeholder="Escribí tu mail aquí" required />
+          <div>
+            <button class="btn__enviar__footer" type="button">Enviar</button>
+          </div>
+        </article>
+
+        <div class="footer__redes__logos">
+          <img src="./images/small-images/facebook_instagraman_logo_small.png" alt="facebook e instagraman logo" />
+        </div>
+      </div>
+    </div>
+    <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
+  </footer>
+</body>
+
+</html>

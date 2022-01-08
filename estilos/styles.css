@@ -1,0 +1,1081 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+/*------------------------ HEADER(CLASES RECICLABLES EN TODAS LAS PÁGINAS)-----------------------*/
+/*
+.container {
+    width: 100%;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+}*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__logo {
+    height: 20rem;
+    width: auto;
+    justify-content: flex-start;
+    margin-right: 5rem;
+}
+
+.header__logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header__title {
+    margin: 1.5rem;
+    margin-top: 3.5rem;
+    font-family: "Roboto";
+    font-size: 3.5rem;
+    justify-content: flex-start;
+
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.header__nav__item {
+    display: inline;
+
+}
+
+header nav a {
+    text-transform: uppercase;
+    color: orangered;
+    font-size: 2rem;
+    font-family: cursive;
+    padding: 0.5rem;
+    margin-left: 2rem;
+}
+
+header nav a:hover {
+    color: yellowgreen;
+}
+
+.footer__nav li {
+    font-size: 1rem;
+}
+
+/*---------------------------FIN HEADER--------------------*/
+.info__contacto__descripcion {
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+/*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
+
+
+.portada__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-image: url("../images/portada_index.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-bottom: 5rem;
+}
+.portada__btn__link__al__menu__container{
+display: flex;
+}
+
+.portada__btn__menu,
+.btn__secundario,
+.btn__enviar,
+.btn__enviar__footer {
+    height: 100px;
+    width: 500px;
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-family: "Roboto";
+    color: #ffffff;
+    background-color: #3a3838;
+
+}
+
+/*...........................................PORTADA PAGINA MENU..............................*/
+
+.portada__menu {
+    background-position: center;
+    background-image: url("../images/viandas_calabaza.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+
+/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
+.portada__preguntas {
+    background-position: center;
+    background-image: url("../images/viandas_empresariales.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+/*...........................................PORTADA PAGINA NOSOTROS..............................*/
+.portada__nosotros {
+    background-position: center;
+    background-image: url("../images/small-images/plato_7.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-bottom: 5rem;
+}
+
+/*...........................................PORTADA PAGINA CONTACTO..............................*/
+.portada__contacto {
+    background-position: center;
+    background-image: url("../images/pan_de_carne_centro_1.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-bottom: 5rem;
+}
+
+/*............................................. CLASES RECICLABLES PARA PAGINAS-------------------------*/
+.portada__titulo {
+    text-align: center;
+    font-size: 10rem;
+    font-style: "Roboto";
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.subtitulo__principal {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.btn__secundario,
+.btn__enviar,
+.btn__enviar__footer {
+    height: 50%;
+    width: 25%;
+    margin-left: 33rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.parrafos {
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: "Indie Flower";
+    text-align: center;
+    background-color: #ffa500;
+    width: 100%;
+    margin: auto;
+}
+
+.parrafo__descripcion {
+    width: 85%;
+    margin-left: 1%;
+}
+
+.subtitulos__especiales {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/*------------------------INDEX: SOLUCION DE LA EMPRESA----------------*/
+
+.propuesta__container {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    width: 100%;
+
+}
+
+.solucion__image__container {
+    display: flex;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.solucion__image img {
+    height: auto;
+    width: 100%;
+}
+
+.solucion__descripcion__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.solucion__descripcion {
+    padding: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: "Indie Flower";
+    text-align: center;
+    background-color: #ffa500;
+}
+
+.aside {
+    background-color: #ff4500;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+}
+
+.aside__titulo,
+.form__titulo {
+    font-family: "Roboto";
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.aside__descripcion {
+    font-family: "Indie Flower";
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-bottom: 3rem;
+    margin-left: 3.2rem;
+}
+
+#btn-link-preguntas {
+    font-size: 2rem;
+    font-family: "Roboto";
+    text-align: center;
+    align-content: center;
+    width: 350px;
+    height: 50px;
+    margin-left: 10rem;
+    color: #ffffff;
+    background-color: #3a3838;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+
+}
+
+.subtitulo__principal__uno {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.grid__main__container {
+    display: grid;
+    grid-template-areas:
+        "comidaUno comidaDos comidaTres"
+        "cualidadUno cualidadDos cualidadTres"
+        "textoUno textoDos textoTres";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    max-width: 1450px;
+}
+.comidaUno{
+    grid-area: comidaUno;
+}
+.comidaDos{
+    grid-area: comidaDos;
+}
+.comidaTres{
+    grid-area: comidaTres;
+}
+
+.articulo__en__columnas__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img__redonda__container {
+    display: flex;
+    justify-content: center;
+}
+
+.img__redonda {
+    height: auto;
+    max-width: 100%;
+    border-radius: 80%;
+    margin-bottom: 4rem;
+
+}
+
+.texto__en__columnas__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn__menu {
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    width: 20px;
+}
+
+#btn__menu__main {
+    width: 30%;
+}
+
+
+/*...............................INDEX: FORMULARIO DE CONTACTO...........................*/
+.contacto__container {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 1px black;
+    background-color: #ff4500;
+    border-radius: 4px;
+}
+
+.parrafo__form {
+    font-family: "Indie Flower";
+
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/*............................... INDEX: MEDIOS DE PAGO...........................*/
+
+.pagos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-position: center;
+    background-color: #ffa500;
+    margin-top: 1rem;
+    padding: 3%;
+}
+
+.pagos__medios {
+    height: auto;
+    max-width: 100%;
+}
+
+.pagos__medios img {
+    height: auto;
+    max-width: 90%;
+}
+
+.pagos__titulo {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.pagos__titulo--img {
+    height: 100%;
+    width: auto;
+    margin-top: 25;
+    margin-bottom: 0.5%;
+
+
+}
+
+/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR(CLASES RECICLABLES EN TODAS LAS PÁG)...........................*/
+.iconos__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #ffa500;
+    margin: auto;
+}
+
+.iconos__wspYFlecha {
+    max-width: 100px;
+    height: 50%;
+}
+
+/*.....................................iNDEX: FOOTER(TODAS LAS CLASES SON RECICLABLES)..................*/
+
+footer {
+    background-color: #523024;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-areas:
+        "tarjeta nav__footer newsletter btn";
+    grid-template-columns: 30% 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    justify-content: flex-start;
+    align-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.footer__tarjeta {
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-align: left;
+    grid-area: tarjeta;
+
+}
+
+.footer__tarjeta--logo {
+    max-height: 10rem;
+    width: auto;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    grid-area: nav__footer;
+    margin-top: 2rem;
+    margin-right: 5rem;
+
+}
+
+.footer__nav a {
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+    grid-area: newsletter;
+}
+
+.newsletter__titulo {
+    margin-bottom: 2rem;
+}
+
+.newsletter__footer__input {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.btn__enviar__footer {
+    height: 20%;
+    width: 55%;
+    margin-left: 33rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    grid-area: btn;
+    margin-left: 5rem;
+}
+
+/*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
+
+@media only screen and (max-width: 599px) {
+
+    .header__title {
+        display: none;
+    }
+
+    header nav li a {
+        display: none;
+    }
+ 
+    .portada__titulo{
+        font-size: 7rem;
+    }
+    .portada__btn__menu{
+        max-width: 200px;
+    }
+
+    .info__contacto__descripcion {
+        display: none;
+    }
+
+    .subtitulo__principal__uno,
+    .solucion__image__container,
+    .solucion__descripcion,
+    .aside {
+        display: none;
+    }
+   .subtitulo__principal{
+       font-size: 5rem;
+   }
+    .grid__main__container {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "comidaUno"
+            "comidaDos"
+            "comidaTres"
+        ;
+        max-width: 599px;
+
+    }
+    .subtitulos__especiales{
+        font-size: 5rem;
+    }
+    .parrafo__descripcion{
+        font-size: 3rem;
+    }
+.btn__menu{
+    font-size: 3rem;
+}
+    textarea {
+        max-height: 320px;
+    }
+.btn__form{
+    color:white;
+    background-color: #2c2727;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "tarjeta__contacto"
+            "footer__logo";
+    }
+
+    .tarjeta__contacto {
+      font-size: 2rem;
+
+    }
+
+    .footer__logo {
+        grid-area: footer__logo;
+    }
+
+    .footer__newsletter,
+    .footer__nav,
+    .newsletter__titulo,
+    .newsletter__footer__input,
+    .btn__enviar__footer,
+    .footer__redes__logos {
+        display: none;
+    }
+}
+
+/*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
+
+
+/*.....................................PAGINA NUESTRO MENÚ........................................................*/
+
+.articulo__menu__container {
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+.parrafos,
+.parrafo__menu {
+    height: 30%;
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 19%;
+    margin-bottom: 3rem;
+    padding: 45px;
+}
+
+.platos__grilla {
+    display: grid;
+    grid-template-areas:
+        "img1 img2 img3 img4"
+        "img5 img6 img7 img8";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    max-width: 1450px;
+}
+
+.platos {
+    height: 240px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.platos__img__container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+h4 {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.platos__btn__container {
+    margin-right: 15%;
+}
+
+.btn__secundario,
+.btn__comprar {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-top: 2rem;
+}
+
+/*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
+@media only screen and (max-width: 599px) {
+
+    .platos__grilla {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8"
+        ;
+
+    }
+
+    .parrafo__menu {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .btn__comprar {
+        width: 40%;
+        font-size: 3rem;
+    }
+}
+
+/*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
+.preguntas__titulo {
+    font-size: 3.5rem;
+}
+
+.funcionamiento__parent__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+.funcionamiento__container {
+    display: grid;
+    grid-template-areas:
+        "subtitulo__principal"
+        "imgUno imgDos imgTres"
+        "tituloUno tituloDos tituloTres"
+        "descripUno descripDos descripTres";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+
+.funcionamiento__articulo__container {
+    overflow: hidden;
+}
+
+.img__propiedades {
+    height: 300px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.imgUno {
+    grid-area: imgUno;
+}
+
+.imgDos {
+    grid-area: imgDos;
+}
+
+.imgTres {
+    grid-area: imgTres;
+}
+
+.tituloUno {
+    grid-area: tituloUno;
+}
+
+.tituloDos {
+    grid-area: tituloDos;
+}
+
+.tituloTres {
+    grid-area: tituloTres;
+}
+
+.descripUno {
+    grid-area: descripUno;
+}
+
+.descripDos {
+    grid-area: descripDos;
+}
+
+.descripTres {
+    grid-area: descripTres;
+}
+
+.parrafos,
+.parrafo__descripcion {
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+}
+
+
+/*......................  CONTAINER PREGUNTAS..................................*/
+.preguntas__container__principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.preguntas__elementos {
+    background-color: #ff4500;
+    padding: 60px 55px;
+}
+
+.preguntas__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    max-width: 1800px;
+    background-color: #ffa500;
+}
+
+.preguntas__articulo {
+    margin-left: 10px;
+}
+
+.preguntas__articulo h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.preguntaUno {
+    grid-area: preguntaUno;
+}
+
+.preguntaDos {
+    grid-area: preguntaDos;
+}
+
+.parrafo__respuestas {
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: "Indie Flower";
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES..................................*/
+@media only screen and (max-width: 599px) {
+    .funcionamiento__container {
+
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "imgUno"
+            "imgDos"
+            "imgTres"
+        ;
+    }
+
+    .preguntas__container{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "preguntas__articulo"
+            "preguntas__articulo"
+            "preguntas__articulo"
+            "preguntas__articulo"
+        ;
+    }
+}
+
+/*.....................................PAGINA NOSOTROS........................................................*/
+
+.subtitulo__historia {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.img__historia {
+    width: 100%;
+    height: auto;
+}
+.parent__container__nosotros{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+}
+
+.historia__container__uno {
+    display: flex;
+    flex-direction: row;
+}
+.historia__container__subtitulo__uno {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+    background-color: #ffffff;
+}
+.img__historia__container__uno {
+    display: flex;
+    width: 100%;
+    background-color: #ff4500;
+}
+
+.img__historia {
+    width: 100%;
+    height: auto;
+}
+
+.historia__container__uno__texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #523024;
+    max-width: 50%;
+}
+
+.parrafo__historia {
+    margin: auto;
+}
+
+.historia__container__subtitulo__dos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    background-color: #ffffff;
+}
+
+.historia__container__dos {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img__historia__container__dos {
+    display: flex;
+    width: 100%;
+    background-color: #ff4500;
+}
+
+.historia__container__dos__texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #523024;
+    max-width: 50%;
+}
+
+.historia__container__subtitulo__tres {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.historia__container__tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.img__historia__container__tres {
+    display: flex;
+    max-width: 100%;
+    background-color: #ff4500;
+}
+
+.historia__container__tres__texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #523024;
+}
+
+/*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/
+@media only screen and (max-width: 599px) {
+
+    .historia__container__uno{
+        flex-direction: column;
+        
+    }
+    
+   .historia__container__uno__texto{
+       max-width: 100%;
+   }
+
+   .historia__container__dos{
+       flex-direction: column;
+   }
+   
+.historia__container__dos__texto{
+    max-width: 100%;
+}
+.historia__container__tres{
+    flex-direction: column;
+}
+.historia__container__tres__texto{
+    max-width: 100%;
+}
+.parrafo__historia{
+    font-size: 3rem;
+}
+   }
+ 
+
+ 
+
+
+/*..................................... PAGINA CONTACTO........................................................*/
+/* INICIO CÓDIGO PARA EL FORMULARIO*/
+.contacto__container {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 1px #99A799;
+    border-radius: 4px;
+}
+
+.parrafo__form {
+    font-family: "Indie Flower";
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* FIN CÓDIGO PARA EL FORMULARIO*/
+
+.mapa__container {
+    display: flex;
+    justify-content: center;
+    max-width: 300%;
+}
+
+.mapa {
+    width: 100%;
+    margin: 50px;
+}
+
+.redes__sociales__contenedor__padre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.redes__sociales__contenedor__padre div {
+    justify-content: center;
+}
+
+.redes__sociales__logos__container {
+    display: flex;
+    justify-content: center;
+}
+
+.img__redes__sociales {
+    height: auto;
+    background-color: orangered;
+    width: 100%;
+}
+
+.btn__secundario,
+.btn__seguir {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-bottom: 3%;
+}
+
+/*..................................... Contacto: MEDIAS QUERIES........................................................*/
+@media only screen and (max-width: 599px) {
+    .parrafo__form {
+        display: none;
+    }
+
+    .campo {
+        width: 100%;
+    }
+    .btn__seguir{
+        font-size: 2rem;
+    }
+}
