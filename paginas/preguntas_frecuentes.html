@@ -137,16 +137,15 @@
       <h2 class="subtitulo__principal otras__preguntas">Otras preguntas</h2>
       <div class="container preguntas__elementos">
         <div class="container preguntas__container">
+
           <article class="preguntas__articulo">
 
-                
-              <h3 class="preguntas__titulo preguntaUno">Debo pedir con antelación?</h3>
               <div>
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
+                      <button class="accordion-button preguntas__titulo preguntaUno" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Debo pedir con antelación?
                       </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -161,47 +160,73 @@
                       </div>
                     </div>
                   </div>
-
-              <p class="parrafo__respuestas respuestaUno">
-                Para viandas individuales podés pedir el mismo día.
-                Nos encargamos que siempre todas nuestras comidas estén
-                disponibles.
-                Para planes semanales de comida tenés que pedir con
-                mínimo 72hs de antelación.
-              </p>
-            </div>
           </article>
 
-          <article>
-            <div>
-              <h3 class="preguntas__titulo preguntaDos">Dónde hacen las entregas?</h3>
-              <p class="parrafo__respuestas respuestaDos">
-                Entregamos en toda zona norte y CABA. Consultá el mapa!<br/>
-                Pronto abriremos nuevas sucursales, llegando a más zonas! :)
-              </p>
-            </div>
-          </article>
 
           <article class="preguntas__articulo">
-            <div>
-              <h3 class="preguntas__titulo preguntaTres">No se acreditó mi pago</h3>
-              <p class="parrafo__respuestas respuestaTres">
-                No te preocupes, estamos para ayudarte. LLamanos o escribinos y en seguida
-                un asesor te estará guiando para resolver cualquier inconveniente.
-              </p>
-            </div>
-          </article>
 
-          <article>
             <div>
-              <h3 class="preguntas__titulo preguntaCuatro">Cómo cancelo un pedido?</h3>
-              <p class="parrafo__respuestas respuestaCuatro">
-                Te arrepentiste de tu compra? Querés cambiar tu plato por otro? No hay
-                problema! Cancelá o cambiá tu orden desde tu usuario presionando el botón
-                "Cancelar"
-              </p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button preguntas__titulo preguntaDos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Dónde hacen las entregas?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p class="parrafo__respuestas respuestaDos">
+                        Entregamos en toda zona norte y CABA. Consultá el mapa!<br/>
+                        Pronto abriremos nuevas sucursales, llegando a más zonas! :)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+        </article>
+
+        <article class="preguntas__articulo">
+
+          <div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button preguntas__titulo preguntaTres" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    No se acreditó mi pago
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p class="parrafo__respuestas respuestaTres">
+                      No te preocupes, estamos para ayudarte. LLamanos o escribinos y en seguida
+                      un asesor te estará guiando para resolver cualquier inconveniente.
+                    </p>
+                  </div>
+                </div>
+              </div>
+      </article>
+
+      <article class="preguntas__articulo">
+
+        <div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button preguntas__titulo preguntaCuatro" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Cómo cancelo un pedido?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="parrafo__respuestas respuestaCuatro">
+                    Te arrepentiste de tu compra? Querés cambiar tu plato por otro? No hay
+                    problema! Cancelá o cambiá tu orden desde tu usuario presionando el botón
+                    "Cancelar"
+                  </p>
+                </div>
+              </div>
             </div>
-          </article>
+    </article>
+    
         </div>
       </div>
     </div>
@@ -278,5 +303,5 @@
   </footer>
 
 </body>
-<script src="./js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </html>
