@@ -53,6 +53,12 @@ header {
     justify-content: flex-end;
     width: 60%;
 }
+.navbar-nav{
+    background-color: yellowgreen;
+}
+.navbar-nav ul a:hover{
+ color: orangered;
+}
 
 .header__nav__item {
     display: inline;
