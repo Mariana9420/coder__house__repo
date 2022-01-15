@@ -149,15 +149,18 @@
     </div>
   </aside>
 
-  <footer class="footer">
+  <footer>
     <!----------------------INICIO DEL CONTENEDOR GRID  DEL FOOTER------->
     <div class="footer__container">
       <section>
         <div class="footer__tarjeta">
-          <a href="../index.html">
-            <img class="footer__tarjeta--logo" src="../images/logo.png" alt=" logo de corazon de frutas y verduras" />
-          </a>
-          <div class="footer__tarjeta--descripcion">
+          <div class="footer__logo">
+            <a href="../index.html">
+              <img class="footer__tarjeta--logo footer__logo" src="../images/logo.png"
+                alt=" logo de corazon de frutas y verduras" />
+            </a>
+          </div>
+          <div class="footer__tarjeta--descripcion tarjeta__contacto">
             <p>Dirección: Av. Siempreviva 123; Bs. As - Argentina</p>
             <p>Horarios: 11 a 15 hs y de 19 a 23 hs.</p>
             <p>Tel.: +54 111 222 444</p>
@@ -166,8 +169,8 @@
         </div>
       </section>
       <div>
-        <nav>
-          <ul class="footer__nav">
+        <nav class="footer__nav">
+          <ul>
             <li>
               <a href="../index.html">Home</a>
             </li>
@@ -190,12 +193,13 @@
       <div>
         <article class="newsletter">
           <h4 class="newsletter__titulo">¿Qué hay de nuevo? ¡Descubrilo!</h4>
-          <input class="form__input" type="text" name="newsletter" id="newsletter" placeholder="Escribí tu mail aquí"
-            required />
+          <input class="newsletter__footer__input" type="text" name="newsletter" id="newsletter"
+            placeholder="Escribí tu mail aquí" required />
+          <div>
+            <button class="btn__enviar__footer" type="button">Enviar</button>
+          </div>
         </article>
-        <div>
-          <button class="btn__enviar__footer" type="button">Enviar</button>
-        </div>
+
         <div class="footer__redes__logos">
           <img src="../images/small-images/facebook_instagraman_logo_small.png" alt="facebook e instagraman logo" />
         </div>
@@ -203,6 +207,7 @@
     </div>
     <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
   </footer>
+
 </body>
 <script src="../js/bootstrap.min.js"></script>
 </html>

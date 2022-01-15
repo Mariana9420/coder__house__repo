@@ -68,6 +68,10 @@ header nav a {
     margin-left: 2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 header nav a:hover {
     color: yellowgreen;
 }
@@ -100,8 +104,9 @@ header nav a:hover {
     font-weight: 30px;
     margin-bottom: 5rem;
 }
-.portada__btn__link__al__menu__container{
-display: flex;
+
+.portada__btn__link__al__menu__container {
+    display: flex;
 }
 
 .portada__btn__menu,
@@ -217,13 +222,13 @@ display: flex;
 .propuesta__container {
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
-    width: 100%;
+    max-width: 100%;
 
 }
 
 .solucion__image__container {
     display: flex;
+    width: 100%;
     height: auto;
     margin-left: 1rem;
 }
@@ -313,13 +318,16 @@ display: flex;
     grid-gap: 20px;
     max-width: 1450px;
 }
-.comidaUno{
+
+.comidaUno {
     grid-area: comidaUno;
 }
-.comidaDos{
+
+.comidaDos {
     grid-area: comidaDos;
 }
-.comidaTres{
+
+.comidaTres {
     grid-area: comidaTres;
 }
 
@@ -525,11 +533,21 @@ footer {
     header nav li a {
         display: none;
     }
- 
-    .portada__titulo{
+
+    .header__nav--carrito {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        padding: 40px;
+        
+    }
+
+    .portada__titulo {
         font-size: 7rem;
     }
-    .portada__btn__menu{
+
+    .portada__btn__menu {
         max-width: 200px;
     }
 
@@ -543,9 +561,11 @@ footer {
     .aside {
         display: none;
     }
-   .subtitulo__principal{
-       font-size: 5rem;
-   }
+
+    .subtitulo__principal {
+        font-size: 5rem;
+    }
+
     .grid__main__container {
         display: grid;
         flex-direction: column;
@@ -559,25 +579,30 @@ footer {
         max-width: 599px;
 
     }
-    .subtitulos__especiales{
+
+    .subtitulos__especiales {
         font-size: 5rem;
     }
-    .parrafo__descripcion{
+
+    .parrafo__descripcion {
         font-size: 3rem;
     }
-.btn__menu{
-    font-size: 3rem;
-}
+
+    .btn__menu {
+        font-size: 3rem;
+    }
+
     textarea {
         max-height: 320px;
     }
-.btn__form{
-    color:white;
-    background-color: #2c2727;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 2.5rem;
-}
+
+    .btn__form {
+        color: white;
+        background-color: #2c2727;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 2.5rem;
+    }
 
     .footer__container {
         display: grid;
@@ -588,7 +613,7 @@ footer {
     }
 
     .tarjeta__contacto {
-      font-size: 2rem;
+        font-size: 2rem;
 
     }
 
@@ -607,7 +632,14 @@ footer {
 }
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
+@media only screen and (min-width: 768px) {
 
+
+    #btn__link__preguntas {
+        width: 150px;
+    }
+
+}
 
 /*.....................................PAGINA NUESTRO MENÚ........................................................*/
 
@@ -616,10 +648,11 @@ footer {
     margin-left: 2rem;
 }
 
-#galeria img{
+#galeria img {
     width: 100%;
     height: 250px;
 }
+
 .parrafos,
 .parrafo__menu {
     height: 30%;
@@ -629,6 +662,7 @@ footer {
     margin-bottom: 3rem;
     padding: 45px;
 }
+
 /*
 .platos__grilla {
     display: grid;
@@ -652,9 +686,7 @@ footer {
     margin-right: 1rem;
 }
 
-img:hover{
-   transform: scale(1.1);
-}
+
 
 .img1 {
     grid-area: img1;
@@ -858,7 +890,7 @@ h4 {
         ;
     }
 
-    .preguntas__container{
+    .preguntas__container {
         display: grid;
         flex-direction: column;
         grid-template-columns: 1fr;
@@ -879,26 +911,30 @@ h4 {
     margin-bottom: 2rem;
     margin-left: 1rem;
 }
+
 .img__historia {
     width: 100%;
     height: auto;
 }
-.parent__container__nosotros{
+
+.parent__container__nosotros {
     display: flex;
     flex-direction: column;
-    margin:30px;
+    margin: 30px;
 }
 
 .historia__container__uno {
     display: flex;
     flex-direction: row;
 }
+
 .historia__container__subtitulo__uno {
     display: flex;
     justify-content: flex-start;
     margin-left: 15%;
     background-color: #ffffff;
 }
+
 .img__historia__container__uno {
     display: flex;
     width: 100%;
@@ -973,35 +1009,38 @@ h4 {
 /*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/
 @media only screen and (max-width: 599px) {
 
-    .historia__container__uno{
+    .historia__container__uno {
         flex-direction: column;
-        
+
     }
-    
-   .historia__container__uno__texto{
-       max-width: 100%;
-   }
 
-   .historia__container__dos{
-       flex-direction: column;
-   }
-   
-.historia__container__dos__texto{
-    max-width: 100%;
-}
-.historia__container__tres{
-    flex-direction: column;
-}
-.historia__container__tres__texto{
-    max-width: 100%;
-}
-.parrafo__historia{
-    font-size: 3rem;
-}
-   }
- 
+    .historia__container__uno__texto {
+        max-width: 100%;
+    }
 
- 
+    .historia__container__dos {
+        flex-direction: column;
+    }
+
+    .historia__container__dos__texto {
+        max-width: 100%;
+    }
+
+    .historia__container__tres {
+        flex-direction: column;
+    }
+
+    .historia__container__tres__texto {
+        max-width: 100%;
+    }
+
+    .parrafo__historia {
+        font-size: 3rem;
+    }
+}
+
+
+
 
 
 /*..................................... PAGINA CONTACTO........................................................*/
@@ -1024,7 +1063,8 @@ h4 {
     padding: 10px;
     margin: 10px auto;
 }
-.card__contacto__redes{
+
+.card__contacto__redes {
     max-width: 500px;
     margin-left: 500px;
 }
@@ -1080,7 +1120,8 @@ h4 {
     .campo {
         width: 100%;
     }
-    .btn__seguir{
+
+    .btn__seguir {
         font-size: 2rem;
     }
 }
