@@ -540,7 +540,7 @@ footer {
 
     .navbar-toggler-icon {
         padding: 40px;
-        
+
     }
 
     .portada__titulo {
@@ -685,7 +685,9 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
+.card__img__platos:hover{
+    transform: scale(1.1);
+}
 
 
 .img1 {
