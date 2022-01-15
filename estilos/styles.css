@@ -685,7 +685,8 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.card__img__platos:hover{
+
+.card__img__platos:hover {
     transform: scale(1.1);
 }
 
