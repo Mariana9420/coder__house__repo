@@ -74,6 +74,9 @@ header nav a {
     margin-left: 2rem;
 }
 
+a{
+    text-decoration: none;
+}
 header nav a:hover{
     color:yellowgreen;
 }
@@ -236,7 +239,7 @@ header nav a:hover{
     margin-left: 1rem;
 }
 
-.solucion__image img {
+.solucion__image {
     height: auto;
     width: 100%;
 }
@@ -390,6 +393,7 @@ header nav a:hover{
     width: 50%;
     padding: 10px;
     margin: 10px auto;
+    font-size: 2.5rem;
 }
 .btn__form {
     padding: 2rem;
