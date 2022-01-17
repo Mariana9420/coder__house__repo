@@ -646,7 +646,8 @@ footer {
 
     #btn__link__preguntas {
       
-        margin-left: 5rem;
+        width: 5%;
+        font-size: 2rem;
     }
 
 }
