@@ -32,6 +32,9 @@ header {
     justify-content: flex-start;
     margin-right: 5rem;
 }
+.container-fluid{
+    background-color: #ffffff;
+}
 
 .header__logo img {
     max-width: 100%;
@@ -79,6 +82,9 @@ a{
 }
 header nav a:hover{
     color:yellowgreen;
+}
+.header__nav--carrito{
+    margin-right: 15rem;
 }
 
 
@@ -544,7 +550,9 @@ footer {
     .header__title {
         display: none;
     }
-
+    .container-fluid{
+        background-color: greenyellow;
+    }
     header nav li a {
         display: none;
     }
@@ -553,6 +561,7 @@ footer {
         display: none;
     }
 
+    
     .navbar-toggler-icon {
         padding: 40px;
 
@@ -642,8 +651,21 @@ footer {
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
 @media only screen and (min-width: 768px) {
+ 
+    nav{
+        width: 100%;
+    }
 
-
+    .navbar-toggler-icon{
+        background-color: orange;
+        padding: 2.3rem;
+    }
+   .header__nav--carrito{
+       margin-right: 10rem;
+   }
+   .propuesta__container{
+       max-height: 1000px;
+   }
     #btn__link__preguntas {
       
         width: 5%;
