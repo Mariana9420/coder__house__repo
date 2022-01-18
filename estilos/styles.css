@@ -32,7 +32,8 @@ header {
     justify-content: flex-start;
     margin-right: 5rem;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: #ffffff;
 }
 
@@ -56,11 +57,13 @@ header {
     justify-content: flex-end;
     width: 60%;
 }
-.navbar-nav{
+
+.navbar-nav {
     background-color: yellowgreen;
 }
-.navbar-nav ul a:hover{
- color: orangered;
+
+.navbar-nav ul a:hover {
+    color: orangered;
 }
 
 .header__nav__item {
@@ -77,13 +80,15 @@ header nav a {
     margin-left: 2rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
-header nav a:hover{
-    color:yellowgreen;
+
+header nav a:hover {
+    color: yellowgreen;
 }
-.header__nav--carrito{
+
+.header__nav--carrito {
     margin-right: 15rem;
 }
 
@@ -102,10 +107,12 @@ header nav a:hover{
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 
-.row__portada__index{
+.row__portada__index {
 
     max-width: 100%;
+    margin: auto;
 }
+
 .portada__container {
     display: flex;
     flex-direction: column;
@@ -263,7 +270,7 @@ header nav a:hover{
     padding: 3.5rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     margin-right: 2rem;
     line-height: 3rem;
     font-size: 2rem;
@@ -276,6 +283,7 @@ header nav a:hover{
     background-color: #ff4500;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-left: 2.5rem;
     padding: 2rem;
 }
 
@@ -310,13 +318,13 @@ header nav a:hover{
 
 /*----------------- INICIO COPIA DE SOLUCION DE LA EMPRESA: PRUEBA CON GRID */
 
-.propuesta__container__grid{
-display: grid;
-grid-template-areas: "img__viandas__varias"
-"texto__solucion aside";
-grid-template-columns: 50% 100%;
-grid-template-rows: auto auto;
-width: 100%;
+.propuesta__container__grid {
+    display: grid;
+    grid-template-areas: "img__viandas__varias"
+        "texto__solucion aside";
+    grid-template-columns: 50% 100%;
+    grid-template-rows: auto auto;
+    width: 100%;
 }
 
 /*----------------- FIN COPIA DE SOLUCION DE LA EMPRESA: PRUEBA CON GRID */
@@ -416,9 +424,10 @@ width: 100%;
     margin: 10px auto;
     font-size: 2.5rem;
 }
+
 .btn__form {
     padding: 2rem;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #2c2727;
     padding: 10px;
     cursor: pointer;
@@ -565,9 +574,11 @@ footer {
     .header__title {
         display: none;
     }
-    .container-fluid{
+
+    .container-fluid {
         background-color: greenyellow;
     }
+
     header nav li a {
         display: none;
     }
@@ -576,7 +587,7 @@ footer {
         display: none;
     }
 
-    
+
     .navbar-toggler-icon {
         padding: 40px;
 
@@ -635,8 +646,6 @@ footer {
         max-height: 320px;
     }
 
-   
-
     .footer__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -666,23 +675,22 @@ footer {
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
 @media only screen and (min-width: 768px) {
- 
-    nav{
+
+    nav {
         width: 100%;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         background-color: orange;
         padding: 2.3rem;
     }
-   .header__nav--carrito{
-       margin-right: 10rem;
-   }
-   .propuesta__container{
-       max-height: 1000px;
-   }
+
+    .header__nav--carrito {
+        margin-right: 10rem;
+    }
+
     #btn__link__preguntas {
-      
+
         width: 5%;
         font-size: 2rem;
     }
