@@ -102,7 +102,10 @@ header nav a:hover{
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 
+.row__portada__index{
 
+    max-width: 100%;
+}
 .portada__container {
     display: flex;
     flex-direction: column;
@@ -305,6 +308,18 @@ header nav a:hover{
     background-color: #3a3838;
 }
 
+/*----------------- INICIO COPIA DE SOLUCION DE LA EMPRESA: PRUEBA CON GRID */
+
+.propuesta__container__grid{
+display: grid;
+grid-template-areas: "img__viandas__varias"
+"texto__solucion aside";
+grid-template-columns: 50% 100%;
+grid-template-rows: auto auto;
+width: 100%;
+}
+
+/*----------------- FIN COPIA DE SOLUCION DE LA EMPRESA: PRUEBA CON GRID */
 .main {
     display: flex;
     flex-direction: column;
