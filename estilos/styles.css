@@ -129,6 +129,16 @@ header nav a:hover {
 
 .portada__btn__link__al__menu__container {
     display: flex;
+    height: 500px;
+    background-color: red;
+
+}
+#link__al__menu__especial{
+    align-self: flex-end;
+    
+}
+.portada__btn__menu{
+    
 }
 
 .portada__btn__menu,
