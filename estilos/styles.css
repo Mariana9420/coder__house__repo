@@ -194,12 +194,53 @@ header nav a:hover {
 }
 
 /*............................................. CLASES RECICLABLES PARA PAGINAS-------------------------*/
+
 .portada__titulo {
     text-align: center;
     font-size: 10rem;
     font-style: "Roboto";
     padding-top: 3rem;
     padding-bottom: 5rem;
+}
+
+.prueba__uno , .prueba__dos{
+    position: absolute;
+    display:block ;
+    animation:  10s ease-in-out infinite;
+}
+.prueba__uno{
+    animation-name: prueba1;
+}
+.prueba__dos{
+    animation-name: prueba2;
+}
+@keyframes prueba1{
+    0%, 8.3%{
+        left: -100%;
+        opacity: 0;
+    }
+    8.3%, 25%{
+        left: 25%;
+        opacity: 1;
+    }
+    33.33%, 100%{
+        left: 110%;
+        opacity: 0;
+    }
+}
+@keyframes prueba2{
+    0%, 33.33%{
+        left: -100%;
+        opacity: 0;
+    }
+    41.63%, 58.29%{
+        left: 25%;
+        opacity: 1;
+    }
+    66.66%, 100%{
+        left: 110%;
+        opacity: 0;
+    }
 }
 
 .subtitulo__principal {
@@ -241,7 +282,7 @@ header nav a:hover {
 
 /*------------------------INDEX: SOLUCION DE LA EMPRESA----------------*/
 
-.propuesta__container {
+.propuesta__container__grid {
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -687,6 +728,9 @@ footer {
 
     .header__nav--carrito {
         margin-right: 10rem;
+    }
+    .propuesta__container__grid{
+        grid-template-columns: (3,1fr);
     }
 
     #btn__link__preguntas {
