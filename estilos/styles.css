@@ -760,9 +760,11 @@ h4 {
     display: flex;
     justify-content: center;
 }
-
+.card-title{
+    text-align: center;
+}
 .platos__btn__container {
-    margin-right: 15%;
+    margin-right: 45%;
 }
 
 .btn__secundario,
@@ -770,7 +772,7 @@ h4 {
     margin-left: 1rem;
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 100%;
     margin-top: 2rem;
 }
 
