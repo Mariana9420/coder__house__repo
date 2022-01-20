@@ -133,12 +133,15 @@ header nav a:hover {
     background-color: red;
 
 }
-#link__al__menu__especial{
-    align-self: flex-end;
-    
+
+#link__al__menu__especial {
+    align-self: center;
+
 }
-.portada__btn__menu{
-    
+
+.portada__btn__menu {
+
+    margin: auto;
 }
 
 .portada__btn__menu,
@@ -213,41 +216,58 @@ header nav a:hover {
     padding-bottom: 5rem;
 }
 
-.prueba__uno , .prueba__dos{
+.titulo__anim__uno,
+.titulo__anim__dos {
     position: absolute;
-    display:block ;
-    animation:  10s ease-in-out infinite;
+    display: block;
+    animation: 10s ease-in-out infinite;
 }
-.prueba__uno{
-    animation-name: prueba1;
+
+.titulo__anim__uno {
+    animation-name: animUno;
 }
-.prueba__dos{
-    animation-name: prueba2;
+
+.titulo__anim__dos {
+    animation-name: animDos;
 }
-@keyframes prueba1{
-    0%, 8.3%{
+
+@keyframes animUno {
+
+    0%,
+    8.3% {
         left: -100%;
         opacity: 0;
     }
-    8.3%, 25%{
+
+    8.3%,
+    25% {
         left: 25%;
         opacity: 1;
     }
-    33.33%, 100%{
+
+    33.33%,
+    100% {
         left: 110%;
         opacity: 0;
     }
 }
-@keyframes prueba2{
-    0%, 33.33%{
+
+@keyframes animDos {
+
+    0%,
+    33.33% {
         left: -100%;
         opacity: 0;
     }
-    41.63%, 58.29%{
+
+    41.63%,
+    58.29% {
         left: 25%;
         opacity: 1;
     }
-    66.66%, 100%{
+
+    66.66%,
+    100% {
         left: 110%;
         opacity: 0;
     }
@@ -648,14 +668,21 @@ footer {
         font-size: 7rem;
     }
 
+    .portada__btn__link__al__menu__container {
+        height: auto;
+    }
+
     .portada__btn__menu {
         max-width: 200px;
+
     }
 
     .info__contacto__descripcion {
         display: none;
     }
 
+    .titulo__anim__uno,
+    .titulo__anim__dos,
     .subtitulo__principal__uno,
     .solucion__image__container,
     .solucion__descripcion,
@@ -739,8 +766,9 @@ footer {
     .header__nav--carrito {
         margin-right: 10rem;
     }
-    .propuesta__container__grid{
-        grid-template-columns: (3,1fr);
+
+    .propuesta__container__grid {
+        grid-template-columns: (3, 1fr);
     }
 
     #btn__link__preguntas {
@@ -814,9 +842,11 @@ h4 {
     display: flex;
     justify-content: center;
 }
-.card-title{
+
+.card-title {
     text-align: center;
 }
+
 .platos__btn__container {
     margin-right: 45%;
 }
