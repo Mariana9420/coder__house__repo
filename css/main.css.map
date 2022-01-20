@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAC1B",
+    "sources": [
+        "../../Proyecto Coder House/viandas_gaia_luduena/estilos-scss/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
