@@ -1,5 +1,3 @@
-$main-color:#000;
+//Partials
 
-body{
-    background-color: $main-color;
-}
+@import "partials/typography";
