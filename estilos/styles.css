@@ -230,7 +230,7 @@ header nav a:hover {
 .titulo__anim__dos {
     animation-name: animDos;
 }
-
+/*
 @keyframes animUno {
 
     0%,
@@ -271,7 +271,7 @@ header nav a:hover {
         left: 110%;
         opacity: 0;
     }
-}
+}*/
 
 .subtitulo__principal {
     text-align: center;
