@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.header__logo {
+  height: 20rem;
+  width: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 5rem;
+}
+
+.header__logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: cursive;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+.nav--carrito {
+  margin-right: 15rem;
+}
+/*# sourceMappingURL=main.css.map */
