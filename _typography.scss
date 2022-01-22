@@ -1,0 +1,12 @@
+$main-font-titles-h1:"Roboto";
+$main-font-titles-h1-color:"#0000";
+$main-font-parrafos:"Indie Flower";
+
+h1.title{
+font: $main-font-titles-h1;
+
+}
+
+p{
+    font-family: $main-font-parrafos;
+}
