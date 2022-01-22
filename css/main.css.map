@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../typography.scss"
+        "../main.scss"
     ],
     "names": [],
-    "file": "typography.css"
+    "file": "main.css"
 }
