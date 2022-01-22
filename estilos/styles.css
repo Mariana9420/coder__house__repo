@@ -116,7 +116,6 @@ a {
 .portada__btn__link__al__menu__container {
     display: flex;
     height: 500px;
-    background-color: red;
 
 }
 
@@ -217,7 +216,7 @@ a {
     animation-name: animDos;
 }
 
-/*
+
 @keyframes animUno {
 
     0%,
@@ -258,7 +257,7 @@ a {
         left: 110%;
         opacity: 0;
     }
-}*/
+}
 
 .subtitulo__principal {
     text-align: center;
@@ -789,16 +788,13 @@ footer {
     .header__nav--carrito {
         margin-right: 10rem;
     }
+    .titulo__anim__uno,
+    .titulo__anim__dos{
+        display: none;
+    }
 
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
-    }
-
-    #btn__link__preguntas {
-
-        max-width: 30px;
-        /*margin-left: 45px;*/
-        font-size: 2rem;
     }
 
 }
