@@ -1,9 +1,16 @@
+
+//PARTIALS
+
+@import "css/_typography";
+
+
+// NESTING
 .header__logo{
     height: 20rem;
     width: auto;
     justify-content: flex-start;
     margin-right: 5rem;
-    
+
     img {
         max-width: 100%;
         height: auto;
