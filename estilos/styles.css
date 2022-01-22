@@ -46,11 +46,13 @@ header {
 }
 header nav a {
     text-transform: uppercase;
-    
     font-size: 2rem;
     font-family: cursive;
     padding: 0.5rem;
     margin-left: 2rem;
+}
+.header__nav--carrito {
+    margin-right: 15rem;
 }
 a{
     text-decoration: none;
@@ -69,14 +71,6 @@ a{
 .navbar-nav {
     background-color: yellowgreen;
 }
-
-
-
-
-.header__nav--carrito {
-    margin-right: 15rem;
-}
-
 
 .footer__nav li {
     font-size: 1rem;
