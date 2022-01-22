@@ -821,9 +821,6 @@ h4 {
     text-align: center;
 }
 
-.platos__btn__container {
-    margin-right: 45%;
-}
 
 .btn__secundario,
 .btn__comprar {
@@ -866,7 +863,7 @@ h4 {
     }
 
     .btn__comprar {
-        width: 40%;
+        width: 100%;
         font-size: 3rem;
     }
 }
