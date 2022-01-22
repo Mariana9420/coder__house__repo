@@ -917,6 +917,15 @@ h4 {
     }
 }
 
+/*......................MEDIAS QUERIES MENU: TABLETS.................... */
+
+@media only screen and (min-width: 768px){
+    .header__nav--carrito {
+        margin-right: 10rem;
+    }
+}
+
+
 /*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
 .preguntas__titulo {
     font-size: 3.5rem;
