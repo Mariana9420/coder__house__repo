@@ -1,29 +1,6 @@
+@import "header";
 
 
-    .header__logo {
-        height: 20rem;
-        width: auto;
-        justify-content: flex-start;
-        margin-right: 5rem;
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    }
-    
-    nav{
-        a {
-            text-transform: uppercase;
-            font-size: 2rem;
-            font-family: cursive;
-            padding: 0.5rem;
-            margin-left: 2rem;
-        }
-    }
-    .nav--carrito {
-        margin-right: 15rem;
-    }
 
 
 
