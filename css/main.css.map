@@ -3,7 +3,8 @@
     "mappings": "ACAA,AAAA,aAAa,CAAC;EACV,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,UAAU;EAC3B,YAAY,EAAE,IAAI;CAMrB;;AAVD,AAMI,aANS,CAMT,GAAG,CAAC;EACA,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACf;;AAGL,AACI,GADD,CACC,CAAC,CAAC;EACE,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,OAAO;EACpB,OAAO,EAAE,MAAM;EACf,WAAW,EAAE,IAAI;CACpB;;AAEL,AAAA,aAAa,CAAC;EACV,YAAY,EAAE,KAAK;CACtB",
     "sources": [
         "../main.scss",
-        "../_header.scss"
+        "../_header.scss",
+        "../_typography.scss"
     ],
     "names": [],
     "file": "main.css"
