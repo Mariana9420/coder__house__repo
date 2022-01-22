@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css-bst/bootstrap.min.css" />
   <link rel="stylesheet" href="./estilos/styles.css" />
   <link rel="stylesheet" href="./css/main.css" />
-  <link rel ="stylesheet" href="./css/main.css"/>
+  <link rel="stylesheet" href="./css/main.css" />
   <link rel="shortcut icon" href="./images/favicon.png" />
   <link
     href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Rancho&display=swap"
@@ -52,7 +52,7 @@
             alt="carrito de compras" />
         </div>
       </div>
-    
+
     </nav>
   </header>
 
@@ -76,30 +76,32 @@
 
         <div class="portada__container ">
           <h1 class="portada__titulo titulo__anim__uno">Rico y nutritivo</h1>
-          <h1 class="portada__titulo titulo__anim__dos" >La mejor opción</h1>
+          <h1 class="portada__titulo titulo__anim__dos">La mejor opción</h1>
 
           <div class="portada__btn__link__al__menu__container">
-            <a id="link__al__menu__especial" href="./paginas/menu.html"><button class="portada__btn__menu" type="button">
+            <a id="link__al__menu__especial" href="./paginas/menu.html"><button class="portada__btn__menu"
+                type="button">
                 Ver menú
               </button></a>
-        </div>
           </div>
+        </div>
       </div>
     </div>
   </section>
 
-<!--
   <section>
+
     <div>
       <h2 class="subtitulo__principal__uno">Qué solución brindamos?</h2>
     </div>
 
-    <div class="container propuesta__container">
-      <div class="solucion__image__container">
+    <div class="propuesta__container__grid">
+      <div class="solucion__image__container container-md">
         <img class="solucion__image" src="./images/small-images/viandas_varias.jpg" alt="viandas varias" />
       </div>
 
       <div class="solucion__descripcion__container">
+
         <p class="solucion__descripcion">
           Nuestras viandas están pensadas para incorporar hábitos saludables en el
           día a día sin tener que limitarse a sólo ensaldas y pasar hambre. Es por
@@ -108,62 +110,24 @@
           nuestros expertos. Porque sabemos que lograr un equilibrio entre lo rico
           y saludable es posible.
         </p>
+
         <aside class="aside">
           <h2 class="aside__titulo"> Quiero saber más!</h2>
           <p class="aside__descripcion">
             Mirá nuestra sección de preguntas frecuentes :)
           </p>
-          <a href="./paginas/preguntas_frecuentes.html">
-            <button type="button" id="btn-link-preguntas">
-              Preguntas frecuentes
-            </button>
-          </a>
+          <div class="btn__link__preguntas__container d-flex justify-content-center">
+            <a href="./paginas/preguntas_frecuentes.html">
+              <button type="button" id="btn-link-preguntas" class="mx-auto">
+                Preguntas frecuentes
+              </button>
+            </a>
+          </div>
         </aside>
-
       </div>
+
     </div>
   </section>
--->
-
-  <section>
-
-    <div>
-      <h2 class="subtitulo__principal__uno">Qué solución brindamos?</h2>
-    </div>
-
-  <div class="propuesta__container__grid">
-    <div class="solucion__image__container container-md">
-      <img class="solucion__image" src="./images/small-images/viandas_varias.jpg" alt="viandas varias" />
-    </div>
-
-    <div class="solucion__descripcion__container">
-
-      <p class="solucion__descripcion">
-        Nuestras viandas están pensadas para incorporar hábitos saludables en el
-        día a día sin tener que limitarse a sólo ensaldas y pasar hambre. Es por
-        eso que proponemos un amplio menú variado donde combinamos todo eso que
-        te encanta con ingredientes saludables naturales preparado en el día por
-        nuestros expertos. Porque sabemos que lograr un equilibrio entre lo rico
-        y saludable es posible.
-      </p>
-    
-      <aside class="aside">
-        <h2 class="aside__titulo"> Quiero saber más!</h2>
-        <p class="aside__descripcion">
-          Mirá nuestra sección de preguntas frecuentes :)
-        </p>
-        <div class="btn__link__preguntas__container d-flex justify-content-center">
-        <a href="./paginas/preguntas_frecuentes.html">
-          <button type="button" id="btn-link-preguntas" class="mx-auto">
-            Preguntas frecuentes
-          </button>
-        </a>
-      </div>
-      </aside>
-    </div>
-
-  </div>
-</section>
 
   <main>
     <div>
@@ -248,7 +212,7 @@
       </div>
       <textarea class="campo" name="consulta" id="consulta" cols="50" rows="20"
         placeholder="Ingresá tu mensaje"></textarea>
-        <input type="submit" class="btn__form" />
+      <input type="submit" class="btn__form" />
     </form>
   </section>
 
@@ -271,8 +235,8 @@
 
       <div class="container__btn__wsp">
         <a href="#">
-        <img class="btn-wsp" src="./images/whatsapp_logo.png" alt="whatsApp logo" />
-      </a>
+          <img class="btn-wsp" src="./images/whatsapp_logo.png" alt="whatsApp logo" />
+        </a>
       </div>
     </div>
   </aside>
