@@ -728,7 +728,7 @@ footer {
 
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     nav {
         width: 100%;
@@ -745,6 +745,22 @@ footer {
    
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
+        grid-template-rows: 30% 30%;
+        grid-template-columns: 1fr;
+        grid-area: "viandas__varias__grid"
+        "solucion__descripcion__grid aside grid";
+    }
+    .solucion__descripcion__container{
+        max-width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .solucion__descripcion{
+        height: 390px;
+    }
+    aside{
+        margin-top: 2rem;
+        height: 390px;
     }
 
 }
