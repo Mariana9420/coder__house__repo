@@ -742,26 +742,14 @@ footer {
     .header__nav--carrito {
         margin-right: 10rem;
     }
-   
+   /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
-        grid-template-rows: 30% 30%;
-        grid-template-columns: 1fr;
+      
         grid-area: "viandas__varias__grid"
-        "solucion__descripcion__grid aside grid";
+        "solucion__descripcion__grid aside__grid";
     }
-    .solucion__descripcion__container{
-        max-width: 100%;
-        height: auto;
-        flex-direction: row;
-    }
-    .solucion__descripcion{
-        height: 390px;
-    }
-    aside{
-        margin-top: 2rem;
-        height: 390px;
-    }
+  
 
 }
 
