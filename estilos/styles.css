@@ -201,60 +201,15 @@ a {
     padding-bottom: 5rem;
 }
 
-.titulo__anim__uno,
-.titulo__anim__dos {
-    position: absolute;
-    display: block;
-    animation: 10s ease-in-out infinite;
+.fade-in-fade-out{
+animation: fade-inout 5s infinite alternate;
 }
 
-.titulo__anim__uno {
-    animation-name: animUno;
-}
-
-.titulo__anim__dos {
-    animation-name: animDos;
-}
-
-
-@keyframes animUno {
-
-    0%,
-    8.3% {
-        left: -100%;
-        opacity: 0;
-    }
-
-    8.3%,
-    25% {
-        left: 25%;
+@keyframes fade-inout{
+    0%{
         opacity: 1;
     }
-
-    33.33%,
-    100% {
-        left: 110%;
-        opacity: 0;
-    }
-}
-
-@keyframes animDos {
-
-    0%,
-    33.33% {
-        left: -100%;
-        opacity: 0;
-    }
-
-    41.63%,
-    58.29% {
-        left: 25%;
-        opacity: 1;
-    }
-
-    66.66%,
-    100% {
-        left: 110%;
+    100%{
         opacity: 0;
     }
 }
@@ -697,8 +652,7 @@ footer {
         display: none;
     }
 
-    .titulo__anim__uno,
-    .titulo__anim__dos,
+    .fade-in-fade-out,
     .subtitulo__principal__uno,
     .solucion__image__container,
     .solucion__descripcion,
@@ -788,11 +742,7 @@ footer {
     .header__nav--carrito {
         margin-right: 10rem;
     }
-    .titulo__anim__uno,
-    .titulo__anim__dos{
-        display: none;
-    }
-
+   
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
     }
