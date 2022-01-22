@@ -32,10 +32,12 @@ header {
     justify-content: flex-start;
     margin-right: 5rem;
 }
+
 .header__logo img {
     max-width: 100%;
     height: auto;
 }
+
 .header__title {
     margin: 1.5rem;
     margin-top: 3.5rem;
@@ -44,6 +46,7 @@ header {
     justify-content: flex-start;
 
 }
+
 header nav a {
     text-transform: uppercase;
     font-size: 2rem;
@@ -51,16 +54,20 @@ header nav a {
     padding: 0.5rem;
     margin-left: 2rem;
 }
+
 .header__nav--carrito {
     margin-right: 15rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
-#link__naranja{
-    color:#000000;
+
+#link__naranja {
+    color: #000000;
 }
-#link__naranja:hover{
+
+#link__naranja:hover {
     color: #ff4500;
 }
 
@@ -209,6 +216,7 @@ a{
 .titulo__anim__dos {
     animation-name: animDos;
 }
+
 /*
 @keyframes animUno {
 
@@ -533,32 +541,36 @@ a{
     max-width: 100px;
     height: 50%;
 }
-.container__btn__wsp{
-background-color: #008000;
-border: 1px solid #fff;
-position: fixed;
-z-index: 999;
-border-radius: 50%;
-bottom: 20px;
-right: 25px;
-padding: 25px;
-transition:  ease 0.3s;
-animation: anim-wsp 1.2s infinite;
-}
-.container__btn__wsp:hover{
-    transform: scale(1.1);
-    transition:  0.3s;
-}
-.btn-wsp{
-width:  50px;
-transition: ease 1s;
+
+.container__btn__wsp {
+    background-color: #008000;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: anim-wsp 1.2s infinite;
 }
 
-@keyframes anim-wsp{
-    0%{
+.container__btn__wsp:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.btn-wsp {
+    width: 50px;
+    transition: ease 1s;
+}
+
+@keyframes anim-wsp {
+    0% {
         box-shadow: 0 0 0 0 rgb(0, 0, 0, 0.85);
     }
-    100%{
+
+    100% {
         box-shadow: 0 0 0 25px rgb(0, 0, 0, 0);
     }
 }
@@ -729,32 +741,38 @@ footer {
         max-height: 320px;
     }
 
-    .footer__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "tarjeta__contacto"
-            "footer__logo";
-    }
-
-    .tarjeta__contacto {
-        font-size: 2rem;
-
-    }
-
-    .footer__logo {
-        grid-area: footer__logo;
-    }
-
-    .footer__newsletter,
-    .footer__nav,
-    .newsletter__titulo,
-    .newsletter__footer__input,
-    .btn__enviar__footer,
-    .footer__redes__logos {
+    .container__btn__wsp,
+    .btn__wsp {
         display: none;
     }
 }
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tarjeta__contacto"
+        "footer__logo";
+}
+
+.tarjeta__contacto {
+    font-size: 2rem;
+
+}
+
+.footer__logo {
+    grid-area: footer__logo;
+}
+
+.footer__newsletter,
+.footer__nav,
+.newsletter__titulo,
+.newsletter__footer__input,
+.btn__enviar__footer,
+.footer__redes__logos {
+    display: none;
+}
+
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
 @media only screen and (min-width: 768px) {
@@ -778,7 +796,8 @@ footer {
 
     #btn__link__preguntas {
 
-        width: 5%;
+        max-width: 30px;
+        /*margin-left: 45px;*/
         font-size: 2rem;
     }
 
