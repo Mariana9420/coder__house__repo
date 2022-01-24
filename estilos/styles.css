@@ -564,7 +564,6 @@ footer {
 .footer__nav {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     list-style: none;
     text-align: center;
     grid-area: nav__footer;
@@ -717,7 +716,6 @@ footer {
     grid-area: footer__logo;
 }
 
-.footer__newsletter,
 .footer__nav,
 .newsletter__titulo,
 .newsletter__footer__input,
@@ -728,7 +726,7 @@ footer {
 
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     nav {
         width: 100%;
