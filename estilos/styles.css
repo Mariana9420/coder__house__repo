@@ -195,12 +195,127 @@ a {
 
 .portada__titulo {
     text-align: center;
-    font-size: 10rem;
+    font-size: 15rem;
     font-style: "Roboto";
     padding-top: 3rem;
     padding-bottom: 5rem;
+    color: #221919;
 }
 
+#titulos__animados__index {
+    font-size: 5rem;
+}
+
+.banner__text {
+    transform: translate(-5%, -5%);
+}
+
+.banner__text h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.box {
+    font-size: 5rem;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.b1 {
+    animation: animUno 15s infinite;
+}
+
+.b2 {
+    animation: animDos 15s infinite;
+}
+
+.b3 {
+    animation: animTres 15s infinite;
+}
+
+.b4 {
+    animation: animCuatro 15s infinite;
+}
+
+@keyframes animUno {
+
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+}
+
+@keyframes animDos {
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes animTres {
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes animCuatro {
+
+    60% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+}
+
+@keyframes animCinco {
+
+    80% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*
 .fade-in-fade-out{
 animation: fade-inout 5s infinite alternate;
 }
@@ -212,7 +327,7 @@ animation: fade-inout 5s infinite alternate;
     100%{
         opacity: 0;
     }
-}
+}*/
 
 .subtitulo__principal {
     text-align: center;
@@ -433,9 +548,11 @@ animation: fade-inout 5s infinite alternate;
     margin: 10px auto;
     font-size: 2.5rem;
 }
-#consulta{
+
+#consulta {
     height: 30rem;
 }
+
 .btn__form {
     padding: 2rem;
     color: #ffffff;
@@ -654,7 +771,10 @@ footer {
         display: none;
     }
 
-    .fade-in-fade-out,
+    .animUno,
+    .animDos,
+    .animTres,
+    .animCuatro,
     .subtitulo__principal__uno,
     .solucion__image__container,
     .solucion__descripcion,
@@ -743,14 +863,15 @@ footer {
     .header__nav--carrito {
         margin-right: 10rem;
     }
-   /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
+
+    /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
-      
+
         grid-area: "viandas__varias__grid"
-        "solucion__descripcion__grid aside__grid";
+            "solucion__descripcion__grid aside__grid";
     }
-  
+
 
 }
 
