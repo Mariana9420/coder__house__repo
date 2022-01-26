@@ -1,4 +1,22 @@
-.header__logo {
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .header__logo {
   height: 20rem;
   width: auto;
   -webkit-box-pack: start;
@@ -7,29 +25,8 @@
   margin-right: 5rem;
 }
 
-.header__logo img {
+header .header__logo img {
   max-width: 100%;
   height: auto;
-}
-
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-family: cursive;
-  padding: 0.5rem;
-  margin-left: 2rem;
-}
-
-.nav--carrito {
-  margin-right: 15rem;
-}
-
-h1.title {
-  font: "Roboto";
-}
-
-p {
-  font-family: "Indie Flower";
 }
 /*# sourceMappingURL=main.css.map */
