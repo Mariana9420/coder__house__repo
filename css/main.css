@@ -24,11 +24,11 @@ header {
   height: auto;
 }
 
-.header__nav--carrito {
-  margin-right: 15rem;
+nav ul .navbar-nav {
+  background-color: yellowgreen;
 }
 
-nav a {
+nav ul a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 2rem;
@@ -37,11 +37,118 @@ nav a {
   margin-left: 2rem;
 }
 
-nav a #link__naranja {
+nav ul a #link__naranja {
   color: #000000;
 }
 
-nav a #link__naranja:hover {
+nav ul a #link__naranja:hover {
   color: #ff4500;
+}
+
+.header__nav--carrito {
+  margin-right: 15rem;
+}
+
+/*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
+.row__portada__index {
+  max-width: 100%;
+  margin: auto;
+}
+
+.portada__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center;
+  background-image: url("../images/portada_index.jpg");
+  background-size: cover;
+  background-color: orange;
+  height: 500px;
+  font-size: 50px;
+  font-weight: 30px;
+  margin-bottom: 5rem;
+}
+
+.portada__btn__link__al__menu__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+#link__al__menu__especial {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.portada__btn__menu {
+  margin: auto;
+}
+
+.portada__btn__menu,
+.btn__secundario,
+.btn__enviar,
+.btn__enviar__footer {
+  height: 100px;
+  width: 500px;
+  margin-left: 5rem;
+  font-size: 3rem;
+  font-family: "Roboto";
+  color: #ffffff;
+  background-color: #3a3838;
+}
+
+/*...........................................PORTADA PAGINA MENU..............................*/
+.portada__menu {
+  background-position: center;
+  background-image: url("../images/viandas_calabaza.jpg");
+  background-size: cover;
+  background-color: orange;
+  height: 500px;
+  font-size: 50px;
+  font-weight: 30px;
+}
+
+/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
+.portada__preguntas {
+  background-position: center;
+  background-image: url("../images/viandas_empresariales.jpg");
+  background-size: cover;
+  background-color: orange;
+  height: 500px;
+  font-size: 50px;
+  font-weight: 30px;
+}
+
+/*...........................................PORTADA PAGINA NOSOTROS..............................*/
+.portada__nosotros {
+  background-position: center;
+  background-image: url("../images/small-images/plato_7.jpg");
+  background-size: cover;
+  background-color: orange;
+  height: 500px;
+  font-size: 50px;
+  font-weight: 30px;
+  margin-bottom: 5rem;
+}
+
+/*...........................................PORTADA PAGINA CONTACTO..............................*/
+.portada__contacto {
+  background-position: center;
+  background-image: url("../images/pan_de_carne_centro_1.jpg");
+  background-size: cover;
+  background-color: orange;
+  height: 500px;
+  font-size: 50px;
+  font-weight: 30px;
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
