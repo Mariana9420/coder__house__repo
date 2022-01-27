@@ -1,21 +1,42 @@
 header {
     display: flex;
-    flex-direction: row;
     width: 100%;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+.header__logo {
+    height: 20rem;
+    width: auto;
+    justify-content: flex-start;
+    margin-right: 5rem;
 
-    .header__logo {
-        height: 20rem;
-        width: auto;
-        justify-content: flex-start;
-        margin-right: 5rem;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
 
-        img {
-            max-width: 100%;
-            height: auto;
+.header__nav--carrito {
+    margin-right: 15rem;
+}
+
+    nav{
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 2rem;
+            font-family: cursive;
+            padding: 0.5rem;
+            margin-left: 2rem;
+
+           & #link__naranja {
+                color: #000000;
+            }
+            
+            & #link__naranja:hover {
+                color: #ff4500;
+            }
         }
+ 
     }
 
-}

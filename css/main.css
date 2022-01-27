@@ -2,13 +2,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   width: 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -16,7 +10,7 @@ header {
       justify-content: space-around;
 }
 
-header .header__logo {
+.header__logo {
   height: 20rem;
   width: auto;
   -webkit-box-pack: start;
@@ -25,8 +19,29 @@ header .header__logo {
   margin-right: 5rem;
 }
 
-header .header__logo img {
+.header__logo img {
   max-width: 100%;
   height: auto;
+}
+
+.header__nav--carrito {
+  margin-right: 15rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: cursive;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+nav a #link__naranja {
+  color: #000000;
+}
+
+nav a #link__naranja:hover {
+  color: #ff4500;
 }
 /*# sourceMappingURL=main.css.map */
