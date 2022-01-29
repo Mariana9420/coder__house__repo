@@ -1,8 +1,20 @@
 $main-font-family:"Indie Flower";
 $special-font-family:"cursive";
 
+p{
+    font: $main-font-family;
+}
 /*..............PREGUNTAS FRECUENTES................*/
 
+$botones-acordeon-preguntas:(
+    colorFuente: black,
+    fuenteTam: 3.5rem,
+    fuenteFamilia: $special-font-family,
+);
+
 .fuente__preguntas{
-font: $special-font-family;
+color: map-get($botones-acordeon-preguntas, colorFuente);
+font-family: map-get($botones-acordeon-preguntas, fuenteFamilia);
+font-size: map-get($botones-acordeon-preguntas , fuenteTam);
 }
+

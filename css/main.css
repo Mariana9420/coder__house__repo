@@ -152,8 +152,14 @@ a #link__al__menu__especial {
   margin-bottom: 5rem;
 }
 
+p {
+  font: "Indie Flower";
+}
+
 /*..............PREGUNTAS FRECUENTES................*/
 .fuente__preguntas {
-  font: "cursive";
+  color: black;
+  font-family: "cursive";
+  font-size: 3.5rem;
 }
 /*# sourceMappingURL=main.css.map */
