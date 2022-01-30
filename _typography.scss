@@ -80,6 +80,11 @@ $caja-titulos-anim-index:(
     height: 20%;
    
 }
+.btn__seguir{
+    @extend .btn__secundario;
+    width: 50%;
+    margin-left: 25%;
+}
 
 
 
