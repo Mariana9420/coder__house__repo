@@ -156,6 +156,18 @@ p {
   font: "Indie Flower";
 }
 
+/*..................INDEX...................*/
+a {
+  font: "cursive";
+}
+
+.info__contacto__descripcion {
+  font-size: 2rem;
+  font-family: "cursive";
+  text-align: center;
+  padding: 2.5rem;
+}
+
 /*..............PREGUNTAS FRECUENTES................*/
 .fuente__preguntas {
   color: black;

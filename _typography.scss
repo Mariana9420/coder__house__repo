@@ -1,20 +1,36 @@
 $main-font-family:"Indie Flower";
 $special-font-family:"cursive";
 
-p{
+p {
     font: $main-font-family;
 }
+
+/*..................INDEX...................*/
+a {
+    font: $special-font-family;
+}
+
+$datos-de-contacto-header:(fuenteTam: 2rem,
+    fuenteFamilia: $special-font-family,
+);
+
+.info__contacto__descripcion {
+    font-size: map-get($datos-de-contacto-header, fuenteTam);
+    font-family: $special-font-family;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+
 /*..............PREGUNTAS FRECUENTES................*/
 
-$botones-acordeon-preguntas:(
-    colorFuente: black,
+$botones-acordeon-preguntas:(colorFuente: black,
     fuenteTam: 3.5rem,
     fuenteFamilia: $special-font-family,
 );
 
-.fuente__preguntas{
-color: map-get($botones-acordeon-preguntas, colorFuente);
-font-family: map-get($botones-acordeon-preguntas, fuenteFamilia);
-font-size: map-get($botones-acordeon-preguntas , fuenteTam);
+.fuente__preguntas {
+    color: map-get($botones-acordeon-preguntas, colorFuente);
+    font-family: map-get($botones-acordeon-preguntas, fuenteFamilia);
+    font-size: map-get($botones-acordeon-preguntas, fuenteTam);
 }
-
