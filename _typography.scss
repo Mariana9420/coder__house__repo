@@ -48,6 +48,7 @@ $caja-titulos-anim-index:(
     color: #ffffff;
     background-color: #3a3838;
 }
+
 #btn-link-preguntas {
     @extend .boton__menu;
     width: 230px;
@@ -57,6 +58,14 @@ $caja-titulos-anim-index:(
     align-content: center;
 }
 
+#btn__menu__main {
+    @extend .boton__menu;
+    width: 30%;
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-left: 35%;
+}
 
 
 

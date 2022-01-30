@@ -180,7 +180,7 @@ h1 {
   position: absolute;
 }
 
-.boton__menu, #btn-link-preguntas {
+.boton__menu, #btn-link-preguntas, #btn__menu__main {
   height: 100px;
   width: 500px;
   margin-left: 5rem;
@@ -197,6 +197,14 @@ h1 {
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+#btn__menu__main {
+  width: 30%;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-left: 35%;
 }
 
 /*..............PREGUNTAS FRECUENTES................*/
