@@ -862,17 +862,7 @@ footer {
     padding: 45px;
 }
 
-/*
-.platos__grilla {
-    display: grid;
-    grid-template-areas:
-        "img1 img2 img3 img4"
-        "img5 img6 img7 img8";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-gap: 10px;
-    
-}*/
+
 
 .platos {
     height: 240px;
@@ -937,6 +927,7 @@ h4 {
             "img7"
             "img8"
         ;
+   
 
     }
 

@@ -95,6 +95,7 @@ a #link__al__menu__especial {
 
 .portada__btn__menu,
 .btn__secundario,
+.btn__comprar,
 .btn__enviar,
 .btn__enviar__footer {
   height: 100px;
@@ -180,7 +181,7 @@ h1 {
   position: absolute;
 }
 
-.boton__menu, #btn-link-preguntas, #btn__menu__main {
+.boton__menu, #btn-link-preguntas, #btn__menu__main, .btn__secundario, .btn__comprar {
   height: 100px;
   width: 500px;
   margin-left: 5rem;
@@ -205,6 +206,24 @@ h1 {
   padding-top: 2rem;
   padding-bottom: 3rem;
   margin-left: 35%;
+}
+
+
+.btn__secundario,
+.btn__comprar, .btn__comprar {
+  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn__comprar {
+  height: 20%;
 }
 
 /*..............PREGUNTAS FRECUENTES................*/

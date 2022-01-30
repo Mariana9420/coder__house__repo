@@ -67,6 +67,20 @@ $caja-titulos-anim-index:(
     margin-left: 35%;
 }
 
+.btn__secundario, .btn__comprar{
+    @extend .boton__menu;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.btn__comprar{
+    @extend .btn__secundario;
+    height: 20%;
+   
+}
+
 
 
 /*..............PREGUNTAS FRECUENTES................*/
