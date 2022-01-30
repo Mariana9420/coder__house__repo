@@ -38,14 +38,6 @@ header {
     height: auto;
 }
 
-.header__title {
-    margin: 1.5rem;
-    margin-top: 3.5rem;
-    font-family: "Roboto";
-    font-size: 3.5rem;
-    justify-content: flex-start;
-
-}
 
 header nav a {
     text-transform: uppercase;
@@ -193,9 +185,6 @@ a {
     color: #221919;
 }
 
-#titulos__animados__index {
-    font-size: 5rem;
-}
 
 .banner__text {
     transform: translate(-5%, -5%);
@@ -206,13 +195,6 @@ a {
     font-size: 15rem;
 }
 
-.box {
-    font-size: 5rem;
-    opacity: 0;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-}
 
 .b1 {
     animation: animUno 15s infinite;
@@ -420,18 +402,6 @@ animation: fade-inout 5s infinite alternate;
     line-height: 3.5rem;
     margin-bottom: 3rem;
     margin-left: 3.2rem;
-}
-
-#btn-link-preguntas {
-    font-size: 2rem;
-    font-family: "Roboto";
-    text-align: center;
-    align-content: center;
-    width: 230px;
-    height: 50px;
-    margin-left: 25rem;
-    color: #ffffff;
-    background-color: #3a3838;
 }
 
 /*----------------- INICIO COPIA DE SOLUCION DE LA EMPRESA: PRUEBA CON GRID */
