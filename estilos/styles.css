@@ -548,7 +548,7 @@ animation: fade-inout 5s infinite alternate;
     padding-bottom: 5rem;
 }
 
-.pagos__titulo--img {
+.pagos__titulo--img .img-fluid {
     height: 100%;
     width: auto;
     margin-top: 25;
