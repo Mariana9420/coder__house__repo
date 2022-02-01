@@ -38,7 +38,7 @@ nav ul a {
 }
 
 nav ul a #link__naranja {
-  color: #000000;
+  color: #000;
 }
 
 nav ul a #link__naranja:hover {
@@ -205,7 +205,7 @@ h1 {
 
 /*..............PREGUNTAS FRECUENTES................*/
 .fuente__preguntas {
-  color: black;
+  color: #000;
   font-family: "cursive";
   font-size: 3.5rem;
 }
@@ -216,7 +216,7 @@ h1 {
   margin-left: 5rem;
   font-size: 3rem;
   font-family: "Roboto";
-  color: #ffffff;
+  color: #fff;
   background-color: #3a3838;
 }
 
