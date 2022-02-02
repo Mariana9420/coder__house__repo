@@ -387,13 +387,6 @@ animation: fade-inout 5s infinite alternate;
     padding: 2rem;
 }
 
-.aside__titulo,
-.form__titulo {
-    font-family: "Roboto";
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
 
 .aside__descripcion {
     font-family: "Indie Flower";
@@ -423,12 +416,7 @@ animation: fade-inout 5s infinite alternate;
 
 }
 
-.subtitulo__principal__uno {
-    text-align: center;
-    font-size: 5rem;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-}
+
 
 .grid__main__container {
     display: grid;
