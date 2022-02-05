@@ -1074,6 +1074,7 @@ h4 {
             "preguntas__articulo"
             "preguntas__articulo"
         ;
+        justify-content: center;
     }
     .preguntas__container{
         justify-content: center;
