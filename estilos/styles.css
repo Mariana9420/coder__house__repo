@@ -1075,6 +1075,9 @@ h4 {
             "preguntas__articulo"
         ;
     }
+    .preguntas__container{
+        justify-content: center;
+    }
 }
 
 /*.....................................PAGINA NOSOTROS........................................................*/

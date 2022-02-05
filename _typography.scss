@@ -11,7 +11,8 @@ a {
     font: $special-font-family;
 }
 
-$datos-de-contacto-header:(fuenteTam: 2rem,
+$datos-de-contacto-header:(
+    fuenteTam: 2rem,
     fuenteFamilia: $special-font-family,
 );
 
@@ -26,7 +27,8 @@ h1 {
     font: $main-font-family;
 }
 
-$caja-titulos-anim-index:(fuenteTam: 5rem,
+$caja-titulos-anim-index:(
+    fuenteTam: 5rem,
 );
 
 .box {
