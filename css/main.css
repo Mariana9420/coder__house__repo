@@ -146,6 +146,18 @@ h1 {
   font-size: 3.5rem;
 }
 
+.bg--orange {
+  background-color: #ffa500;
+}
+
+.bg--darkOrange {
+  background-color: #ff4500;
+}
+
+.bg--brown {
+  background-color: #523024;
+}
+
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 .row__portada__index {
   max-width: 100%;

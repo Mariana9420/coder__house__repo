@@ -1,3 +1,17 @@
+$colors:(
+orange:#ffa500,
+darkOrange:  #ff4500,
+brown: #523024,
+); 
+
+
+@each $colorcito, $color in $colors{
+
+    .bg--#{$colorcito}{
+        background-color: $color;
+    }
+}
+
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 
 .row__portada__index {
