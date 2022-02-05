@@ -62,7 +62,7 @@ a{
     margin-left: 5rem;
     font-size: 3rem;
     font-family: "Roboto";
-    color: #ffffff;
+    color: #fff;
     background-color: #3a3838;
 
 }
@@ -142,7 +142,7 @@ a{
 
 #btn-link-preguntas {
     @extend .boton__menu;
-    @include btn-medidas(230px,50px );
+    @include btn-medidas(230px, 50px);
     font-size: 2rem;
     text-align: center;
     align-content: center;
