@@ -116,7 +116,6 @@ a{
 }
 /*...........................................BOTONES ESTILOS..............................*/
 
-
 .boton__menu{
     height: 100px;
     width: 500px;
@@ -126,6 +125,12 @@ a{
     color: #fff;
     background-color: #3a3838;
 }
+
+@mixin btn-medidas ($width, $height){
+    width: $width;
+    height: $height;
+}
+
 #btn__menu__main {
     @extend .boton__menu;
     width: 30%;
@@ -137,8 +142,7 @@ a{
 
 #btn-link-preguntas {
     @extend .boton__menu;
-    width: 230px;
-    height: 50px;
+    @include btn-medidas(230px,50px );
     font-size: 2rem;
     text-align: center;
     align-content: center;
