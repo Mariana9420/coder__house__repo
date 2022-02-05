@@ -1004,7 +1004,9 @@ h4 {
 .descripTres {
     grid-area: descripTres;
 }
-
+.preguntas__elementos{
+    padding: 0;
+}
 .parrafos,
 .parrafo__descripcion {
     width: 100%;
