@@ -41,7 +41,7 @@ header {
   height: auto;
 }
 
-nav ul .navbar-nav {
+nav .navbar-nav {
   background-color: yellowgreen;
 }
 
@@ -54,11 +54,11 @@ nav ul a {
   margin-left: 2rem;
 }
 
-nav ul a #link__naranja {
+nav ul a#link__naranja {
   color: #000;
 }
 
-nav ul a #link__naranja:hover {
+nav ul a#link__naranja:hover {
   color: #ff4500;
 }
 
