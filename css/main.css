@@ -27,25 +27,11 @@ header {
       justify-content: space-around;
 }
 
-.header__logo {
-  height: 20rem;
-  width: auto;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-right: 5rem;
-}
-
-.header__logo img {
-  max-width: 100%;
-  height: auto;
-}
-
-nav .navbar-nav {
+header nav .navbar-nav {
   background-color: yellowgreen;
 }
 
-nav ul a {
+header nav ul a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 2rem;
@@ -54,15 +40,29 @@ nav ul a {
   margin-left: 2rem;
 }
 
-nav ul a#link__naranja {
+header nav ul a#link__naranja {
   color: #000;
 }
 
-nav ul a#link__naranja:hover {
+header nav ul a#link__naranja:hover {
   color: #ff4500;
 }
 
-.header__nav--carrito {
+header nav .header__logo {
+  height: 20rem;
+  width: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 5rem;
+}
+
+header nav .header__logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+header nav .header__nav--carrito {
   margin-right: 15rem;
 }
 
