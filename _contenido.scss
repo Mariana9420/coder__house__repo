@@ -15,6 +15,17 @@ $colors:(
     
     /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
     
+.portada__titulo {
+    text-align: center;
+    font-size: 15rem;
+    font-style: "Roboto";
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    color: #221919;
+}
+
+
+
     .row__portada__index {
     
         max-width: 100%;
@@ -36,13 +47,116 @@ $colors:(
     
     }
     
+    .banner__text {
+        transform: translate(-5%, -5%);
+    }
+    
+    .banner__text h1 {
+        text-align: center;
+        font-size: 15rem;
+    }
+    
+    
+    .b1 {
+        animation: animUno 15s infinite;
+    }
+    
+    .b2 {
+        animation: animDos 15s infinite;
+    }
+    
+    .b3 {
+        animation: animTres 15s infinite;
+    }
+    
+    .b4 {
+        animation: animCuatro 15s infinite;
+    }
+    
+    @keyframes animUno {
+    
+        0% {
+            opacity: 0;
+        }
+    
+        10% {
+            opacity: 1;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes animDos {
+    
+        20% {
+            opacity: 0;
+        }
+    
+        30% {
+            opacity: 1;
+        }
+    
+        40% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes animTres {
+    
+        40% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 1;
+        }
+    
+        60% {
+            opacity: 0;
+        }
+    }
+    
+    
+    @keyframes animCuatro {
+    
+        60% {
+            opacity: 0;
+        }
+    
+        70% {
+            opacity: 1;
+        }
+    
+        80% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes animCinco {
+    
+        80% {
+            opacity: 0;
+        }
+    
+        90% {
+            opacity: 1;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+
     .portada__btn__link__al__menu__container {
         display: flex;
         height: 500px;
     }
     
     a{
-        & #link__al__menu__especial {
+        &#link__al__menu__especial {
             align-self: center;
     
         }
@@ -67,6 +181,8 @@ $colors:(
         background-color: #3a3838;
     
     }
+    
+
     
     /*...........................................PORTADA PAGINA MENU..............................*/
     
