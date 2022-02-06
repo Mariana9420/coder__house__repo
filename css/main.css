@@ -314,4 +314,8 @@ a #link__al__menu__especial {
   width: 30%;
   margin-left: 35%;
 }
+
+.footer__nav li {
+  font-size: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
