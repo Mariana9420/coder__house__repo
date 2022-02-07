@@ -247,6 +247,7 @@ a {
     font-size: 2rem;
     padding: 1.5rem;
 }
+
 @mixin btn-medidas ($width, $height) {
     width: $width;
     height: $height;
@@ -444,7 +445,9 @@ a {
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
 
-        grid-area: "viandas__varias__grid"
-            "solucion__descripcion__grid aside__grid";
+        grid-area:
+            "solucion__descripcion__grid" 
+             "aside__grid";
+            
     }
 }

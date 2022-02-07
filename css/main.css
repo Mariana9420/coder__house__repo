@@ -619,7 +619,7 @@ a#link__al__menu__especial {
   .propuesta__container__grid {
     -ms-grid-columns: 3, 1fr;
         grid-template-columns: 3, 1fr;
-    grid-area: "viandas__varias__grid" "solucion__descripcion__grid aside__grid";
+    grid-area: "solucion__descripcion__grid"  "aside__grid";
   }
 }
 
