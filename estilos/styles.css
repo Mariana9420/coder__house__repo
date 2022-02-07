@@ -1,28 +1,4 @@
 
-.btn__secundario,
-.btn__enviar,
-.btn__enviar__footer {
-    height: 50%;
-    width: 25%;
-    margin-left: 33rem;
-    font-size: 2rem;
-    padding: 1.5rem;
-}
-
-.parrafos {
-    line-height: 3rem;
-    font-size: 2rem;
-    font-family: "Indie Flower";
-    text-align: center;
-    background-color: #ffa500;
-    width: 100%;
-    margin: auto;
-}
-
-.parrafo__descripcion {
-    width: 85%;
-    margin-left: 1%;
-}
 
 .subtitulos__especiales {
     font-size: 2.5rem;
