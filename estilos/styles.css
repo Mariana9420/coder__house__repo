@@ -1,24 +1,4 @@
 
-.row__portada__index {
-
-    max-width: 100%;
-    margin: auto;
-}
-
-.portada__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-position: center;
-    background-image: url("../images/small-images/portada_index.jpg");
-    background-size: cover;
-    background-color: orange;
-    height: 500px;
-    font-size: 50px;
-    font-weight: 30px;
-    margin-bottom: 5rem;
-}
-
 .portada__btn__link__al__menu__container {
     display: flex;
     height: 500px;
