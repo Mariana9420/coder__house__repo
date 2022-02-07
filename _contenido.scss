@@ -238,6 +238,15 @@ a {
     background-color: #3a3838;
 }
 
+.btn__secundario,
+.btn__enviar,
+.btn__enviar__footer {
+    height: 50%;
+    width: 25%;
+    margin-left: 33rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
 @mixin btn-medidas ($width, $height) {
     width: $width;
     height: $height;
@@ -281,6 +290,7 @@ a {
     width: 30%;
     margin-left: 35%;
 }
+
 
 /*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
 

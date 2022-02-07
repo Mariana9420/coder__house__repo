@@ -71,7 +71,6 @@ p {
   font: "Indie Flower";
 }
 
-/*..................INDEX...................*/
 a {
   font: "cursive";
 }
@@ -433,6 +432,19 @@ a#link__al__menu__especial {
   font-family: "Roboto";
   color: #fff;
   background-color: #3a3838;
+}
+
+
+.btn__secundario,
+.btn__comprar,
+.btn__seguir,
+.btn__enviar,
+.btn__enviar__footer {
+  height: 50%;
+  width: 25%;
+  margin-left: 33rem;
+  font-size: 2rem;
+  padding: 1.5rem;
 }
 
 #btn__menu__main {
