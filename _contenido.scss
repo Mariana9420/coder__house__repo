@@ -1,20 +1,118 @@
-
-$colors:(
-    orange:#ffa500,
-    darkOrange:  #ff4500,
+$colors:(orange:#ffa500,
+    darkOrange: #ff4500,
     brown: #523024,
-    ); 
-    
-    
-    @each $colorcito, $color in $colors{
-    
-        .bg--#{$colorcito}{
-            background-color: $color;
-        }
+);
+
+
+@each $colorcito,
+$color in $colors {
+
+    .bg--#{$colorcito} {
+        background-color: $color;
     }
-    
-    /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
-    
+}
+
+/*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
+
+.row__portada__index {
+
+    max-width: 100%;
+    margin: auto;
+}
+
+.portada__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-image: url("../images/small-images/portada_index.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-bottom: 5rem;
+
+}
+
+.portada__btn__link__al__menu__container {
+    display: flex;
+    height: 500px;
+}
+
+a {
+    &#link__al__menu__especial {
+        align-self: center;
+
+    }
+}
+
+.portada__btn__menu {
+
+    margin: auto;
+}
+
+.portada__btn__menu,
+.btn__secundario,
+.btn__enviar,
+.btn__enviar__footer {
+    height: 100px;
+    width: 500px;
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-family: "Roboto";
+    color: #fff;
+    background-color: #3a3838;
+
+}
+/*...........................................PORTADA PAGINA MENU..............................*/
+
+.portada__menu {
+    background-position: center;
+    background-image: url("../images/viandas_calabaza.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+
+/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
+.portada__preguntas {
+    background-position: center;
+    background-image: url("../images/viandas_empresariales.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+/*...........................................PORTADA PAGINA NOSOTROS..............................*/
+.portada__nosotros {
+    background-position: center;
+    background-image: url("../images/plato_7.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-bottom: 5rem;
+}
+
+/*...........................................PORTADA PAGINA CONTACTO..............................*/
+.portada__contacto {
+    background-position: center;
+    background-image: url("../images/small-images/viandas_varias.jpg");
+    background-size: cover;
+    background-color: orange;
+    height: 500px;
+    font-size: 50px;
+    font-weight: 30px;
+    margin-bottom: 5rem;
+}
+
 .portada__titulo {
     text-align: center;
     font-size: 15rem;
@@ -24,262 +122,322 @@ $colors:(
     color: #221919;
 }
 
+/*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
+.banner__text {
+    transform: translate(-5%, -5%);
+}
+
+.banner__text h1 {
+    text-align: center;
+    font-size: 10rem;
+}
+
+.b1 {
+    animation: animUno 15s infinite;
+}
+
+.b2 {
+    animation: animDos 15s infinite;
+}
+
+.b3 {
+    animation: animTres 15s infinite;
+}
+
+.b4 {
+    animation: animCuatro 15s infinite;
+}
+
+@keyframes animUno {
+
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+}
+
+@keyframes animDos {
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes animTres {
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
 
 
-    .row__portada__index {
-    
-        max-width: 100%;
-        margin: auto;
+@keyframes animCuatro {
+
+    60% {
+        opacity: 0;
     }
-    
-    .portada__container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-position: center;
-        background-image: url("../images/small-images/portada_index.jpg");
-        background-size: cover;
-        background-color: orange;
-        height: 500px;
-        font-size: 50px;
-        font-weight: 30px;
-        margin-bottom: 5rem;
-    
+
+    70% {
+        opacity: 1;
     }
-    
-    .banner__text {
-        transform: translate(-5%, -5%);
+
+    80% {
+        opacity: 0;
     }
-    
-    .banner__text h1 {
-        text-align: center;
-        font-size: 15rem;
+}
+
+@keyframes animCinco {
+
+    80% {
+        opacity: 0;
     }
-    
-    
-    .b1 {
-        animation: animUno 15s infinite;
+
+    90% {
+        opacity: 1;
     }
-    
-    .b2 {
-        animation: animDos 15s infinite;
+
+    100% {
+        opacity: 0;
     }
-    
-    .b3 {
-        animation: animTres 15s infinite;
+}
+
+
+
+/*...........................................BOTONES ESTILOS..............................*/
+
+.boton__menu {
+    height: 100px;
+    width: 500px;
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-family: "Roboto";
+    color: #fff;
+    background-color: #3a3838;
+}
+
+@mixin btn-medidas ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+#btn__menu__main {
+    @extend .boton__menu;
+    width: 30%;
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-left: 35%;
+}
+
+#btn-link-preguntas {
+    @extend .boton__menu;
+    @include btn-medidas(230px, 50px);
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+}
+
+.btn__secundario,
+.btn__comprar {
+    @extend .boton__menu;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.btn__comprar {
+    @extend .btn__secundario;
+    height: 20%;
+
+}
+
+.btn__seguir {
+    @extend .btn__secundario;
+    width: 30%;
+    margin-left: 35%;
+}
+
+/*........................MEDIAS QUERIES........................*/
+
+
+/*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
+
+@media only screen and (max-width: 599px) {
+
+    .header__title {
+        display: none;
     }
-    
-    .b4 {
-        animation: animCuatro 15s infinite;
+
+    .container-fluid {
+        background-color: greenyellow;
     }
-    
-    @keyframes animUno {
-    
-        0% {
-            opacity: 0;
-        }
-    
-        10% {
-            opacity: 1;
-        }
-    
-        20% {
-            opacity: 0;
-        }
+
+    header nav li a {
+        display: none;
     }
-    
-    @keyframes animDos {
-    
-        20% {
-            opacity: 0;
-        }
-    
-        30% {
-            opacity: 1;
-        }
-    
-        40% {
-            opacity: 0;
-        }
+
+    .header__nav--carrito {
+        display: none;
     }
-    
-    @keyframes animTres {
-    
-        40% {
-            opacity: 0;
-        }
-    
-        50% {
-            opacity: 1;
-        }
-    
-        60% {
-            opacity: 0;
-        }
+
+
+    .navbar-toggler-icon {
+        padding: 40px;
+
     }
-    
-    
-    @keyframes animCuatro {
-    
-        60% {
-            opacity: 0;
-        }
-    
-        70% {
-            opacity: 1;
-        }
-    
-        80% {
-            opacity: 0;
-        }
+
+    .portada__titulo {
+        font-size: 7rem;
     }
-    
-    @keyframes animCinco {
-    
-        80% {
-            opacity: 0;
-        }
-    
-        90% {
-            opacity: 1;
-        }
-    
-        100% {
-            opacity: 0;
-        }
-    }
-    
+   .banner__text h1{
+       font-size: 4.5rem;
+       text-align: center;
+       margin-top: 5rem;
+       margin-left: 3.5rem;
+       color: #000000;
+   }
 
     .portada__btn__link__al__menu__container {
-        display: flex;
-        height: 500px;
+        height: auto;
     }
-    
-    a{
-        &#link__al__menu__especial {
-            align-self: center;
-    
-        }
-    }
-    
-    
-    .portada__btn__menu {
-    
-        margin: auto;
-    }
-    
-    .portada__btn__menu,
-    .btn__secundario,
-    .btn__enviar,
-    .btn__enviar__footer {
-        height: 100px;
-        width: 500px;
-        margin-left: 5rem;
-        font-size: 3rem;
-        font-family: "Roboto";
-        color: #fff;
-        background-color: #3a3838;
-    
-    }
-    
 
-    
-    /*...........................................PORTADA PAGINA MENU..............................*/
-    
-    .portada__menu {
-        background-position: center;
-        background-image: url("../images/viandas_calabaza.jpg");
-        background-size: cover;
-        background-color: orange;
-        height: 500px;
-        font-size: 50px;
-        font-weight: 30px;
+    .portada__btn__menu {
+        max-width: 200px;
+        margin-left: 2rem;
+
     }
-    
-    
-    /*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
-    .portada__preguntas {
-        background-position: center;
-        background-image: url("../images/viandas_empresariales.jpg");
-        background-size: cover;
-        background-color: orange;
-        height: 500px;
-        font-size: 50px;
-        font-weight: 30px;
+
+    .info__contacto__descripcion {
+        display: none;
     }
-    
-    /*...........................................PORTADA PAGINA NOSOTROS..............................*/
-    .portada__nosotros {
-        background-position: center;
-        background-image: url("../images/plato_7.jpg");
-        background-size: cover;
-        background-color: orange;
-        height: 500px;
-        font-size: 50px;
-        font-weight: 30px;
-        margin-bottom: 5rem;
+
+    .animUno,
+    .animDos,
+    .animTres,
+    .animCuatro,
+    .subtitulo__principal__uno,
+    .solucion__image__container,
+    .solucion__descripcion,
+    .aside {
+        display: none;
     }
-    
-    /*...........................................PORTADA PAGINA CONTACTO..............................*/
-    .portada__contacto {
-        background-position: center;
-        background-image: url("../images/small-images/viandas_varias.jpg");
-        background-size: cover;
-        background-color: orange;
-        height: 500px;
-        font-size: 50px;
-        font-weight: 30px;
-        margin-bottom: 5rem;
+
+    .subtitulo__principal {
+        font-size: 5rem;
     }
-    /*...........................................BOTONES ESTILOS..............................*/
-    
-    .boton__menu{
-        height: 100px;
-        width: 500px;
-        margin-left: 5rem;
+
+    .grid__main__container {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "comidaUno"
+            "comidaDos"
+            "comidaTres"
+        ;
+        max-width: 599px;
+
+    }
+
+    .subtitulos__especiales {
+        font-size: 5rem;
+    }
+
+    .parrafo__descripcion {
         font-size: 3rem;
-        font-family: "Roboto";
-        color: #fff;
-        background-color: #3a3838;
     }
-    
-    @mixin btn-medidas ($width, $height){
-        width: $width;
-        height: $height;
+
+    .btn__menu {
+        font-size: 3rem;
     }
-    
-    #btn__menu__main {
-        @extend .boton__menu;
-        width: 30%;
-        padding: 5rem;
-        padding-top: 2rem;
-        padding-bottom: 3rem;
-        margin-left: 35%;
+
+    textarea {
+        max-height: 320px;
     }
-    
-    #btn-link-preguntas {
-        @extend .boton__menu;
-        @include btn-medidas(230px, 50px);
-        font-size: 2rem;
-        text-align: center;
-        align-content: center;
+
+    .container__btn__wsp,
+    .btn__wsp {
+        display: none;
     }
-    
-    .btn__secundario, .btn__comprar{
-        @extend .boton__menu;
-        margin-left: 1rem;
-        display: flex;
-        justify-content: center;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tarjeta__contacto"
+        "footer__logo";
+}
+
+.tarjeta__contacto {
+    font-size: 2rem;
+
+}
+
+.footer__logo {
+    grid-area: footer__logo;
+}
+
+.footer__nav,
+.newsletter__titulo,
+.newsletter__footer__input,
+.btn__enviar__footer,
+.footer__redes__logos {
+    display: none;
+}
+
+
+/*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
+@media only screen and (min-width: 768px) {
+
+    nav {
         width: 100%;
-        margin-top: 2rem;
     }
-    .btn__comprar{
-        @extend .btn__secundario;
-        height: 20%;
-       
+
+    .navbar-toggler-icon {
+        background-color: orange;
+        padding: 2.3rem;
     }
-    .btn__seguir{
-        @extend .btn__secundario;
-        width: 30%;
-        margin-left: 35%;
+
+    .header__nav--carrito {
+        margin-right: 10rem;
     }
+    .banner__text h1{
+        font-size: 8rem;
+        color: #000000;
+    }
+
+    /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
+    .propuesta__container__grid {
+        grid-template-columns: (3, 1fr);
+
+        grid-area: "viandas__varias__grid"
+            "solucion__descripcion__grid aside__grid";
+    }
+}

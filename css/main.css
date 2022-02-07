@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -192,7 +193,7 @@ h1 {
   height: 500px;
 }
 
-a #link__al__menu__especial {
+a#link__al__menu__especial {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -263,6 +264,166 @@ a #link__al__menu__especial {
   margin-bottom: 5rem;
 }
 
+.portada__titulo {
+  text-align: center;
+  font-size: 15rem;
+  font-style: "Roboto";
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  color: #221919;
+}
+
+/*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
+.banner__text {
+  -webkit-transform: translate(-5%, -5%);
+          transform: translate(-5%, -5%);
+}
+
+.banner__text h1 {
+  text-align: center;
+  font-size: 10rem;
+}
+
+.b1 {
+  -webkit-animation: animUno 15s infinite;
+          animation: animUno 15s infinite;
+}
+
+.b2 {
+  -webkit-animation: animDos 15s infinite;
+          animation: animDos 15s infinite;
+}
+
+.b3 {
+  -webkit-animation: animTres 15s infinite;
+          animation: animTres 15s infinite;
+}
+
+.b4 {
+  -webkit-animation: animCuatro 15s infinite;
+          animation: animCuatro 15s infinite;
+}
+
+@-webkit-keyframes animUno {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
+
+@keyframes animUno {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes animDos {
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@keyframes animDos {
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes animTres {
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+
+@keyframes animTres {
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes animCuatro {
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+
+@keyframes animCuatro {
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes animCinco {
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animCinco {
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /*...........................................BOTONES ESTILOS..............................*/
 .boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__secundario, .btn__comprar, .btn__seguir {
   height: 100px;
@@ -294,7 +455,8 @@ a #link__al__menu__especial {
 
 .btn__secundario,
 .btn__comprar,
-.btn__seguir, .btn__comprar {
+.btn__seguir,
+.btn__comprar {
   margin-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,6 +475,141 @@ a #link__al__menu__especial {
 .btn__seguir {
   width: 30%;
   margin-left: 35%;
+}
+
+/*........................MEDIAS QUERIES........................*/
+/*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
+@media only screen and (max-width: 599px) {
+  .header__title {
+    display: none;
+  }
+  .container-fluid {
+    background-color: greenyellow;
+  }
+  header nav li a {
+    display: none;
+  }
+  .header__nav--carrito {
+    display: none;
+  }
+  .navbar-toggler-icon {
+    padding: 40px;
+  }
+  .portada__titulo {
+    font-size: 7rem;
+  }
+  .banner__text h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 3.5rem;
+    color: #000000;
+  }
+  .portada__btn__link__al__menu__container {
+    height: auto;
+  }
+  .portada__btn__menu {
+    max-width: 200px;
+    margin-left: 2rem;
+  }
+  .info__contacto__descripcion {
+    display: none;
+  }
+  .animUno,
+  .animDos,
+  .animTres,
+  .animCuatro,
+  .subtitulo__principal__uno,
+  .solucion__image__container,
+  .solucion__descripcion,
+  .aside {
+    display: none;
+  }
+  .subtitulo__principal {
+    font-size: 5rem;
+  }
+  .grid__main__container {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "comidaUno" "comidaDos" "comidaTres";
+    max-width: 599px;
+  }
+  .subtitulos__especiales {
+    font-size: 5rem;
+  }
+  .parrafo__descripcion {
+    font-size: 3rem;
+  }
+  .btn__menu {
+    font-size: 3rem;
+  }
+  textarea {
+    max-height: 320px;
+  }
+  .container__btn__wsp,
+  .btn__wsp {
+    display: none;
+  }
+}
+
+.footer__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "tarjeta__contacto" "footer__logo";
+}
+
+.tarjeta__contacto {
+  font-size: 2rem;
+}
+
+.footer__logo {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: footer__logo;
+}
+
+.footer__nav,
+.newsletter__titulo,
+.newsletter__footer__input,
+.btn__enviar__footer,
+.footer__redes__logos {
+  display: none;
+}
+
+/*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
+@media only screen and (min-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  .navbar-toggler-icon {
+    background-color: orange;
+    padding: 2.3rem;
+  }
+  .header__nav--carrito {
+    margin-right: 10rem;
+  }
+  .banner__text h1 {
+    font-size: 8rem;
+    color: #000000;
+  }
+  /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
+  .propuesta__container__grid {
+    -ms-grid-columns: 3, 1fr;
+        grid-template-columns: 3, 1fr;
+    grid-area: "viandas__varias__grid" "solucion__descripcion__grid aside__grid";
+  }
 }
 
 .footer__nav li {
