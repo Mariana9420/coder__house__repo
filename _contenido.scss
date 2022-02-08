@@ -834,6 +834,142 @@ h4 {
 }
 
 
+/*.....................................PAGINA NOSOTROS........................................................*/
+
+.subtitulo__historia {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.img__historia {
+    width: 100%;
+    height: auto;
+}
+
+.parent__container__nosotros {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.historia__container__uno {
+    display: flex;
+    flex-direction: row;
+}
+
+.historia__container__subtitulo__uno {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+    background-color: #ffffff;
+}
+
+.img__historia__container__uno {
+    display: flex;
+    width: 100%;
+    background-color: #ff4500;
+}
+
+.img__historia {
+    width: 100%;
+    height: auto;
+}
+
+.historia__container__uno__texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #523024;
+    max-width: 50%;
+}
+
+.parrafo__historia {
+    margin: auto;
+}
+
+.historia__container__subtitulo__dos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    background-color: #ffffff;
+}
+
+.historia__container__dos {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img__historia__container__dos {
+    display: flex;
+    width: 100%;
+    background-color: #ff4500;
+}
+
+.historia__container__dos__texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #523024;
+    max-width: 50%;
+}
+
+.historia__container__subtitulo__tres {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.historia__container__tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.img__historia__container__tres {
+    display: flex;
+    max-width: 100%;
+    background-color: #ff4500;
+}
+
+.historia__container__tres__texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #523024;
+}
+
+/*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/
+@media only screen and (max-width: 599px) {
+
+    .historia__container__uno {
+        flex-direction: column;
+
+    }
+
+    .historia__container__uno__texto {
+        max-width: 100%;
+    }
+
+    .historia__container__dos {
+        flex-direction: column;
+    }
+
+    .historia__container__dos__texto {
+        max-width: 100%;
+    }
+
+    .historia__container__tres {
+        flex-direction: column;
+    }
+
+    .historia__container__tres__texto {
+        max-width: 100%;
+    }
+
+    .parrafo__historia {
+        font-size: 3rem;
+    }
+}
+
+
 
 
 
