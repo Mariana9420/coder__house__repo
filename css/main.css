@@ -531,18 +531,24 @@ a#link__al__menu__especial {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: comidaUno;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .comidaDos {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: comidaDos;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .comidaTres {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: comidaTres;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .articulo__en__columnas__container {
@@ -663,6 +669,27 @@ a#link__al__menu__especial {
   margin-bottom: 0.5%;
 }
 
+/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR(CLASES RECICLABLES EN TODAS LAS PÁG)...........................*/
+.iconos__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #ffa500;
+  margin: auto;
+}
+
+.iconos__wspYFlecha {
+  max-width: 100px;
+  height: 50%;
+}
+
 /*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
 @media only screen and (max-width: 599px) {
   .header__title {
@@ -763,6 +790,8 @@ a#link__al__menu__especial {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: footer__logo;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .footer__nav,

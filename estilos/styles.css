@@ -1,18 +1,4 @@
 
-/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR(CLASES RECICLABLES EN TODAS LAS PÁG)...........................*/
-.iconos__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: #ffa500;
-    margin: auto;
-}
-
-.iconos__wspYFlecha {
-    max-width: 100px;
-    height: 50%;
-}
-
 .container__btn__wsp {
     background-color: #008000;
     border: 1px solid #fff;
