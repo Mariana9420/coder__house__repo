@@ -969,6 +969,88 @@ h4 {
     }
 }
 
+/*..................................... PAGINA CONTACTO........................................................*/
+/* INICIO CÓDIGO PARA EL FORMULARIO*/
+.contacto__container {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 1px #99A799;
+    border-radius: 4px;
+}
+
+.parrafo__form {
+    font-family: "Indie Flower";
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.card__contacto__redes {
+    max-width: 500px;
+    margin-left: 500px;
+}
+
+/* FIN CÓDIGO PARA EL FORMULARIO*/
+
+.mapa__container {
+    display: flex;
+    justify-content: center;
+    max-width: 300%;
+}
+
+.mapa {
+    width: 100%;
+    margin: 50px;
+}
+
+.redes__sociales__contenedor__padre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.redes__sociales__contenedor__padre div {
+    justify-content: center;
+}
+
+.redes__sociales__logos__container {
+    display: flex;
+    justify-content: center;
+}
+
+.img__redes__sociales {
+    height: auto;
+    background-color: orangered;
+    width: 100%;
+}
+
+.btn__seguir {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-bottom: 3%;
+    width: 20%;
+}
+
+/*..................................... Contacto: MEDIAS QUERIES........................................................*/
+@media only screen and (max-width: 599px) {
+    .parrafo__form {
+        display: none;
+    }
+
+    .campo {
+        width: 100%;
+    }
+
+    .btn__seguir {
+        font-size: 2rem;
+    }
+}
 
 
 
