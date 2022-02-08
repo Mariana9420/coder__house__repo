@@ -908,6 +908,218 @@ h4 {
   }
 }
 
+/*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
+.preguntas__titulo {
+  font-size: 3.5rem;
+}
+
+.funcionamiento__parent__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  margin-top: 3%;
+}
+
+.funcionamiento__container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "subtitulo__principal" "imgUno imgDos imgTres" "tituloUno tituloDos tituloTres" "descripUno descripDos descripTres";
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+}
+
+.funcionamiento__articulo__container {
+  overflow: hidden;
+}
+
+.img__propiedades {
+  height: 300px;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.imgUno {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: imgUno;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.imgDos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imgDos;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.imgTres {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: imgTres;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.tituloUno {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: tituloUno;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.tituloDos {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: tituloDos;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.tituloTres {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: tituloTres;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.descripUno {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: descripUno;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.descripDos {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: descripDos;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.descripTres {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: descripTres;
+  grid-row: auto;
+  grid-column: auto;
+}
+
+.preguntas__elementos {
+  padding: 0;
+}
+
+.parrafos, .parrafos__descripcion,
+.parrafo__descripcion {
+  width: 100%;
+  height: auto;
+  margin-left: 1%;
+}
+
+/*......................  CONTAINER PREGUNTAS..................................*/
+.preguntas__container__principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.preguntas__elementos {
+  background-color: #ff4500;
+  padding: 60px 55px;
+  margin-bottom: 5rem;
+}
+
+.preguntas__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  max-width: 1800px;
+  background-color: #ffa500;
+  padding: 5rem;
+}
+
+.preguntas__articulo {
+  margin-left: 10px;
+}
+
+.preguntas__articulo h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.preguntaUno {
+  grid-area: preguntaUno;
+}
+
+.preguntaDos {
+  grid-area: preguntaDos;
+}
+
+.parrafo__respuestas {
+  line-height: 3rem;
+  font-size: 2rem;
+  font-family: "Indie Flower";
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
+@media only screen and (max-width: 599px) {
+  .funcionamiento__container {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "imgUno" "imgDos" "imgTres";
+  }
+  .preguntas__container {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 /*...........................................BOTONES ESTILOS..............................*/
 .boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__secundario, .btn__comprar, .btn__seguir {
   height: 100px;
