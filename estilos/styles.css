@@ -80,7 +80,9 @@ footer {
     font-family: cursive;
     color: #ffffff;
 }
-
+.footer__nav li {
+    font-size: 1rem;
+}
 .newsletter {
     display: flex;
     flex-direction: column;
