@@ -159,6 +159,66 @@ h1 {
   background-color: #523024;
 }
 
+/*...........................................BOTONES ESTILOS..............................*/
+.boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__secundario, .btn__comprar, .btn__seguir {
+  height: 100px;
+  width: 500px;
+  margin-left: 5rem;
+  font-size: 3rem;
+  font-family: "Roboto";
+  color: #fff;
+  background-color: #3a3838;
+}
+
+.btn__secundario, .btn__comprar, .btn__seguir,
+.btn__enviar,
+.btn__enviar__footer {
+  height: 50%;
+  width: 25%;
+  margin-left: 33rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+#btn__menu__main {
+  width: 30%;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-left: 35%;
+}
+
+#btn-link-preguntas {
+  width: 230px;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.btn__secundario, .btn__comprar, .btn__seguir,
+.btn__comprar {
+  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn__comprar {
+  height: 20%;
+}
+
+.btn__seguir {
+  width: 30%;
+  margin-left: 35%;
+}
+
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 .row__portada__index {
   max-width: 100%;
@@ -203,10 +263,7 @@ a#link__al__menu__especial {
   margin: auto;
 }
 
-.portada__btn__menu,
-.btn__secundario,
-.btn__comprar,
-.btn__seguir,
+.portada__btn__menu, .btn__secundario, .btn__comprar, .btn__seguir,
 .btn__enviar,
 .btn__enviar__footer {
   height: 100px;
@@ -850,10 +907,7 @@ h4 {
   text-align: center;
 }
 
-
-.btn__secundario,
-.btn__comprar,
-.btn__seguir,
+.btn__secundario, .btn__comprar, .btn__seguir,
 .btn__comprar {
   margin-left: 1rem;
   display: -webkit-box;
@@ -1379,72 +1433,6 @@ h4 {
   .btn__seguir {
     font-size: 2rem;
   }
-}
-
-/*...........................................BOTONES ESTILOS..............................*/
-.boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__secundario, .btn__comprar, .btn__seguir {
-  height: 100px;
-  width: 500px;
-  margin-left: 5rem;
-  font-size: 3rem;
-  font-family: "Roboto";
-  color: #fff;
-  background-color: #3a3838;
-}
-
-
-.btn__secundario,
-.btn__comprar,
-.btn__seguir,
-.btn__enviar,
-.btn__enviar__footer {
-  height: 50%;
-  width: 25%;
-  margin-left: 33rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-}
-
-#btn__menu__main {
-  width: 30%;
-  padding: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  margin-left: 35%;
-}
-
-#btn-link-preguntas {
-  width: 230px;
-  height: 50px;
-  font-size: 2rem;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-
-.btn__secundario,
-.btn__comprar,
-.btn__seguir,
-.btn__comprar {
-  margin-left: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.btn__comprar {
-  height: 20%;
-}
-
-.btn__seguir {
-  width: 30%;
-  margin-left: 35%;
 }
 
 /*......................WHATSAPP ANIMACIÓN...................*/

@@ -10,7 +10,69 @@ $color in $colors {
         background-color: $color;
     }
 }
+/*...........................................BOTONES ESTILOS..............................*/
 
+.boton__menu {
+    height: 100px;
+    width: 500px;
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-family: "Roboto";
+    color: #fff;
+    background-color: #3a3838;
+}
+
+.btn__secundario,
+.btn__enviar,
+.btn__enviar__footer {
+    height: 50%;
+    width: 25%;
+    margin-left: 33rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+@mixin btn-medidas ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+#btn__menu__main {
+    @extend .boton__menu;
+    width: 30%;
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-left: 35%;
+}
+
+#btn-link-preguntas {
+    @extend .boton__menu;
+    @include btn-medidas(230px, 50px);
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+}
+
+.btn__secundario,
+.btn__comprar {
+    @extend .boton__menu;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.btn__comprar {
+    @extend .btn__secundario;
+    height: 20%;
+
+}
+.btn__seguir {
+    @extend .btn__secundario;
+    width: 30%;
+    margin-left: 35%;
+}
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 
 .row__portada__index {
@@ -1028,70 +1090,6 @@ h4 {
     .btn__seguir {
         font-size: 2rem;
     }
-}
-
-/*...........................................BOTONES ESTILOS..............................*/
-
-.boton__menu {
-    height: 100px;
-    width: 500px;
-    margin-left: 5rem;
-    font-size: 3rem;
-    font-family: "Roboto";
-    color: #fff;
-    background-color: #3a3838;
-}
-
-.btn__secundario,
-.btn__enviar,
-.btn__enviar__footer {
-    height: 50%;
-    width: 25%;
-    margin-left: 33rem;
-    font-size: 2rem;
-    padding: 1.5rem;
-}
-
-@mixin btn-medidas ($width, $height) {
-    width: $width;
-    height: $height;
-}
-
-#btn__menu__main {
-    @extend .boton__menu;
-    width: 30%;
-    padding: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    margin-left: 35%;
-}
-
-#btn-link-preguntas {
-    @extend .boton__menu;
-    @include btn-medidas(230px, 50px);
-    font-size: 2rem;
-    text-align: center;
-    align-content: center;
-}
-
-.btn__secundario,
-.btn__comprar {
-    @extend .boton__menu;
-    margin-left: 1rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
-}
-.btn__comprar {
-    @extend .btn__secundario;
-    height: 20%;
-
-}
-.btn__seguir {
-    @extend .btn__secundario;
-    width: 30%;
-    margin-left: 35%;
 }
 /*......................WHATSAPP ANIMACIÓN...................*/
 .container__btn__wsp {
