@@ -770,32 +770,6 @@ a#link__al__menu__especial {
   .btn__wsp {
     display: none;
   }
-  .footer__container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "tarjeta__contacto" "footer__logo";
-  }
-  .tarjeta__contacto {
-    font-size: 2rem;
-  }
-  .footer__logo {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: footer__logo;
-    grid-column: auto;
-    grid-row: auto;
-  }
-  .footer__nav,
-  .newsletter__titulo,
-  .newsletter__footer__input,
-  .btn__enviar__footer,
-  .footer__redes__logos {
-    display: none;
-  }
 }
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
@@ -1471,6 +1445,57 @@ h4 {
 .btn__seguir {
   width: 30%;
   margin-left: 35%;
+}
+
+/*......................WHATSAPP ANIMACIÓN...................*/
+.container__btn__wsp {
+  background-color: #008000;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 25px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  -webkit-animation: anim-wsp 1.2s infinite;
+          animation: anim-wsp 1.2s infinite;
+}
+
+.container__btn__wsp:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-wsp {
+  width: 50px;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+}
+
+@-webkit-keyframes anim-wsp {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes anim-wsp {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
 }
 
 footer {
