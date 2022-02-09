@@ -820,6 +820,10 @@ a#link__al__menu__especial {
   .btn__menu {
     font-size: 3rem;
   }
+  #btn__menu__main {
+    width: 50%;
+    height: 15rem;
+  }
   textarea {
     max-height: 320px;
   }

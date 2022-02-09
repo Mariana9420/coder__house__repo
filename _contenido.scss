@@ -11,7 +11,6 @@ $color in $colors {
     }
 }
 /*...........................................BOTONES ESTILOS..............................*/
-
 .boton__menu {
     height: 100px;
     width: 500px;
@@ -21,7 +20,6 @@ $color in $colors {
     color: #fff;
     background-color: #3a3838;
 }
-
 .btn__secundario,
 .btn__enviar,
 .btn__enviar__footer {
@@ -66,7 +64,6 @@ $color in $colors {
 .btn__comprar {
     @extend .btn__secundario;
     height: 20%;
-
 }
 .btn__seguir {
     @extend .btn__secundario;
@@ -580,6 +577,10 @@ a {
 
     .btn__menu {
         font-size: 3rem;
+    }
+    #btn__menu__main{
+        width: 50%;
+        height: 15rem;
     }
 
     textarea {
