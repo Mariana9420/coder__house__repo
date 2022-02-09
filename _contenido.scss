@@ -20,21 +20,23 @@ $color in $colors {
     color: #fff;
     background-color: #3a3838;
 }
-.btn__secundario,
-.btn__enviar,
-.btn__enviar__footer {
+@mixin btn-medidas ($width, $height) {
+    width: $width;
+    height: $height;
+}
+.btn__secundario{
     height: 50%;
     width: 25%;
     margin-left: 33rem;
     font-size: 2rem;
     padding: 1.5rem;
 }
-
-@mixin btn-medidas ($width, $height) {
-    width: $width;
-    height: $height;
+.btn__enviar{
+    @extend .btn__secundario;
 }
-
+.btn__enviar__footer {
+    @extend .btn__secundario;
+}
 #btn__menu__main {
     @extend .boton__menu;
     width: 30%;
