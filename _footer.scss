@@ -1,6 +1,3 @@
-
-/*.....................................iNDEX: FOOTER(TODAS LAS CLASES SON RECICLABLES)..................*/
-
 footer {
     background-color: #523024;
     color: #fff;
@@ -88,3 +85,36 @@ footer {
     grid-row: auto;
 }
 
+@media only screen and (max-width: 599px) {
+    .footer__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "tarjeta__contacto"
+            "footer__logo";
+          
+    }
+    
+    .tarjeta__contacto {
+        font-size: 2rem;
+    
+    }
+    
+    .footer__logo {
+        grid-area: footer__logo;
+        grid-column: auto;
+        grid-row: auto;
+    }
+    
+    .footer__nav,
+    .newsletter__titulo,
+    .newsletter__footer__input,
+    .btn__enviar__footer,
+    .footer__redes__logos {
+        display: none;
+    }
+}
+/*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
+@media only screen and (min-width: 768px){
+
+}

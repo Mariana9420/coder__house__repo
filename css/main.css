@@ -770,36 +770,32 @@ a#link__al__menu__especial {
   .btn__wsp {
     display: none;
   }
-}
-
-.footer__container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas: "tarjeta__contacto" "footer__logo";
-}
-
-.tarjeta__contacto {
-  font-size: 2rem;
-}
-
-.footer__logo {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: footer__logo;
-  grid-column: auto;
-  grid-row: auto;
-}
-
-.footer__nav,
-.newsletter__titulo,
-.newsletter__footer__input,
-.btn__enviar__footer,
-.footer__redes__logos {
-  display: none;
+  .footer__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "tarjeta__contacto" "footer__logo";
+  }
+  .tarjeta__contacto {
+    font-size: 2rem;
+  }
+  .footer__logo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: footer__logo;
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .footer__nav,
+  .newsletter__titulo,
+  .newsletter__footer__input,
+  .btn__enviar__footer,
+  .footer__redes__logos {
+    display: none;
+  }
 }
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
@@ -823,6 +819,9 @@ a#link__al__menu__especial {
     -ms-grid-columns: 3, 1fr;
         grid-template-columns: 3, 1fr;
     grid-area: "solucion__descripcion__grid"  "aside__grid";
+  }
+  .pagos__container container {
+    width: auto;
   }
 }
 
@@ -1474,7 +1473,6 @@ h4 {
   margin-left: 35%;
 }
 
-/*.....................................iNDEX: FOOTER(TODAS LAS CLASES SON RECICLABLES)..................*/
 footer {
   background-color: #523024;
   color: #fff;
@@ -1582,4 +1580,35 @@ footer {
   grid-column: auto;
   grid-row: auto;
 }
+
+@media only screen and (max-width: 599px) {
+  .footer__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "tarjeta__contacto" "footer__logo";
+  }
+  .tarjeta__contacto {
+    font-size: 2rem;
+  }
+  .footer__logo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: footer__logo;
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .footer__nav,
+  .newsletter__titulo,
+  .newsletter__footer__input,
+  .btn__enviar__footer,
+  .footer__redes__logos {
+    display: none;
+  }
+}
+
+/*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
 /*# sourceMappingURL=main.css.map */
