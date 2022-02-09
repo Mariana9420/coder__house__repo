@@ -1,0 +1,90 @@
+
+/*.....................................iNDEX: FOOTER(TODAS LAS CLASES SON RECICLABLES)..................*/
+
+footer {
+    background-color: #523024;
+    color: #fff;
+    padding: 1rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-areas:
+        "tarjeta nav__footer newsletter btn";
+    grid-template-columns: 30% 30% 30% 30%;
+    justify-content: flex-start;
+    align-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.footer__tarjeta {
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-align: left;
+    grid-area: tarjeta;
+    grid-column: auto;
+    grid-row: auto;
+
+}
+
+.footer__tarjeta--logo {
+    max-height: 10rem;
+    width: auto;
+}
+
+.footer__nav {
+    display: flex;
+    grid-column: auto;
+    grid-row: auto;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    grid-area: nav__footer;
+    margin-top: 2rem;
+    margin-right: 5rem;
+
+}
+
+.footer__nav a {
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: #fff;
+}
+.footer__nav li {
+    font-size: 1rem;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    grid-column: auto;
+    grid-row: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+    grid-area: newsletter;
+}
+
+.newsletter__titulo {
+    margin-bottom: 2rem;
+    font-family: "cursive";
+}
+
+.newsletter__footer__input {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.btn__enviar__footer {
+    height: 20%;
+    width: 55%;
+    margin-left: 33rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    grid-area: btn;
+    margin-left: 5rem;
+    grid-column: auto;
+    grid-row: auto;
+}
+
