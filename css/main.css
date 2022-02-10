@@ -544,10 +544,22 @@ a#link__al__menu__especial {
   max-width: 1450px;
 }
 
+.grid__main__container .articulo__en__columnas__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .comidaUno {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: comidaUno;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .comidaDos {
@@ -564,16 +576,6 @@ a#link__al__menu__especial {
   grid-area: comidaTres;
   grid-column: auto;
   grid-row: auto;
-}
-
-.articulo__en__columnas__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .img__redonda__container {
