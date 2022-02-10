@@ -335,12 +335,26 @@ a {
     .articulo__en__columnas__container {
         display: flex;
         flex-direction: column;
+
+        .img__redonda__container {
+            display: flex;
+            justify-content: center;
+            .img__redonda {
+                height: auto;
+                max-width: 100%;
+                border-radius: 80%;
+                margin-bottom: 4rem;
+            
+            }
+        }
+        .texto__en__columnas__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+     
     }
 }
-
-
-
-
 @mixin img-grid-col-row ($grid-col, $grid-row) {
     grid-column: $grid-col;
     grid-row: $grid-row;
@@ -360,28 +374,6 @@ a {
     grid-area: comidaTres;
     @include img-grid-col-row(auto, auto);
 }
-
-
-
-.img__redonda__container {
-    display: flex;
-    justify-content: center;
-}
-
-.img__redonda {
-    height: auto;
-    max-width: 100%;
-    border-radius: 80%;
-    margin-bottom: 4rem;
-
-}
-
-.texto__en__columnas__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 /*...............................INDEX: FORMULARIO DE CONTACTO...........................*/
 .contacto__container {
     text-align: center;
