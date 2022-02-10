@@ -69,23 +69,21 @@ $color in $colors {
     max-width: 100%;
     margin: auto;
 }
-@each $portada in portada_index, portada_menu, portada_preguntas, portada_nosotros, portada_contacto{
-    .#{$portada}-banner{
-background-image: url("../images/small-images/#{$portada}.jpg");
-    }
-}
-.portada__container {
+.portada__container{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-position: center;
-    background-image: url("../images/small-images/portada_index.jpg");
     background-size: cover;
     background-color: orange;
     height: 500px;
     font-size: 50px;
     font-weight: 30px;
     margin-bottom: 5rem;
+}
+.portada__index {
+  @extend .portada__container;
+  background-image: url("../images/small-images/portada_index.jpg");
 }
 .portada__btn__link__al__menu__container {
     display: flex;
@@ -113,45 +111,23 @@ a {
 }
 /*...........................................PORTADA PAGINA MENU..............................*/
 .portada__menu {
-    background-position: center;
-    background-image: url("../images/viandas_calabaza.jpg");
-    background-size: cover;
-    background-color: orange;
-    height: 500px;
-    font-size: 50px;
-    font-weight: 30px;
+    @extend .portada__container;
+    background-image: url("../images/viandas_calabaza.jpg");   
 }
 /*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
 .portada__preguntas {
-    background-position: center;
+    @extend .portada__container;
     background-image: url("../images/viandas_empresariales.jpg");
-    background-size: cover;
-    background-color: orange;
-    height: 500px;
-    font-size: 50px;
-    font-weight: 30px;
 }
 /*...........................................PORTADA PAGINA NOSOTROS..............................*/
 .portada__nosotros {
-    background-position: center;
+    @extend .portada__container;
     background-image: url("../images/plato_7.jpg");
-    background-size: cover;
-    background-color: orange;
-    height: 500px;
-    font-size: 50px;
-    font-weight: 30px;
-    margin-bottom: 5rem;
 }
 /*...........................................PORTADA PAGINA CONTACTO..............................*/
 .portada__contacto {
-    background-position: center;
+    @extend .portada__container;
     background-image: url("../images/small-images/viandas_varias.jpg");
-    background-size: cover;
-    background-color: orange;
-    height: 500px;
-    font-size: 50px;
-    font-weight: 30px;
-    margin-bottom: 5rem;
 }
 .portada__titulo {
     text-align: center;
