@@ -14,7 +14,14 @@ $datos-de-contacto-header:(
     fuenteTam: 2rem,
     fuenteFamilia: $special-font-family,
 );
-
+.portada__titulo {
+    text-align: center;
+    font-size: 15rem;
+    font-style: "Roboto";
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    color: #221919;
+}
 .info__contacto__descripcion {
     font-size: map-get($datos-de-contacto-header, fuenteTam);
     font-family: $special-font-family;
