@@ -221,6 +221,26 @@ h1 {
   margin: auto;
 }
 
+.portada_index-banner {
+  background-image: url("../images/small-images/portada_index.jpg");
+}
+
+.portada_menu-banner {
+  background-image: url("../images/small-images/portada_menu.jpg");
+}
+
+.portada_preguntas-banner {
+  background-image: url("../images/small-images/portada_preguntas.jpg");
+}
+
+.portada_nosotros-banner {
+  background-image: url("../images/small-images/portada_nosotros.jpg");
+}
+
+.portada_contacto-banner {
+  background-image: url("../images/small-images/portada_contacto.jpg");
+}
+
 .portada__container {
   display: -webkit-box;
   display: -ms-flexbox;

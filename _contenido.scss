@@ -65,11 +65,14 @@ $color in $colors {
     margin-left: 35%;
 }
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
-
 .row__portada__index {
-
     max-width: 100%;
     margin: auto;
+}
+@each $portada in portada_index, portada_menu, portada_preguntas, portada_nosotros, portada_contacto{
+    .#{$portada}-banner{
+background-image: url("../images/small-images/#{$portada}.jpg");
+    }
 }
 .portada__container {
     display: flex;
