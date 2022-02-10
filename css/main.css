@@ -548,8 +548,6 @@ a#link__al__menu__especial {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: comidaUno;
-  grid-column: auto;
-  grid-row: auto;
 }
 
 .comidaDos {
