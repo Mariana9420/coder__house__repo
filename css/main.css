@@ -160,9 +160,9 @@ h1 {
 }
 
 /*...........................................BOTONES ESTILOS..............................*/
-.boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__comprar, .btn__seguir {
-  height: 100px;
+.boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__comprar {
   width: 500px;
+  height: 100px;
   margin-left: 5rem;
   font-size: 3rem;
   font-family: "Roboto";
@@ -170,9 +170,12 @@ h1 {
   background-color: #3a3838;
 }
 
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__comprar, .btn__seguir {
-  height: 50%;
+.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
+  height: 50%;
   margin-left: 33rem;
   font-size: 2rem;
   padding: 1.5rem;
@@ -195,7 +198,6 @@ h1 {
       align-content: center;
 }
 
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__comprar, .btn__seguir,
 .btn__comprar {
   margin-left: 1rem;
   display: -webkit-box;
@@ -206,10 +208,6 @@ h1 {
           justify-content: center;
   width: 100%;
   margin-top: 2rem;
-}
-
-.btn__comprar {
-  height: 20%;
 }
 
 .btn__seguir {
@@ -261,7 +259,7 @@ a#link__al__menu__especial {
   margin: auto;
 }
 
-.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__comprar, .btn__seguir,
+.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir,
 .btn__enviar,
 .btn__enviar__footer {
   height: 100px;
@@ -909,7 +907,7 @@ h4 {
   text-align: center;
 }
 
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__comprar, .btn__seguir,
+.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir,
 .btn__comprar {
   margin-left: 1rem;
   display: -webkit-box;
@@ -1434,6 +1432,7 @@ h4 {
   }
   .btn__seguir {
     font-size: 2rem;
+    width: 30%;
   }
 }
 
