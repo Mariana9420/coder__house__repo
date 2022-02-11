@@ -63,10 +63,6 @@ header nav .header__logo img {
   height: auto;
 }
 
-header nav .header__nav--carrito {
-  margin-right: 15rem;
-}
-
 p {
   font: "Indie Flower";
 }
@@ -803,9 +799,6 @@ a#link__al__menu__especial {
   .navbar-toggler-icon {
     background-color: orange;
     padding: 2.3rem;
-  }
-  .header__nav--carrito {
-    margin-right: 10rem;
   }
   .banner__text h1 {
     font-size: 8rem;
