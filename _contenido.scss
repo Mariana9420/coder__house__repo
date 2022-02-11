@@ -276,8 +276,9 @@ a {
             height: auto;
             width: 100%;
         }
-    
+
     }
+
     .solucion__descripcion__container {
         display: flex;
         flex-direction: column;
@@ -295,6 +296,7 @@ a {
             text-align: center;
             background-color: #ffa500;
         }
+
         .aside {
             background-color: #ff4500;
             margin-left: 1rem;
@@ -310,7 +312,7 @@ a {
                 margin-bottom: 3rem;
                 margin-left: 3.2rem;
             }
-            
+
         }
     }
 }
@@ -339,22 +341,25 @@ a {
         .img__redonda__container {
             display: flex;
             justify-content: center;
+
             .img__redonda {
                 height: auto;
                 max-width: 100%;
                 border-radius: 80%;
                 margin-bottom: 4rem;
-            
+
             }
         }
+
         .texto__en__columnas__container {
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
-     
+
     }
 }
+
 @mixin img-grid-col-row ($grid-col, $grid-row) {
     grid-column: $grid-col;
     grid-row: $grid-row;
@@ -363,17 +368,20 @@ a {
 .comidaUno {
     grid-area: comidaUno;
     @include img-grid-col-row(auto, auto);
-   
+
 }
+
 .comidaDos {
     grid-area: comidaDos;
     @include img-grid-col-row(auto, auto);
-   
+
 }
+
 .comidaTres {
     grid-area: comidaTres;
     @include img-grid-col-row(auto, auto);
 }
+
 /*...............................INDEX: FORMULARIO DE CONTACTO...........................*/
 .contacto__container {
     text-align: center;
@@ -386,23 +394,23 @@ a {
     .parrafo__form {
         font-family: $main-font-family;
     }
-   }
- 
-    .campo {
-        display: block;
-        width: 50%;
-        padding: 10px;
-        margin: 10px auto;
-        font-size: 2.5rem;
-    }
- 
+}
 
-  
-    
-        #consulta {
-            height: 30rem;
-        }
-   
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 2.5rem;
+}
+
+
+
+
+#consulta {
+    height: 30rem;
+}
+
 
 
 
@@ -525,6 +533,8 @@ a {
         display: none;
     }
 
+    .subtitulo__principal,
+    .propuesta__container__grid,
     .animUno,
     .animDos,
     .animTres,

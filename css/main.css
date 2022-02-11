@@ -744,6 +744,8 @@ a#link__al__menu__especial {
   .info__contacto__descripcion {
     display: none;
   }
+  .subtitulo__principal,
+  .propuesta__container__grid,
   .animUno,
   .animDos,
   .animTres,
@@ -1516,6 +1518,15 @@ footer {
   font-size: 1rem;
 }
 
+.btn__footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .newsletter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1559,6 +1570,7 @@ footer {
   grid-row: auto;
 }
 
+/*.....................................MEDIAS QUERIES INDEX: CELULARES...............*/
 @media only screen and (max-width: 599px) {
   .footer__container {
     display: -ms-grid;

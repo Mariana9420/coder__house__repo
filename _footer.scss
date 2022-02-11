@@ -51,6 +51,10 @@ footer {
 .footer__nav li {
     font-size: 1rem;
 }
+.btn__footer__container{
+display: flex;
+justify-content: flex-end;
+}
 .newsletter {
     display: flex;
     flex-direction: column;
@@ -84,7 +88,7 @@ footer {
     grid-column: auto;
     grid-row: auto;
 }
-
+/*.....................................MEDIAS QUERIES INDEX: CELULARES...............*/
 @media only screen and (max-width: 599px) {
     .footer__container {
         display: grid;
