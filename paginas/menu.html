@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css-bst/bootstrap.min.css"/>
-  <link rel ="stylesheet" href="../css/main.css"/>
-  <link rel="shortcut icon" href="../images/favicon.png"/>
+  <link rel="stylesheet" href="../css-bst/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="shortcut icon" href="../images/favicon.png" />
   <link
     href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Rancho&display=swap"
     rel="stylesheet">
@@ -16,9 +16,10 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Indie+Flower&display=swap"
     rel="stylesheet">
-    <meta name="DESCRIPTION" content="Nuestro menu incluye tartas, fideos integrales con guarnición, milanesas, carnes y mucho más. Además armamos cajas especiales a pedido y personalizadas"/>
+  <meta name="DESCRIPTION"
+    content="Nuestro menu incluye tartas, fideos integrales con guarnición, milanesas, carnes y mucho más. Además armamos cajas especiales a pedido y personalizadas" />
   <title> Viandas Gaia Nuestro menú</title>
-    <META name="KEYWORDS" content="milanesas de soja,comidas light,bajas calorías,rico y sano,rico y saludable">
+  <META name="KEYWORDS" content="milanesas de soja,comidas light,bajas calorías,rico y sano,rico y saludable">
 </head>
 
 <body>
@@ -26,7 +27,8 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="header__logo" alt="corazon de frutas y verduras" /></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="header__logo"
+            alt="corazon de frutas y verduras" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -90,7 +92,7 @@
       </article>
     </div>
   </section>
-  
+
   <main id="galeria">
 
     <div class="container platos__grilla">
@@ -100,12 +102,33 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="../images/plato_1.jpg" alt="pollo con verduras salteadas" class="platos card-img-top card__img__platos">
+              <img src="../images/plato_1.jpg" alt="pollo con verduras salteadas"
+                class="platos card-img-top card__img__platos">
               <div class="card-body">
                 <h4 class="card-title">Pollo con verduras salteadas</h4>
                 <h4 class="card-title">$240</h4>
                 <div class="platos__btn__container">
-                  <button class="btn__secundario btn__comprar" type="button">Lo quiero!</button>
+                  <button class="btn__secundario btn__comprar" type="button" data-bs-toggle="modal"
+                    data-bs-target="#platoUno">Lo quiero!</button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="platoUno" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Muchas gracias por tu compra!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -114,13 +137,34 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="../images/plato_2.jpg" alt="tarta tricolor con verduras" class="platos card-img-top card__img__platos">
+              <img src="../images/plato_2.jpg" alt="tarta tricolor con verduras"
+                class="platos card-img-top card__img__platos">
               <div class="card-body">
                 <h4 class="card-title">Tarta tricolor con ensalada a elección</h4>
                 <h4 class="card-title">$299</h4>
                 <div class="platos__btn__container">
-                  <button class="btn__secundario btn__comprar" type="button">Lo quiero!</button>
+                  <button class="btn__secundario btn__comprar" type="button"  data-bs-target="#platoDos">Lo quiero!</button>
                 </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="platoDos" tabindex="-2" aria-labelledby="exampleModalLabelDos"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabelDos">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Muchas gracias por tu compra!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
               </div>
             </div>
           </div>
@@ -153,7 +197,8 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="../images/plato_5.jpg" alt="Milanesa con verduras" class="platos card-img-top card__img__platos">
+              <img src="../images/plato_5.jpg" alt="Milanesa con verduras"
+                class="platos card-img-top card__img__platos">
               <div class="card-body">
                 <h4 class="card-title">Milanesa de soja con ensalada</h4>
                 <h4 class="card-title">$400</h4>
@@ -166,7 +211,8 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="../images/plato_6.jpg" alt="Salteado de verduras con carne" class="platos card-img-top card__img__platos">
+              <img src="../images/plato_6.jpg" alt="Salteado de verduras con carne"
+                class="platos card-img-top card__img__platos">
               <div class="card-body">
                 <h4 class="card-title">Salteado de verduras y carne</h4>
                 <h4 class="card-title">$500</h4>
@@ -180,7 +226,8 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="card">
-              <img src="../images/plato_7.jpg" alt="Pastel de calabaza y lentejas" class="platos card-img-top card__img__platos">
+              <img src="../images/plato_7.jpg" alt="Pastel de calabaza y lentejas"
+                class="platos card-img-top card__img__platos">
               <div class="card-body">
                 <h4 class="card-title">Pastel de calabaza y lentejas</h4>
                 <h4 class="card-title">$550</h4>
@@ -208,7 +255,7 @@
         <!--FIN DE LA CLASE CONTAINER-->
       </div>
     </div>
-  </main> 
+  </main>
 
   <aside>
     <div class="iconos__container">
@@ -217,8 +264,8 @@
       </div>
       <div class="container__btn__wsp">
         <a href="#">
-        <img class="btn-wsp" src="../images/whatsapp_logo.png" alt="whatsApp logo" />
-      </a>
+          <img class="btn-wsp" src="../images/whatsapp_logo.png" alt="whatsApp logo" />
+        </a>
       </div>
     </div>
   </aside>
@@ -283,6 +330,7 @@
     </div>
     <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
   </footer>
-<script src="../js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>
