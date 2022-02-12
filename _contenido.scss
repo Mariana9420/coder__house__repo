@@ -575,15 +575,15 @@ a {
         }
     }
 
-    .propuesta__container__grid .container {
+    .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
 
         grid-area:
             "solucion__descripcion__grid"
             "aside__grid";
+        }
 
-    }
-
+        
     .pagos__container .container {
         width: auto;
     }
@@ -658,93 +658,93 @@ main {
 /*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
 
 
-    .funcionamiento__parent__container {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        margin-top: 3%;
+.funcionamiento__parent__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+.funcionamiento__container {
+    display: grid;
+    grid-template-areas:
+        "subtitulo__principal"
+        "imgUno imgDos imgTres"
+        "tituloUno tituloDos tituloTres"
+        "descripUno descripDos descripTres";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+
+.funcionamiento__articulo__container {
+    overflow: hidden;
+
+    .img__propiedades {
+        height: 300px;
+        width: 100%;
+        margin-top: 2px;
     }
 
-    .funcionamiento__container {
-        display: grid;
-        grid-template-areas:
-            "subtitulo__principal"
-            "imgUno imgDos imgTres"
-            "tituloUno tituloDos tituloTres"
-            "descripUno descripDos descripTres";
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto;
-        grid-gap: 20px;
+    .imgUno {
+        grid-area: imgUno;
+        grid-row: auto;
+        grid-column: auto;
     }
 
-    .funcionamiento__articulo__container {
-        overflow: hidden;
+    .imgDos {
+        grid-area: imgDos;
+        grid-row: auto;
+        grid-column: auto;
+    }
 
-        .img__propiedades {
-            height: 300px;
-            width: 100%;
-            margin-top: 2px;
-        }
+    .imgTres {
+        grid-area: imgTres;
+        grid-row: auto;
+        grid-column: auto;
+    }
 
-        .imgUno {
-            grid-area: imgUno;
+    .card-title {
+        .tituloUno {
+            grid-area: tituloUno;
             grid-row: auto;
             grid-column: auto;
         }
 
-        .imgDos {
-            grid-area: imgDos;
+        .tituloDos {
+            grid-area: tituloDos;
             grid-row: auto;
             grid-column: auto;
         }
 
-        .imgTres {
-            grid-area: imgTres;
+        .tituloTres {
+            grid-area: tituloTres;
             grid-row: auto;
             grid-column: auto;
-        }
-
-        .card-title {
-            .tituloUno {
-                grid-area: tituloUno;
-                grid-row: auto;
-                grid-column: auto;
-            }
-
-            .tituloDos {
-                grid-area: tituloDos;
-                grid-row: auto;
-                grid-column: auto;
-            }
-
-            .tituloTres {
-                grid-area: tituloTres;
-                grid-row: auto;
-                grid-column: auto;
-            }
-        }
-
-        .card-text {
-            .descripUno {
-                grid-area: descripUno;
-                grid-row: auto;
-                grid-column: auto;
-            }
-
-            .descripDos {
-                grid-area: descripDos;
-                grid-row: auto;
-                grid-column: auto;
-            }
-
-            .descripTres {
-                grid-area: descripTres;
-                grid-row: auto;
-                grid-column: auto;
-            }
         }
     }
-    
+
+    .card-text {
+        .descripUno {
+            grid-area: descripUno;
+            grid-row: auto;
+            grid-column: auto;
+        }
+
+        .descripDos {
+            grid-area: descripDos;
+            grid-row: auto;
+            grid-column: auto;
+        }
+
+        .descripTres {
+            grid-area: descripTres;
+            grid-row: auto;
+            grid-column: auto;
+        }
+    }
+}
+
 /*......................  CONTAINER PREGUNTAS..................................*/
 .preguntas__container__principal {
     display: flex;
@@ -758,6 +758,7 @@ main {
         margin-bottom: 5rem;
     }
 }
+
 .preguntas__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -769,7 +770,7 @@ main {
     .preguntas__articulo {
         margin-left: 10px;
 
-        h3{
+        h3 {
             display: flex;
             justify-content: center;
         }
@@ -778,7 +779,8 @@ main {
 }
 
 
-.parrafos, .parrafo__descripcion {
+.parrafos,
+.parrafo__descripcion {
     width: 100%;
     height: auto;
     margin-left: 1%;
@@ -813,12 +815,6 @@ main {
 }
 
 /*.....................................PAGINA NOSOTROS........................................................*/
-
-.subtitulo__historia {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-}
 
 .img__historia {
     width: 100%;
@@ -869,7 +865,7 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-right: 20%;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .historia__container__dos {
@@ -1003,7 +999,7 @@ main {
 
 .img__redes__sociales {
     height: auto;
-    background-color: orangered;
+    background-color: #ff4500;
     width: 100%;
 }
 

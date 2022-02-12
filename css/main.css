@@ -795,7 +795,7 @@ a#link__al__menu__especial {
     font-size: 8rem;
     color: #000;
   }
-  .propuesta__container__grid .container {
+  .propuesta__container__grid {
     -ms-grid-columns: 3, 1fr;
         grid-template-columns: 3, 1fr;
     grid-area: "solucion__descripcion__grid" "aside__grid";
@@ -1021,7 +1021,8 @@ main .btn__comprar {
           justify-content: center;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form, .parrafo__descripcion {
+.parrafos, .parrafos__descripcion, .parrafo__form,
+.parrafo__descripcion {
   width: 100%;
   height: auto;
   margin-left: 1%;
@@ -1060,12 +1061,6 @@ main .btn__comprar {
 }
 
 /*.....................................PAGINA NOSOTROS........................................................*/
-.subtitulo__historia {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
-  margin-left: 1rem;
-}
-
 .img__historia {
   width: 100%;
   height: auto;
@@ -1140,7 +1135,7 @@ main .btn__comprar {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-right: 20%;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .historia__container__dos {
@@ -1318,7 +1313,7 @@ main .btn__comprar {
 
 .img__redes__sociales {
   height: auto;
-  background-color: orangered;
+  background-color: #ff4500;
   width: 100%;
 }
 
