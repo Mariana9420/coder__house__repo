@@ -1240,12 +1240,14 @@ main .btn__comprar {
   height: 5rem;
   margin-right: 2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .logo__facebook {
   height: 5rem;
   margin-right: 2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
@@ -1294,21 +1296,20 @@ form .campo#mensaje {
       flex-wrap: wrap;
 }
 
-.redes__sociales__contenedor__padre div {
+.redes__sociales__contenedor__padre .redes__sociales__logos__container__logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 4rem;
 }
 
-/*
-.redes__sociales__logos__container {
-    display: flex;
-    justify-content: center;
-}*/
-.img__redes__sociales {
-  height: auto;
-  background-color: #ff4500;
-  width: 100%;
+.redes__sociales__contenedor__padre .redes__sociales__contenedor__padre div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .btn__seguir {

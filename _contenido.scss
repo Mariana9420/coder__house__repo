@@ -956,17 +956,22 @@ main {
     justify-content: flex-start;
     
 }
-@mixin logos-redes-box-model($height, $margin-right, $margin-top) {
+
+@mixin logos-redes-box-model($height, $margin-right, $margin-top,$margin-bottom) {
     height: $height;
     margin-right: $margin-right;
     margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
 }
+
 .logo__instagram{
-    @include logos-redes-box-model(5rem, 2rem, 2rem);
+    @include logos-redes-box-model(5rem, 2rem, 2rem, 2rem);
 }
+
 .logo__facebook{
-    @include logos-redes-box-model(5rem, 2rem, 2rem);
+    @include logos-redes-box-model(5rem, 2rem, 2rem, 2rem);
 }
+
 /* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
 form {
     .campo {
@@ -1000,22 +1005,19 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
+    .redes__sociales__logos__container__logos{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+    .redes__sociales__contenedor__padre div {
+        justify-content: center;
+    }
 }
 
-.redes__sociales__contenedor__padre div {
-    justify-content: center;
-}
-/*
-.redes__sociales__logos__container {
-    display: flex;
-    justify-content: center;
-}*/
 
-.img__redes__sociales {
-    height: auto;
-    background-color: #ff4500;
-    width: 100%;
-}
+
 
 .btn__seguir {
     display: flex;
