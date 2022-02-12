@@ -796,7 +796,8 @@ a#link__al__menu__especial {
   margin-left: 2rem;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form, .parrafo__menu {
+.parrafos, .parrafos__descripcion, .parrafo__form,
+.parrafo__menu {
   height: 30%;
   width: 70%;
   margin-top: 5rem;
@@ -883,13 +884,13 @@ main .btn__comprar {
   overflow: hidden;
 }
 
-.img__propiedades {
+.funcionamiento__articulo__container .img__propiedades {
   height: 300px;
   width: 100%;
   margin-top: 2px;
 }
 
-.imgUno {
+.funcionamiento__articulo__container .imgUno {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: imgUno;
@@ -897,7 +898,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.imgDos {
+.funcionamiento__articulo__container .imgDos {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: imgDos;
@@ -905,7 +906,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.imgTres {
+.funcionamiento__articulo__container .imgTres {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: imgTres;
@@ -913,7 +914,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.tituloUno {
+.funcionamiento__articulo__container .card-title .tituloUno {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: tituloUno;
@@ -921,7 +922,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.tituloDos {
+.funcionamiento__articulo__container .card-title .tituloDos {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: tituloDos;
@@ -929,7 +930,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.tituloTres {
+.funcionamiento__articulo__container .card-title .tituloTres {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: tituloTres;
@@ -937,7 +938,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.descripUno {
+.funcionamiento__articulo__container .card-text .descripUno {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: descripUno;
@@ -945,7 +946,7 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.descripDos {
+.funcionamiento__articulo__container .card-text .descripDos {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
   grid-area: descripDos;
@@ -953,23 +954,12 @@ main .btn__comprar {
   grid-column: auto;
 }
 
-.descripTres {
+.funcionamiento__articulo__container .card-text .descripTres {
   -ms-grid-row: 4;
   -ms-grid-column: 3;
   grid-area: descripTres;
   grid-row: auto;
   grid-column: auto;
-}
-
-.preguntas__elementos {
-  padding: 0;
-}
-
-.parrafos, .parrafos__descripcion, .parrafo__form,
-.parrafo__descripcion {
-  width: 100%;
-  height: auto;
-  margin-left: 1%;
 }
 
 /*......................  CONTAINER PREGUNTAS..................................*/
@@ -985,7 +975,11 @@ main .btn__comprar {
       flex-wrap: wrap;
 }
 
-.preguntas__elementos {
+.preguntas__container__principal .preguntas__elementos {
+  padding: 0;
+}
+
+.preguntas__container__principal .preguntas__elementos {
   background-color: #ff4500;
   padding: 60px 55px;
   margin-bottom: 5rem;
@@ -1000,6 +994,12 @@ main .btn__comprar {
   max-width: 1800px;
   background-color: #ffa500;
   padding: 5rem;
+}
+
+.parrafos, .parrafos__descripcion, .parrafo__form, .parrafo__descripcion {
+  width: 100%;
+  height: auto;
+  margin-left: 1%;
 }
 
 .preguntas__articulo {
@@ -1033,7 +1033,7 @@ main .btn__comprar {
 
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
 @media only screen and (max-width: 599px) {
-  .funcionamiento__container {
+  main .funcionamiento__container {
     display: -ms-grid;
     display: grid;
     -webkit-box-orient: vertical;
@@ -1046,7 +1046,7 @@ main .btn__comprar {
         grid-template-rows: auto;
         grid-template-areas: "imgUno" "imgDos" "imgTres";
   }
-  .preguntas__container {
+  main .preguntas__container {
     display: -ms-grid;
     display: grid;
     -webkit-box-orient: vertical;
@@ -1104,7 +1104,7 @@ main .btn__comprar {
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-left: 15%;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .img__historia__container__uno {
