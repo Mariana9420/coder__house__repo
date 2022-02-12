@@ -1236,14 +1236,14 @@ main .btn__comprar {
           justify-content: flex-start;
 }
 
-.logo__instagram {
+.logo__instagram, .redes__sociales__contenedor__padre .redes__sociales__logos__container__logos .logo__instagram__main {
   height: 5rem;
   margin-right: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.logo__facebook {
+.logo__facebook, .redes__sociales__contenedor__padre .redes__sociales__logos__container__logos .logo__facebook__main {
   height: 5rem;
   margin-right: 2rem;
   margin-top: 2rem;
@@ -1306,6 +1306,14 @@ form .campo#mensaje {
   margin-bottom: 4rem;
 }
 
+.redes__sociales__contenedor__padre .redes__sociales__logos__container__logos .logo__instagram__main {
+  height: 10rem;
+}
+
+.redes__sociales__contenedor__padre .redes__sociales__logos__container__logos .logo__facebook__main {
+  height: 10rem;
+}
+
 .redes__sociales__contenedor__padre .redes__sociales__contenedor__padre div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1324,7 +1332,7 @@ form .campo#mensaje {
   width: 20%;
 }
 
-/*..................................... CONTACTO: MEDIAS QUERIES........................................................*/
+/*..................................... CONTACTO: MEDIAS QUERIES CELULARES........................................................*/
 @media only screen and (max-width: 599px) {
   .parrafo__form {
     display: none;

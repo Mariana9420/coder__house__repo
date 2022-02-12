@@ -1010,14 +1010,20 @@ form {
         display: flex;
         justify-content: center;
         margin-bottom: 4rem;
+
+        .logo__instagram__main{
+            @extend .logo__instagram;
+            height: 10rem;
+        }
+        .logo__facebook__main{
+            @extend .logo__facebook;
+            height: 10rem;
+        }
     }
     .redes__sociales__contenedor__padre div {
         justify-content: center;
     }
 }
-
-
-
 
 .btn__seguir {
     display: flex;
@@ -1027,7 +1033,7 @@ form {
     width: 20%;
 }
 
-/*..................................... CONTACTO: MEDIAS QUERIES........................................................*/
+/*..................................... CONTACTO: MEDIAS QUERIES CELULARES........................................................*/
 @media only screen and (max-width: 599px) {
     .parrafo__form {
         display: none;
@@ -1036,7 +1042,6 @@ form {
     .campo {
         width: 100%;
     }
-
     .btn__seguir {
         font-size: 2rem;
         width: 30%;
