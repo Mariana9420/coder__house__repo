@@ -996,23 +996,23 @@ main .btn__comprar {
   padding: 5rem;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form, .parrafo__descripcion {
-  width: 100%;
-  height: auto;
-  margin-left: 1%;
-}
-
-.preguntas__articulo {
+.preguntas__container .preguntas__articulo {
   margin-left: 10px;
 }
 
-.preguntas__articulo h3 {
+.preguntas__container .preguntas__articulo h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.parrafos, .parrafos__descripcion, .parrafo__form, .parrafo__descripcion {
+  width: 100%;
+  height: auto;
+  margin-left: 1%;
 }
 
 .preguntaUno {

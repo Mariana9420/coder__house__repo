@@ -758,6 +758,7 @@ main {
         background-color: #ff4500;
         padding: 60px 55px;
         margin-bottom: 5rem;
+
     }
 }
 .preguntas__container {
@@ -767,6 +768,16 @@ main {
     max-width: 1800px;
     background-color: #ffa500;
     padding: 5rem;
+
+    .preguntas__articulo {
+        margin-left: 10px;
+
+        h3{
+            display: flex;
+            justify-content: center;
+        }
+
+    }
 }
 
 
@@ -780,14 +791,6 @@ main {
 }
 
 
-.preguntas__articulo {
-    margin-left: 10px;
-}
-
-.preguntas__articulo h3 {
-    display: flex;
-    justify-content: center;
-}
 
 .preguntaUno {
     grid-area: preguntaUno;
@@ -833,9 +836,6 @@ main {
     }
 
 }
-
-
-
 
 /*.....................................PAGINA NOSOTROS........................................................*/
 
