@@ -612,16 +612,16 @@ a {
     }
 
     /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
-    .propuesta__container__grid {
+    .propuesta__container__grid .container{
         grid-template-columns: (3, 1fr);
 
         grid-area:
             "solucion__descripcion__grid"
             "aside__grid";
-
+           
     }
-   
-    .pagos__container container {
+                           
+    .pagos__container .container {
         width: auto;
     }
 }
