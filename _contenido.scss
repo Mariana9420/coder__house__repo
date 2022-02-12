@@ -153,12 +153,15 @@ a {
 /*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
 .banner__text {
     transform: translate(-5%, -5%);
-}
+    
+        h1 {
+            text-align: center;
+            font-size: 10rem;
+        }
+    }
 
-.banner__text h1 {
-    text-align: center;
-    font-size: 10rem;
-}
+
+
 
 /*..........................CLASE BOX PARA ANIMACION DE PORTADA DEL INDEX..................*/
 .box {
