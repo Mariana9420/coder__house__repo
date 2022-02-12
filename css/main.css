@@ -143,7 +143,7 @@ h1 {
 .fuente__preguntas {
   color: #000;
   font-family: "cursive";
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .bg--orange {
@@ -1013,14 +1013,6 @@ main .btn__comprar {
   width: 100%;
   height: auto;
   margin-left: 1%;
-}
-
-.preguntaUno {
-  grid-area: preguntaUno;
-}
-
-.preguntaDos {
-  grid-area: preguntaDos;
 }
 
 .parrafo__respuestas {
