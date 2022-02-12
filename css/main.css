@@ -184,7 +184,7 @@ h1 {
   background-color: #3a3838;
 }
 
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir, main .btn__comprar {
+.btn__secundario, .btn__enviar, .btn__enviar__footer, main .btn__comprar, .btn__seguir {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,11 +216,6 @@ h1 {
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
-}
-
-.btn__seguir {
-  width: 30%;
-  margin-left: 35%;
 }
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
@@ -270,7 +265,7 @@ a#link__al__menu__especial {
   margin: auto;
 }
 
-.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir, main .btn__comprar,
+.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, main .btn__comprar, .btn__seguir,
 .btn__enviar,
 .btn__enviar__footer {
   height: 100px;
@@ -280,26 +275,6 @@ a#link__al__menu__especial {
   font-family: "Roboto";
   color: #fff;
   background-color: #3a3838;
-}
-
-/*...........................................PORTADA PAGINA MENU..............................*/
-.portada__menu {
-  background-image: url("../images/viandas_calabaza.jpg");
-}
-
-/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
-.portada__preguntas {
-  background-image: url("../images/viandas_empresariales.jpg");
-}
-
-/*...........................................PORTADA PAGINA NOSOTROS..............................*/
-.portada__nosotros {
-  background-image: url("../images/plato_7.jpg");
-}
-
-/*...........................................PORTADA PAGINA CONTACTO..............................*/
-.portada__contacto {
-  background-image: url("../images/small-images/viandas_varias.jpg");
 }
 
 /*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
@@ -805,7 +780,12 @@ a#link__al__menu__especial {
   }
 }
 
-/*.....................................PAGINA NUESTRO MENÚ........................................................*/
+/*...........................................INICIO PORTADA PAGINA MENU..............................*/
+.portada__menu {
+  background-image: url("../images/viandas_calabaza.jpg");
+}
+
+/*..................................... .....PAGINA NUESTRO MENÚ........................................................*/
 .articulo__menu__container {
   margin-right: 4rem;
   margin-left: 2rem;
@@ -869,6 +849,11 @@ main .btn__comprar {
     width: 100%;
     font-size: 3rem;
   }
+}
+
+/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
+.portada__preguntas {
+  background-image: url("../images/viandas_empresariales.jpg");
 }
 
 /*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
@@ -1060,7 +1045,12 @@ main .btn__comprar {
   }
 }
 
-/*.....................................PAGINA NOSOTROS........................................................*/
+/*...........................................PORTADA PAGINA NOSOTROS..............................*/
+.portada__nosotros {
+  background-image: url("../images/plato_7.jpg");
+}
+
+/*............................................PAGINA NOSOTROS........................................................*/
 .parent__container__nosotros {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1226,6 +1216,11 @@ main .btn__comprar {
   }
 }
 
+/*...........................................PORTADA PAGINA CONTACTO..............................*/
+.portada__contacto {
+  background-image: url("../images/small-images/viandas_varias.jpg");
+}
+
 /*..................................... PAGINA CONTACTO........................................................*/
 .redes__sociales__logos__container {
   display: -webkit-box;
@@ -1264,11 +1259,6 @@ form .campo#mensaje {
 }
 
 /* FIN CÓDIGO PARA EL FORMULARIO*/
-.card__contacto__redes {
-  max-width: 500px;
-  margin-left: 500px;
-}
-
 .mapa__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1321,15 +1311,12 @@ form .campo#mensaje {
 }
 
 .btn__seguir {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 20%;
+  margin-left: 40%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 40%;
   margin-bottom: 3%;
-  width: 20%;
 }
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES........................................................*/

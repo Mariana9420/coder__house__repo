@@ -60,14 +60,6 @@ $color in $colors {
     align-content: center;
 }
 
-
-
-.btn__seguir {
-    @extend .btn__secundario;
-    width: 30%;
-    margin-left: 35%;
-}
-
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 .row__portada__index {
     max-width: 100%;
@@ -118,30 +110,6 @@ a {
     font-family: "Roboto";
     color: #fff;
     background-color: #3a3838;
-}
-
-/*...........................................PORTADA PAGINA MENU..............................*/
-.portada__menu {
-    @extend .portada__container;
-    background-image: url("../images/viandas_calabaza.jpg");
-}
-
-/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
-.portada__preguntas {
-    @extend .portada__container;
-    background-image: url("../images/viandas_empresariales.jpg");
-}
-
-/*...........................................PORTADA PAGINA NOSOTROS..............................*/
-.portada__nosotros {
-    @extend .portada__container;
-    background-image: url("../images/plato_7.jpg");
-}
-
-/*...........................................PORTADA PAGINA CONTACTO..............................*/
-.portada__contacto {
-    @extend .portada__container;
-    background-image: url("../images/small-images/viandas_varias.jpg");
 }
 
 /*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
@@ -590,8 +558,13 @@ a {
     }
 }
 
-/*.....................................PAGINA NUESTRO MENÚ........................................................*/
+/*...........................................INICIO PORTADA PAGINA MENU..............................*/
+.portada__menu {
+    @extend .portada__container;
+    background-image: url("../images/viandas_calabaza.jpg");
+}
 
+/*..................................... .....PAGINA NUESTRO MENÚ........................................................*/
 .articulo__menu__container {
     margin-right: 4rem;
     margin-left: 2rem;
@@ -656,8 +629,13 @@ main {
     }
 }
 
-/*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
+/*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
+.portada__preguntas {
+    @extend .portada__container;
+    background-image: url("../images/viandas_empresariales.jpg");
+}
 
+/*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
 
 .funcionamiento__parent__container {
     display: flex;
@@ -814,7 +792,13 @@ main {
 
 }
 
-/*.....................................PAGINA NOSOTROS........................................................*/
+/*...........................................PORTADA PAGINA NOSOTROS..............................*/
+.portada__nosotros {
+    @extend .portada__container;
+    background-image: url("../images/plato_7.jpg");
+}
+
+/*............................................PAGINA NOSOTROS........................................................*/
 
 .parent__container__nosotros {
     display: flex;
@@ -889,7 +873,6 @@ main {
     @include historia__container__subtitulos;
     justify-content: flex-end;
     margin-right: 20%;
-
 }
 
 .img__historia__container__dos {
@@ -950,25 +933,31 @@ main {
     }
 }
 
+/*...........................................PORTADA PAGINA CONTACTO..............................*/
+.portada__contacto {
+    @extend .portada__container;
+    background-image: url("../images/small-images/viandas_varias.jpg");
+}
+
 /*..................................... PAGINA CONTACTO........................................................*/
 .redes__sociales__logos__container {
     display: flex;
     justify-content: flex-start;
-    
+
 }
 
-@mixin logos-redes-box-model($height, $margin-right, $margin-top,$margin-bottom) {
+@mixin logos-redes-box-model($height, $margin-right, $margin-top, $margin-bottom) {
     height: $height;
     margin-right: $margin-right;
     margin-top: $margin-top;
     margin-bottom: $margin-bottom;
 }
 
-.logo__instagram{
+.logo__instagram {
     @include logos-redes-box-model(5rem, 2rem, 2rem, 2rem);
 }
 
-.logo__facebook{
+.logo__facebook {
     @include logos-redes-box-model(5rem, 2rem, 2rem, 2rem);
 }
 
@@ -984,11 +973,6 @@ form {
 }
 
 /* FIN CÓDIGO PARA EL FORMULARIO*/
-
-.card__contacto__redes {
-    max-width: 500px;
-    margin-left: 500px;
-}
 
 .mapa__container {
     display: flex;
@@ -1006,31 +990,33 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
 
-    .redes__sociales__logos__container__logos{
+    .redes__sociales__logos__container__logos {
         display: flex;
         justify-content: center;
         margin-bottom: 4rem;
 
-        .logo__instagram__main{
+        .logo__instagram__main {
             @extend .logo__instagram;
             height: 10rem;
         }
-        .logo__facebook__main{
+
+        .logo__facebook__main {
             @extend .logo__facebook;
             height: 10rem;
         }
     }
+
     .redes__sociales__contenedor__padre div {
         justify-content: center;
     }
 }
 
 .btn__seguir {
-    display: flex;
-    justify-content: center;
-    margin-left: 40%;
-    margin-bottom: 3%;
+    @extend .btn__secundario;
     width: 20%;
+    margin-left: 40%;
+    justify-content: center;
+    margin-bottom: 3%;
 }
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES........................................................*/
@@ -1042,6 +1028,7 @@ form {
     .campo {
         width: 100%;
     }
+
     .btn__seguir {
         font-size: 2rem;
         width: 30%;
