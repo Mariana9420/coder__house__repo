@@ -849,10 +849,6 @@ main .btn__comprar {
   .parrafo__menu {
     font-size: 3rem;
   }
-  h4 {
-    font-size: 4rem;
-    text-align: center;
-  }
   .btn__comprar {
     width: 100%;
     font-size: 3rem;
@@ -860,10 +856,6 @@ main .btn__comprar {
 }
 
 /*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
-.preguntas__titulo {
-  font-size: 3.5rem;
-}
-
 .funcionamiento__parent__container {
   display: -webkit-box;
   display: -ms-flexbox;

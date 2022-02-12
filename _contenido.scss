@@ -611,31 +611,18 @@ main{
         margin-top: 2rem;
     }
 }
-
-
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
 @media only screen and (max-width: 599px) {
 
     .parrafo__menu {
         font-size: 3rem;
     }
-
-    h4 {
-        font-size: 4rem;
-        text-align: center;
-    }
-
     .btn__comprar {
         width: 100%;
         font-size: 3rem;
     }
 }
-
-
 /*.....................................PAGINA PREGUNTAS FRECUENTES........................................................*/
-.preguntas__titulo {
-    font-size: 3.5rem;
-}
 
 .funcionamiento__parent__container {
     display: flex;
@@ -643,7 +630,6 @@ main{
     max-width: 100%;
     margin-top: 3%;
 }
-
 .funcionamiento__container {
     display: grid;
     grid-template-areas:
@@ -655,6 +641,7 @@ main{
     grid-template-rows: auto auto auto;
     grid-gap: 20px;
 }
+
 
 .funcionamiento__articulo__container {
     overflow: hidden;
@@ -792,8 +779,8 @@ main{
             "imgDos"
             "imgTres"
         ;
+      
     }
-
     .preguntas__container {
 
         display: grid;
@@ -802,7 +789,9 @@ main{
         grid-template-rows: auto;
         justify-content: center;
     }
-}
+    }
+
+  
 
 
 /*.....................................PAGINA NOSOTROS........................................................*/
