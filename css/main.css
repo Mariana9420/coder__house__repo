@@ -159,7 +159,7 @@ h1 {
 }
 
 /*...........................................BOTONES ESTILOS..............................*/
-.boton__menu, #btn__menu__main, #btn-link-preguntas, .btn__comprar {
+.boton__menu, #btn__menu__main, #btn-link-preguntas, main .btn__comprar {
   width: 500px;
   height: 100px;
   margin-left: 5rem;
@@ -169,7 +169,7 @@ h1 {
   background-color: #3a3838;
 }
 
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir {
+.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir, main .btn__comprar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,6 +178,12 @@ h1 {
   margin-left: 33rem;
   font-size: 2rem;
   padding: 1.5rem;
+}
+
+.btn__enviar__footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #btn__menu__main {
@@ -195,18 +201,6 @@ h1 {
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
-}
-
-.btn__comprar {
-  margin-left: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin-top: 2rem;
 }
 
 .btn__seguir {
@@ -261,7 +255,7 @@ a#link__al__menu__especial {
   margin: auto;
 }
 
-.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir,
+.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir, main .btn__comprar,
 .btn__enviar,
 .btn__enviar__footer {
   height: 100px;
@@ -838,8 +832,7 @@ main .card-title {
           justify-content: center;
 }
 
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir,
-.btn__comprar {
+main .btn__comprar {
   margin-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;

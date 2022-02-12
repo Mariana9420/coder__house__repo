@@ -40,6 +40,7 @@ $color in $colors {
 
 .btn__enviar__footer {
     @extend .btn__secundario;
+    justify-content: center;
 }
 
 #btn__menu__main {
@@ -59,14 +60,7 @@ $color in $colors {
     align-content: center;
 }
 
-.btn__comprar {
-    @extend .boton__menu;
-    margin-left: 1rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
-}
+
 
 .btn__seguir {
     @extend .btn__secundario;
@@ -607,16 +601,17 @@ main{
         display: flex;
         justify-content: center;
     }
+    .btn__comprar {
+        @extend .boton__menu;
+        @extend .btn__secundario;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
 }
 
-.btn__secundario,
-.btn__comprar {
-    margin-left: 1rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
-}
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
 @media only screen and (max-width: 599px) {
