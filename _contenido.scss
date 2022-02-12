@@ -460,7 +460,7 @@ a {
     padding-bottom: 5rem;
 }
 
-.pagos__titulo--img .img-fluid {
+.pagos__img .img-fluid {
     height: 100%;
     width: auto;
     margin-top: 25;
@@ -618,9 +618,9 @@ a {
         grid-area:
             "solucion__descripcion__grid"
             "aside__grid";
-           
+         
     }
-                           
+                
     .pagos__container .container {
         width: auto;
     }

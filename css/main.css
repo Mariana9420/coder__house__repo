@@ -675,7 +675,7 @@ a#link__al__menu__especial {
   padding-bottom: 5rem;
 }
 
-.pagos__titulo--img .img-fluid {
+.pagos__img .img-fluid {
   height: 100%;
   width: auto;
   margin-top: 25;
@@ -1546,7 +1546,6 @@ footer {
 
 .newsletter__footer__input {
   margin-bottom: 2rem;
-  padding: 1rem;
 }
 
 .footer__redes__logos {
