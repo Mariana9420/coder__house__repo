@@ -1,6 +1,7 @@
 $main-font-family:"Indie Flower";
 $special-font-family:"cursive";
 $subtitulos-font-family:"Roboto";
+$placeholder-font-size: "2rem";
 
 p {
     font: $main-font-family;
@@ -40,7 +41,7 @@ $caja-titulos-anim-index:(
 .parrafos {
     line-height: 3rem;
     font-size: 2rem;
-    font-family: "Indie Flower";
+    font-family: $main-font-family;
     text-align: center;
     background-color: #ffa500;
     width: 100%;
@@ -64,14 +65,12 @@ $caja-titulos-anim-index:(
     font-size: 2.5rem;
     text-align: center;
 }
-.aside__titulo,
-.form__titulo {
+.aside__titulo{
     font-family: $subtitulos-font-family;
     font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
 }
-
 .aside__descripcion {
     font-family: $main-font-family;
     font-size: 3rem;
@@ -80,11 +79,15 @@ $caja-titulos-anim-index:(
     margin-bottom: 3rem;
     margin-left: 3.2rem;
 }
-
+.parrafo__form {
+    @extend .parrafos;
+    font-family: $main-font-family;
+}
 /*..............PREGUNTAS FRECUENTES................*/
 
-$botones-acordeon-preguntas:(colorFuente: #000,
-    fuenteTam: 3.5rem,
+$botones-acordeon-preguntas:(
+    colorFuente: #000,
+    fuenteTam: 3rem,
     fuenteFamilia: $special-font-family,
 );
 
@@ -92,4 +95,18 @@ $botones-acordeon-preguntas:(colorFuente: #000,
     color: map-get($botones-acordeon-preguntas, colorFuente);
     font-family: map-get($botones-acordeon-preguntas, fuenteFamilia);
     font-size: map-get($botones-acordeon-preguntas, fuenteTam);
+}
+
+.parrafo__respuestas {
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: $main-font-family;
+    width: 100%;
+    margin-top: 2rem;
+}
+/*....................NOSOTROS.................................*/
+.subtitulo__historia {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
 }

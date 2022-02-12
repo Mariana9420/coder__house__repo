@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="header__logo" alt="corazon de frutas y verduras"/></a>
@@ -68,7 +68,10 @@
 
   <section>
     <article>
-      <img src="../images/small-images/facebook_instagraman_logo_small.png" alt="logos redes sociales" />
+      <div class="redes__sociales__logos__container">
+     <a href="https://www.instagram.com" target="about_blanck"><img class="logo__instagram" src="../images/small-images/instagram.svg" alt="icono de instagram"></a>
+   <a href="https://www.facebook.com" target="about_blank"><img class="logo__facebook" src="../images/small-images/facebook.svg" alt ="icono de facebook"/></a>
+    </div>
     </article>
   </section>
 
@@ -78,7 +81,7 @@
     </div>
   </section>
 
-
+<main>
   <h2 class="subtitulo__principal">En qué podemos ayudarte?</h2>
 
   <section class="contacto__container">
@@ -87,14 +90,15 @@
       tus sugerencias, preguntas y reclamos. Estamos aquí para escucharte,
       acompañarte y ayudarte!
     </p>
+    
     <form class="form__seccion__contacto">
       <div class="input__container">
-        <input class="campo" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre*" required />
+        <input class="campo" type="text" name="nombre" placeholder="Ingresa tu nombre*" required />
         <input class="campo" type="text" name="apellido" placeholder="Ingresa tu apellido*" required />
         <input class="campo" type="text" name="mail" placeholder="Ingresa tu email*" required />
 
       </div>
-      <textarea class="campo" name="consulta" id="consulta" cols="50" rows="20"
+      <textarea class="campo" name="mensaje" id="mensaje" cols="50" rows="20"
         placeholder="Ingresá tu mensaje"></textarea>
       <input type="submit" class="btn__form" />
     </form>
@@ -116,22 +120,21 @@
     <article>
       <div>
         <h2 class="subtitulo__principal">Seguinos en nuestras redes!</h2>
-      </div>
-      <div class="redes__sociales__logos__container">
-        <div>
-          <img class="img__redes__sociales" src="../images/facebook_instagram.png" alt="facebook e instagram logos" />
-        </div>
-      </div>
+        <div class="redes__sociales__logos__container__logos">
+          <a href="https://www.instagram.com" target="about_blanck"><img class="logo__instagram__main" src="../images/small-images/instagram.svg" alt="icono de instagram"></a>
+        <a href="https://www.facebook.com" target="about_blank"><img class="logo__facebook__main" src="../images/small-images/facebook.svg" alt ="icono de facebook"/></a>
+         </div>
       <div>
         <button class="btn__secundario btn__seguir" type="button">Seguir!</button>
       </div>
     </article>
   </section>
+</main>
 
   <aside>
     <div class="iconos__container">
       <div>
-        <img class="iconos__wspYFlecha" src="../images/small-images/flecha_arriba_subir.png" alt="flecha arriba" />
+       <a href="#header"><img class="iconos__wspYFlecha" src="../images/small-images/flecha_arriba_subir.png" alt="flecha arriba" /></a>
       </div>
       <div class="container__btn__wsp">
         <a href="#">
