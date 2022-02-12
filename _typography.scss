@@ -1,6 +1,7 @@
 $main-font-family:"Indie Flower";
 $special-font-family:"cursive";
 $subtitulos-font-family:"Roboto";
+$placeholder-font-size: "2rem";
 
 p {
     font: $main-font-family;
@@ -64,14 +65,12 @@ $caja-titulos-anim-index:(
     font-size: 2.5rem;
     text-align: center;
 }
-.aside__titulo,
-.form__titulo {
+.aside__titulo{
     font-family: $subtitulos-font-family;
     font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
 }
-
 .aside__descripcion {
     font-family: $main-font-family;
     font-size: 3rem;
@@ -80,7 +79,10 @@ $caja-titulos-anim-index:(
     margin-bottom: 3rem;
     margin-left: 3.2rem;
 }
-
+.parrafo__form {
+    @extend .parrafos;
+    font-family: $main-font-family;
+}
 /*..............PREGUNTAS FRECUENTES................*/
 
 $botones-acordeon-preguntas:(colorFuente: #000,

@@ -159,10 +159,6 @@ a {
             font-size: 10rem;
         }
     }
-
-
-
-
 /*..........................CLASE BOX PARA ANIMACION DE PORTADA DEL INDEX..................*/
 .box {
     font-size: map-get($caja-titulos-anim-index, fuenteTam);
@@ -395,10 +391,10 @@ a {
     background-color: #ff4500;
     border-radius: 4px;
 
-    .parrafo__form {
-        font-family: $main-font-family;
-    }
+   
 }
+
+
 
 .campo {
     display: block;
@@ -406,22 +402,13 @@ a {
     padding: 10px;
     margin: 10px auto;
     font-size: 2.5rem;
+
+  
 }
-
-
-
 
 #consulta {
     height: 30rem;
 }
-
-
-
-
-
-
-
-
 
 .btn__form {
     padding: 2rem;

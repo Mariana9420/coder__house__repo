@@ -91,7 +91,7 @@ h1 {
   font: "Indie Flower";
 }
 
-.parrafos, .parrafos__descripcion {
+.parrafos, .parrafos__descripcion, .parrafo__form {
   line-height: 3rem;
   font-size: 2rem;
   font-family: "Indie Flower";
@@ -119,8 +119,7 @@ h1 {
   text-align: center;
 }
 
-.aside__titulo,
-.form__titulo {
+.aside__titulo {
   font-family: "Roboto";
   font-size: 4rem;
   text-align: center;
@@ -134,6 +133,10 @@ h1 {
   line-height: 3.5rem;
   margin-bottom: 3rem;
   margin-left: 3.2rem;
+}
+
+.parrafo__form {
+  font-family: "Indie Flower";
 }
 
 /*..............PREGUNTAS FRECUENTES................*/
@@ -613,10 +616,6 @@ a#link__al__menu__especial {
   border-radius: 4px;
 }
 
-.contacto__container .parrafo__form {
-  font-family: "Indie Flower";
-}
-
 .campo {
   display: block;
   width: 50%;
@@ -826,7 +825,7 @@ a#link__al__menu__especial {
   height: 250px;
 }
 
-.parrafos, .parrafos__descripcion,
+.parrafos, .parrafos__descripcion, .parrafo__form,
 .parrafo__menu {
   height: 30%;
   width: 70%;
@@ -1008,7 +1007,7 @@ h4 {
   padding: 0;
 }
 
-.parrafos, .parrafos__descripcion,
+.parrafos, .parrafos__descripcion, .parrafo__form,
 .parrafo__descripcion {
   width: 100%;
   height: auto;
