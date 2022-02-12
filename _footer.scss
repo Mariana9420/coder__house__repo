@@ -48,13 +48,16 @@ footer {
     font-family: cursive;
     color: #fff;
 }
+
 .footer__nav li {
     font-size: 1rem;
 }
-.btn__footer__container{
-display: flex;
-justify-content: flex-end;
+
+.btn__footer__container {
+    display: flex;
+    justify-content: flex-end;
 }
+
 .newsletter {
     display: flex;
     flex-direction: column;
@@ -77,6 +80,22 @@ justify-content: flex-end;
     padding: 1rem;
 }
 
+.footer__redes__logos {
+
+    display: flex;
+
+    .logo__instagram__footer {
+
+        height: 5rem;
+        margin-right: 2rem;
+    }
+
+    .logo__fb__footer {
+        height: 5rem;
+        
+    }
+}
+
 .btn__enviar__footer {
     height: 20%;
     width: 55%;
@@ -88,6 +107,7 @@ justify-content: flex-end;
     grid-column: auto;
     grid-row: auto;
 }
+
 /*.....................................MEDIAS QUERIES INDEX: CELULARES...............*/
 @media only screen and (max-width: 599px) {
     .footer__container {
@@ -96,29 +116,28 @@ justify-content: flex-end;
         grid-template-rows: 1fr;
         grid-template-areas: "tarjeta__contacto"
             "footer__logo";
-          
+
     }
-    
+
     .tarjeta__contacto {
         font-size: 2rem;
-    
+
     }
-    
+
     .footer__logo {
         grid-area: footer__logo;
         grid-column: auto;
         grid-row: auto;
     }
-    
+
     .footer__nav,
     .newsletter__titulo,
     .newsletter__footer__input,
+    .logo__instagram__footer,
+    .logo__fb__footer,
     .btn__enviar__footer,
     .footer__redes__logos {
         display: none;
     }
 }
-/*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
-@media only screen and (min-width: 768px){
 
-}
