@@ -581,9 +581,8 @@ a {
         grid-area:
             "solucion__descripcion__grid"
             "aside__grid";
-        }
+    }
 
-        
     .pagos__container .container {
         width: auto;
     }
@@ -816,75 +815,91 @@ main {
 
 /*.....................................PAGINA NOSOTROS........................................................*/
 
-.img__historia {
-    width: 100%;
-    height: auto;
-}
-
 .parent__container__nosotros {
     display: flex;
     flex-direction: column;
     margin: 30px;
 }
-
+/*..................INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__uno {
     display: flex;
     flex-direction: row;
+
 }
 
-.historia__container__subtitulo__uno {
+@mixin historia__container__subtitulos {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 15%;
     background-color: #fff;
 }
 
-.img__historia__container__uno {
-    display: flex;
-    width: 100%;
-    background-color: #ff4500;
+.historia__container__subtitulo__uno {
+    @include historia__container__subtitulos;
+    margin-left: 15%;
+    justify-content: start;
 }
 
-.img__historia {
-    width: 100%;
-    height: auto;
-}
-
-.historia__container__uno__texto {
+@mixin historia__container__texto {
     display: flex;
     flex-direction: column;
     background-color: #523024;
     max-width: 50%;
+}
+
+.historia__container__uno__texto {
+    @include historia__container__texto;
 }
 
 .parrafo__historia {
     margin: auto;
 }
 
-.historia__container__subtitulo__dos {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20%;
-    background-color: #fff;
-}
-
-.historia__container__dos {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.img__historia__container__dos {
+@mixin img__historia__container {
     display: flex;
     width: 100%;
     background-color: #ff4500;
 }
 
-.historia__container__dos__texto {
-    display: flex;
-    flex-direction: column;
-    background-color: #523024;
-    max-width: 50%;
+.img__historia__container__uno {
+
+    @include img__historia__container;
 }
+
+@mixin img__historia__medidas {
+    width: 100%;
+    height: auto;
+}
+
+.img__historia {
+    @include img__historia__medidas;
+}
+
+/*..................INICIO SEGUNDO CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+
+.historia__container__dos {
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.historia__container__dos__texto {
+
+    @include historia__container__texto;
+}
+
+.historia__container__subtitulo__dos {
+
+    @include historia__container__subtitulos;
+    justify-content: flex-end;
+    margin-right: 20%;
+
+}
+
+.img__historia__container__dos {
+
+    @include img__historia__container;
+}
+
+/*..................INICIO TERCER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 
 .historia__container__subtitulo__tres {
     display: flex;
@@ -899,15 +914,13 @@ main {
 }
 
 .img__historia__container__tres {
-    display: flex;
-    max-width: 100%;
-    background-color: #ff4500;
+
+   @include img__historia__container;
 }
 
 .historia__container__tres__texto {
-    display: flex;
-    flex-direction: column;
-    background-color: #523024;
+    
+  @include historia__container__texto;
 }
 
 /*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/

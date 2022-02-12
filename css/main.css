@@ -1061,11 +1061,6 @@ main .btn__comprar {
 }
 
 /*.....................................PAGINA NOSOTROS........................................................*/
-.img__historia {
-  width: 100%;
-  height: auto;
-}
-
 .parent__container__nosotros {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1077,6 +1072,7 @@ main .btn__comprar {
   margin: 30px;
 }
 
+/*..................INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__uno {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1091,24 +1087,11 @@ main .btn__comprar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #fff;
+  margin-left: 15%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-left: 15%;
-  background-color: #fff;
-}
-
-.img__historia__container__uno {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  background-color: #ff4500;
-}
-
-.img__historia {
-  width: 100%;
-  height: auto;
+          justify-content: start;
 }
 
 .historia__container__uno__texto {
@@ -1127,17 +1110,20 @@ main .btn__comprar {
   margin: auto;
 }
 
-.historia__container__subtitulo__dos {
+.img__historia__container__uno {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-right: 20%;
-  background-color: #fff;
+  width: 100%;
+  background-color: #ff4500;
 }
 
+.img__historia {
+  width: 100%;
+  height: auto;
+}
+
+/*..................INICIO SEGUNDO CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__dos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1146,14 +1132,6 @@ main .btn__comprar {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-}
-
-.img__historia__container__dos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  background-color: #ff4500;
 }
 
 .historia__container__dos__texto {
@@ -1168,6 +1146,26 @@ main .btn__comprar {
   max-width: 50%;
 }
 
+.historia__container__subtitulo__dos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 20%;
+}
+
+.img__historia__container__dos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #ff4500;
+}
+
+/*..................INICIO TERCER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__subtitulo__tres {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1193,7 +1191,7 @@ main .btn__comprar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 100%;
+  width: 100%;
   background-color: #ff4500;
 }
 
@@ -1206,6 +1204,7 @@ main .btn__comprar {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #523024;
+  max-width: 50%;
 }
 
 /*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/
