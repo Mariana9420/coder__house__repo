@@ -396,26 +396,24 @@ a {
     border-radius: 4px;
 
     form {
-    
-                .campo {
-                   @include campo-form;
+        .campo {
+            @include campo-form;
 
-                    &#consulta {
-                        height: 30rem;
-                    }
-                }
+            &#consulta {
+                height: 30rem;
             }
-      
-
-        .btn__form {
-            padding: 2rem;
-            color: #fff;
-            background-color: #2c2727;
-            padding: 10px;
-            cursor: pointer;
-            font-size: 2.5rem;
         }
     }
+
+    .btn__form {
+        padding: 2rem;
+        color: #fff;
+        background-color: #2c2727;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 2.5rem;
+    }
+}
 
 
 /*............................... INDEX: MEDIOS DE PAGO...........................*/
@@ -781,7 +779,6 @@ main {
     }
 }
 
-
 .parrafos,
 .parrafo__descripcion {
     width: 100%;
@@ -824,6 +821,7 @@ main {
     flex-direction: column;
     margin: 30px;
 }
+
 /*.................. NOSOTROS: INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 
 .historia__container__uno {
@@ -915,12 +913,12 @@ main {
 
 .img__historia__container__tres {
 
-   @include img__historia__container;
+    @include img__historia__container;
 }
 
 .historia__container__tres__texto {
-    
-  @include historia__container__textos;
+
+    @include historia__container__textos;
 }
 
 /*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
@@ -953,15 +951,33 @@ main {
 }
 
 /*..................................... PAGINA CONTACTO........................................................*/
+.redes__sociales__logos__container {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+@mixin logos-redes-box-model($height, $margin-right, $margin-top) {
+    height: $height;
+    margin-right: $margin-right;
+    margin-top: $margin-top;
+}
+.logo__instagram{
+    @include logos-redes-box-model(5rem, 2rem, 2rem);
+}
+.logo__facebook{
+    @include logos-redes-box-model(5rem, 2rem, 2rem);
+}
 /* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
-form{
+form {
     .campo {
-       @include campo-form;
+        @include campo-form;
+
         &#mensaje {
             height: 30rem;
         }
     }
 }
+
 /* FIN CÓDIGO PARA EL FORMULARIO*/
 
 .card__contacto__redes {
@@ -989,11 +1005,11 @@ form{
 .redes__sociales__contenedor__padre div {
     justify-content: center;
 }
-
+/*
 .redes__sociales__logos__container {
     display: flex;
     justify-content: center;
-}
+}*/
 
 .img__redes__sociales {
     height: auto;
@@ -1009,7 +1025,7 @@ form{
     width: 20%;
 }
 
-/*..................................... Contacto: MEDIAS QUERIES........................................................*/
+/*..................................... CONTACTO: MEDIAS QUERIES........................................................*/
 @media only screen and (max-width: 599px) {
     .parrafo__form {
         display: none;

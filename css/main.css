@@ -1227,6 +1227,27 @@ main .btn__comprar {
 }
 
 /*..................................... PAGINA CONTACTO........................................................*/
+.redes__sociales__logos__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.logo__instagram {
+  height: 5rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.logo__facebook {
+  height: 5rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
 /* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
 form .campo {
   display: block;
@@ -1279,15 +1300,11 @@ form .campo#mensaje {
           justify-content: center;
 }
 
+/*
 .redes__sociales__logos__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
+    display: flex;
+    justify-content: center;
+}*/
 .img__redes__sociales {
   height: auto;
   background-color: #ff4500;
@@ -1306,7 +1323,7 @@ form .campo#mensaje {
   width: 20%;
 }
 
-/*..................................... Contacto: MEDIAS QUERIES........................................................*/
+/*..................................... CONTACTO: MEDIAS QUERIES........................................................*/
 @media only screen and (max-width: 599px) {
   .parrafo__form {
     display: none;
