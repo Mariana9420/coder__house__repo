@@ -715,7 +715,7 @@ a#link__al__menu__especial {
     text-align: center;
     margin-top: 5rem;
     margin-left: 3.5rem;
-    color: #000000;
+    color: #000;
   }
   .portada__btn__link__al__menu__container {
     height: auto;
@@ -724,9 +724,7 @@ a#link__al__menu__especial {
     max-width: 200px;
     margin-left: 2rem;
   }
-  .info__contacto__descripcion {
-    display: none;
-  }
+  .info__contacto__descripcion,
   .subtitulo__principal,
   .propuesta__container__grid,
   .animUno,
@@ -783,13 +781,13 @@ a#link__al__menu__especial {
   nav {
     width: 100%;
   }
-  .navbar-toggler-icon {
-    background-color: orange;
+  nav .navbar-toggler-icon {
+    background-color: #ffa500;
     padding: 2.3rem;
   }
   .banner__text h1 {
     font-size: 8rem;
-    color: #000000;
+    color: #000;
   }
   /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
   .propuesta__container__grid .container {

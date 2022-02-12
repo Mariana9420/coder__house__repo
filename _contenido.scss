@@ -454,9 +454,6 @@ a {
         height: 50%;
     }
 }
-
-
-
 /*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
 
 @media only screen and (max-width: 599px) {
@@ -464,51 +461,37 @@ a {
     .header__title {
         display: none;
     }
-
     .container-fluid {
         background-color: greenyellow;
     }
-
     header nav li a {
         display: none;
     }
-
     .header__nav--carrito {
         display: none;
     }
-
-
     .navbar-toggler-icon {
         padding: 40px;
-
     }
-
     .portada__titulo {
         font-size: 7rem;
     }
-
-    .banner__text h1 {
+    .banner__text
+     h1 {
         font-size: 4.5rem;
         text-align: center;
         margin-top: 5rem;
         margin-left: 3.5rem;
-        color: #000000;
-    }
-
+        color: #000;
+     }
     .portada__btn__link__al__menu__container {
         height: auto;
     }
-
     .portada__btn__menu {
         max-width: 200px;
         margin-left: 2rem;
-
     }
-
-    .info__contacto__descripcion {
-        display: none;
-    }
-
+    .info__contacto__descripcion,
     .subtitulo__principal,
     .propuesta__container__grid,
     .animUno,
@@ -521,11 +504,9 @@ a {
     .aside {
         display: none;
     }
-
     .subtitulo__principal {
         font-size: 5rem;
     }
-
     .grid__main__container {
         display: grid;
         flex-direction: column;
@@ -537,53 +518,45 @@ a {
             "comidaTres"
         ;
         max-width: 599px;
-
     }
-
     .subtitulos__especiales {
         font-size: 5rem;
     }
-
     .parrafo__descripcion {
         font-size: 3rem;
     }
-
     .btn__menu {
         font-size: 3rem;
     }
-
     #btn__menu__main {
         width: 50%;
         height: 15rem;
     }
-
     textarea {
         max-height: 320px;
     }
-
     .container__btn__wsp,
     .btn__wsp {
         display: none;
     }
-
-
 }
-
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
 @media only screen and (min-width: 768px) {
 
     nav {
         width: 100%;
-    }
-
+         
     .navbar-toggler-icon {
-        background-color: orange;
+        background-color: #ffa500;
         padding: 2.3rem;
     }
-
-    .banner__text h1 {
-        font-size: 8rem;
-        color: #000000;
+    }
+ 
+    .banner__text {
+        h1{
+            font-size: 8rem;
+            color: #000;
+        }
     }
 
     /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
