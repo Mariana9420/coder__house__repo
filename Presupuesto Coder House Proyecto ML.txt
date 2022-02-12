@@ -1,0 +1,78 @@
+
+Perfil del cliente:
+
+Quién es Viandas Gaia?: Es un emprendimiento pequeño-mediano que cuenta con un pequeño local en Vicente López. Pese a tener un local físico, el negocio no es tan conocido como sus dueños quieren y no tiene mucha visibilidad hasta ahora.
+
+Qué busca mi cliente?: Viandas Gaia busca que más gente conozca y compre sus viandas saludables a través de una página web propia. Hasta ahora sólo vendió mediante Facebook e Instagram y del boca a boca, pero sus clientes son pocos y son siempre los mismos. Éstos son particulares, hasta ahora jamás
+le vendió a empresas.
+Además de ampliar su cartera de clientes, sus dueños desean poder ampliar su local para mayor comodidad y organización, así como abrir nuevas sucursales en un futuro cercano en CABA y en otras zonas.
+
+Hacia dónde va la página web que quiere?: Viandas Gaia quiere llegar también a empresas, tener más visibilidad más allá de las redes sociales. Quiere que tanto particulares como empresas puedan conocer la marca y hacer sus pedidos sin importar en la zona donde se encuentren. 
+
+Presupuesto Desarollo Web 
+
+Nombre                           Fecha                  Nº de proyecto        Válido hasta
+
+Viandas Gaia SRL               20/11/2021                     007                01/12/2021
+
+
+Servicio        Descripción                                            Horas             Precio total (Pesos arg) 
+
+  1             Armado del wireframe de 5 (cinco) secciones              5 hs             3.000       
+
+  2             Maquetación de todo el sitio                            20 hs             15.000  
+
+  3             Desarrollo de todo el sitio                             60 hs             50.000
+
+  4             Posicionamiento SEO                                      5 hs             10.000
+
+  5             Subida al servidor y hostig                              1 hs             3.500
+
+  6             Seguridad                                                                 5.000 
+ ...................................................................................................
+                                                                       Sub Total          86.500
+                                                                       ..........................                                           
+                                                                       IVA (21%)          18.165
+                                                                      ...........................    
+                                                                       TOTAL en pesos    $ 104.665
+
+
+
+Términos y condiciones: 
+
+- El pago se realizará 50% al comienzo del proyecto y el 50% al finalizarlo a través de transferencia bancaria o Mercado Pago.
+
+- Aprobado el presupuesto, el mismo tomará el carácter de contrato que será firmado por el cliente donde ponga por escrito su conformidad con los servicios
+ descritos.
+
+
+
+Descripción: 
+
+Se desarrollará la maquetación, hosting, subida al servidor y SEO de una página web que constará de 5 (cinco) secciones. Las mismas serán:
+
+- Home
+- Nuestro menú
+- Preguntas frecuentes
+- Nosotros
+- Contacto
+
+Herramientas y/o tecnologías implementadas en el desarrollo de la web de Viandas Gaia:
+
+- Marvel versión paga (para el desarrollo del wireframe)
+- HTML
+- CSS y SASS
+- Framework: Bootstrap 5
+
+
+Servicios incluidos:
+
+- Optimización para SEO
+- SEO con Google Analitics
+- Subida al servidor y hosting
+
+No incluye:
+
+- Renovación de dominio
+- Instalación adicionales de plugglins
+

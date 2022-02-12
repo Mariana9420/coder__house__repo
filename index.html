@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css-bst/bootstrap.min.css" />
-  <link rel="stylesheet" href="./estilos/styles.css" />
-  <link rel="stylesheet" href="./css/main.css"/>
+  <link rel="stylesheet" href="./css/main.css" />
   <link rel="shortcut icon" href="./images/favicon.png" />
   <link
     href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Rancho&display=swap"
@@ -19,15 +18,16 @@
     rel="stylesheet">
   <title>Viandas Gaia Home</title>
   <meta name="DESCRIPTION" content="Viandas Gaia combina lo rico con lo saladable ofreciendo sabor a cada plato. 
-   Pedí tus viandas saludables y exquisitas con la opcion de planes de comida personalizados"/>
-    <meta name="KEYWORDS" content="viandas saludables,comida saludable,comida light,comer sano y rico,viandas">
+   Pedí tus viandas saludables y exquisitas con la opcion de planes de comida personalizados" />
+  <meta name="KEYWORDS" content="viandas saludables,comida saludable,comida light,comer sano y rico,viandas">
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid ">
-        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="header__logo" alt="corazon de frutas y verduras" /></a>
+        <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="header__logo"
+            alt="corazon de frutas y verduras" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,11 +55,13 @@
   <section>
     <div>
       <article class="info__contacto__descripcion">
-        <p>Dirección: Av. Siempreviva 123 - Olivos - Buenos Aires</p>
-        <p>Tel.: +54 111-222-444</p>
-        <p>WhatsApp: +54 11 3322-1144</p>
-        <p>E-Mail: viandasGaia@fakemail.com</p>
-        <p>Días y horarios: L a V de 11 a 15 y de 19 a 23 hs</p>
+        <ul>
+          <li>Dirección: Av. Siempreviva 123 - Olivos - Buenos Aires</li>
+          <li>Tel.: +54 111-222-444</li>
+          <li>WhatsApp: +54 11 3322-1144</li>
+          <li>E-Mail: viandasGaia@fakemail.com</li>
+          <li>Días y horarios: L a V de 11 a 15 y de 19 a 23 hs</li>
+        </ul>
       </article>
     </div>
   </section>
@@ -70,26 +72,26 @@
     <div class="row row__portada__index">
       <div class="col-md-12">
 
-        <div class="portada__container ">
+        <div class="portada__container portada__index">
           <div class="banner">
             <div class="banner__text">
               <h1>Viandas Gaia</h1>
-            <div class="text__wrapper">
-              <div class="box b1 animUno #titulos__animados__index">
-                Rico y nutritivo
-              </div>
-              <div class="box b2 animDos #titulos__animados__index">
-                Sano
-              </div>
-              <div class="box b3 animTres #titulos__animados__index">
-                La mejor opción
-              </div>
-              <div class="box b4 animCuatro #titulos__animados__index">
-                Para todos los gustos
+              <div>
+                <div class="box b1 animUno #titulos__animados__index">
+                  Rico y nutritivo
+                </div>
+                <div class="box b2 animDos #titulos__animados__index">
+                  Sano
+                </div>
+                <div class="box b3 animTres #titulos__animados__index">
+                  La mejor opción
+                </div>
+                <div class="box b4 animCuatro #titulos__animados__index">
+                  Para todos los gustos
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
           <div class="portada__btn__link__al__menu__container">
             <a id="link__al__menu__especial" href="./paginas/menu.html"><button class="portada__btn__menu"
@@ -110,8 +112,7 @@
 
     <div class="propuesta__container__grid container">
       <div class="solucion__image__container">
-        <img class="solucion__image viandas__varias__grid" src="./images/small-images/viandas_varias.jpg"
-          alt="viandas varias" />
+        <img class="viandas__varias__grid" src="./images/small-images/viandas_varias.jpg" alt="viandas varias" />
       </div>
 
       <div class="solucion__descripcion__container">
@@ -139,7 +140,6 @@
           </div>
         </aside>
       </div>
-
     </div>
   </section>
 
@@ -205,7 +205,7 @@
       <!--FIN DEL GRID CONTAINER -->
     </div>
     <div>
-      <a href="./paginas/menu.html"> <button class="btn__secundario btn__menu" id="btn__menu__main" type="button">Ver
+      <a href="./paginas/menu.html"> <button class="btn__menu" id="btn__menu__main" type="button">Ver
           menú</button></a>
     </div>
 
@@ -217,8 +217,8 @@
       contacto
       con vos a la brevedad!
     </p>
-    <form class="form__seccion__contacto">
-      <div class="input__container">
+    <form>
+      <div>
         <input class="campo" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre*" required />
         <input class="campo" type="text" name="apellido" placeholder="Ingresa tu apellido*" required />
         <input class="campo" type="text" name="mail" placeholder="Ingresa tu email*" required />
@@ -232,10 +232,10 @@
 
   <section class="container">
     <article>
-      <h2 class="pagos__titulo">Podés pagar con</h2>
+      <h2 class="subtitulo__principal">Podés pagar con</h2>
       <div class="pagos__container container bg--orange">
 
-        <img class="pagos__titulo--img img-fluid" src="./images/medios_de_pago.jpg" alt="medios de pago" />
+        <img class="pagos__img img-fluid" src="./images/medios_de_pago.jpg" alt="medios de pago" />
 
       </div>
     </article>
@@ -267,53 +267,56 @@
             </a>
           </div>
           <div class="footer__tarjeta--descripcion tarjeta__contacto">
-            <p>Dirección: Av. Siempreviva 123; Bs. As - Argentina</p>
-            <p>Horarios: 11 a 15 hs y de 19 a 23 hs.</p>
-            <p>Tel.: +54 111 222 444</p>
-            <p>E-Mail: viandasGaia@fakemail.com</p>
+            <ul>
+              <li>Dirección: Av. Siempreviva 123; Bs. As - Argentina</li>
+              <li>Horarios: 11 a 15 hs y de 19 a 23 hs.</li>
+              <li>Tel.: +54 111 222 444</li>
+              <li>E-Mail: viandasGaia@fakemail.com</li>
+            </ul>
           </div>
         </div>
       </section>
 
-
-      <nav class="footer__nav">
-        <ul>
-          <li>
-            <a id="link__naranja" href="./index.html">Home</a>
-          </li>
-          <li>
-            <a id="link__naranja" href="./paginas/menu.html">Nuestro menú</a>
-          </li>
-          <li>
-            <a id="link__naranja" href="./paginas/preguntas_frecuentes.html">Preguntas frecuentes</a>
-          </li>
-          <li>
-            <a id="link__naranja" href="./paginas/nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a id="link__naranja" href="./paginas/contacto.html">Contacto</a>
-          </li>
-      </nav>
-
-
-      <article class="newsletter">
-        <h4 class="newsletter__titulo">¿Qué hay de nuevo? ¡Descubrilo!</h4>
-        <input class="newsletter__footer__input" type="text" name="newsletter" id="newsletter"
-          placeholder="Escribí tu mail aquí" required />
-        <div>
-          <button class="btn__enviar__footer" type="button">Enviar</button>
-        </div>
-      </article>
-
-      <div class="footer__redes__logos">
-        <img src="./images/small-images/facebook_instagraman_logo_small.png" alt="facebook e instagraman logo" />
+      <div>
+        <nav class="footer__nav">
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./paginas/menu.html">Nuestro menú</a>
+            </li>
+            <li>
+              <a href="./paginas/preguntas_frecuentes.html">Preguntas frecuentes</a>
+            </li>
+            <li>
+              <a href="./paginas/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a href="./paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
       </div>
 
+      <div>
+        <article class="newsletter">
+          <h4 class="newsletter__titulo">¿Qué hay de nuevo? ¡Descubrilo!</h4>
+          <input class="newsletter__footer__input" type="text" name="newsletter" id="newsletter"
+            placeholder="Escribí tu mail aquí" required />
+
+          <div class=" btn__footer__container">
+            <div class="footer__redes__logos">
+             <a href="https://www.instagram.com" target="about_blanck"><img src="./images/small-images/instagram.svg" class="logo__instagram__footer" alt="Instagram logo" /></a>
+           <a href="https://www.facebook.com" target="about_blanck"><img src="./images/small-images/facebook.svg" class="logo__fb__footer" alt="Facebook logo" /></a>
+            </div>
+            <button class="btn__enviar__footer" type="button">Enviar</button>
+          </div>
+        </article>
     </div>
     <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
   </footer>
-
+  <script src="./js/bootstrap.min.js"></script>
 </body>
- <script src="./js/bootstrap.min.js"></script>
 
 </html>
