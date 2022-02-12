@@ -828,6 +828,20 @@ main .card-title {
           justify-content: center;
 }
 
+main .modal-header {
+  background-color: orange;
+}
+
+main .modal-body {
+  font-size: 3rem;
+  font-family: "Indie Flower";
+  background-color: #ffa500;
+}
+
+main .modal-footer {
+  background-color: #ffa500;
+}
+
 main .btn__comprar {
   margin-left: 1rem;
   display: -webkit-box;

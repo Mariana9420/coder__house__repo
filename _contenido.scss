@@ -604,7 +604,17 @@ main {
         display: flex;
         justify-content: center;
     }
-
+.modal-header{
+    background-color: orange;
+}
+.modal-body{
+    font-size: 3rem;
+    font-family: $main-font-family;
+    background-color: #ffa500;
+}
+.modal-footer{
+    background-color: #ffa500;
+}
     .btn__comprar {
         @extend .boton__menu;
         @extend .btn__secundario;
