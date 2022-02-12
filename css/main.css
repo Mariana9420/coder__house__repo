@@ -625,7 +625,7 @@ a#link__al__menu__especial {
   border-radius: 4px;
 }
 
-.contacto__container form div input .campo {
+.contacto__container form .campo {
   display: block;
   width: 50%;
   padding: 10px;
@@ -633,11 +633,11 @@ a#link__al__menu__especial {
   font-size: 2.5rem;
 }
 
-.contacto__container form div input .campo#consulta {
+.contacto__container form .campo#consulta {
   height: 30rem;
 }
 
-.contacto__container form .btn__form {
+.contacto__container .btn__form {
   padding: 2rem;
   color: #fff;
   background-color: #2c2727;
@@ -1072,7 +1072,7 @@ main .btn__comprar {
   margin: 30px;
 }
 
-/*..................INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+/*.................. NOSOTROS: INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__uno {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1123,7 +1123,7 @@ main .btn__comprar {
   height: auto;
 }
 
-/*..................INICIO SEGUNDO CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+/*..................NOSOTROS: INICIO SEGUNDO CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__dos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1153,7 +1153,7 @@ main .btn__comprar {
   background-color: #ff4500;
 }
 
-/*..................INICIO TERCER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+/*..................NOSOTROS: INICIO TERCER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 .historia__container__subtitulo__tres {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1227,32 +1227,25 @@ main .btn__comprar {
 }
 
 /*..................................... PAGINA CONTACTO........................................................*/
-/* INICIO CÓDIGO PARA EL FORMULARIO*/
-.contacto__container {
-  text-align: center;
-  margin: 50px;
-  padding: 30px;
-  border: solid 1px #99A799;
-  border-radius: 4px;
-}
-
-.parrafo__form {
-  font-family: "Indie Flower";
-}
-
-.campo {
+/* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
+form .campo {
   display: block;
   width: 50%;
   padding: 10px;
   margin: 10px auto;
+  font-size: 2.5rem;
 }
 
+form .campo#mensaje {
+  height: 30rem;
+}
+
+/* FIN CÓDIGO PARA EL FORMULARIO*/
 .card__contacto__redes {
   max-width: 500px;
   margin-left: 500px;
 }
 
-/* FIN CÓDIGO PARA EL FORMULARIO*/
 .mapa__container {
   display: -webkit-box;
   display: -ms-flexbox;

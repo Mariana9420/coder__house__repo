@@ -378,6 +378,15 @@ a {
 }
 
 /*...............................INDEX: FORMULARIO DE CONTACTO...........................*/
+
+@mixin campo-form {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 2.5rem;
+}
+
 .contacto__container {
     text-align: center;
     margin: 50px;
@@ -387,21 +396,16 @@ a {
     border-radius: 4px;
 
     form {
-        div {
-            input {
+    
                 .campo {
-                    display: block;
-                    width: 50%;
-                    padding: 10px;
-                    margin: 10px auto;
-                    font-size: 2.5rem;
+                   @include campo-form;
 
                     &#consulta {
                         height: 30rem;
                     }
                 }
             }
-        }
+      
 
         .btn__form {
             padding: 2rem;
@@ -412,7 +416,7 @@ a {
             font-size: 2.5rem;
         }
     }
-}
+
 
 /*............................... INDEX: MEDIOS DE PAGO...........................*/
 
@@ -820,7 +824,7 @@ main {
     flex-direction: column;
     margin: 30px;
 }
-/*..................INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+/*.................. NOSOTROS: INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 
 .historia__container__uno {
     display: flex;
@@ -874,7 +878,7 @@ main {
     @include img__historia__medidas;
 }
 
-/*..................INICIO SEGUNDO CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+/*..................NOSOTROS: INICIO SEGUNDO CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 
 .historia__container__dos {
 
@@ -895,7 +899,7 @@ main {
     @include img__historia__container;
 }
 
-/*..................INICIO TERCER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+/*..................NOSOTROS: INICIO TERCER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
 
 .historia__container__subtitulo__tres {
     display: flex;
@@ -949,32 +953,21 @@ main {
 }
 
 /*..................................... PAGINA CONTACTO........................................................*/
-/* INICIO CÓDIGO PARA EL FORMULARIO*/
-.contacto__container {
-    text-align: center;
-    margin: 50px;
-    padding: 30px;
-    border: solid 1px #99A799;
-    border-radius: 4px;
+/* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
+form{
+    .campo {
+       @include campo-form;
+        &#mensaje {
+            height: 30rem;
+        }
+    }
 }
-
-.parrafo__form {
-    font-family: "Indie Flower";
-}
-
-.campo {
-    display: block;
-    width: 50%;
-    padding: 10px;
-    margin: 10px auto;
-}
+/* FIN CÓDIGO PARA EL FORMULARIO*/
 
 .card__contacto__redes {
     max-width: 500px;
     margin-left: 500px;
 }
-
-/* FIN CÓDIGO PARA EL FORMULARIO*/
 
 .mapa__container {
     display: flex;
