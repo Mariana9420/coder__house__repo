@@ -146,6 +146,21 @@ h1 {
   font-size: 3rem;
 }
 
+.parrafo__respuestas {
+  line-height: 3rem;
+  font-size: 2rem;
+  font-family: "Indie Flower";
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/*....................NOSOTROS.................................*/
+.subtitulo__historia {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
 .bg--orange {
   background-color: #ffa500;
 }
@@ -977,9 +992,6 @@ main .btn__comprar {
 
 .preguntas__container__principal .preguntas__elementos {
   padding: 0;
-}
-
-.preguntas__container__principal .preguntas__elementos {
   background-color: #ff4500;
   padding: 60px 55px;
   margin-bottom: 5rem;
@@ -1013,14 +1025,6 @@ main .btn__comprar {
   width: 100%;
   height: auto;
   margin-left: 1%;
-}
-
-.parrafo__respuestas {
-  line-height: 3rem;
-  font-size: 2rem;
-  font-family: "Indie Flower";
-  width: 100%;
-  margin-top: 2rem;
 }
 
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
