@@ -1094,7 +1094,7 @@ main .btn__comprar {
           justify-content: start;
 }
 
-.historia__container__uno__texto {
+.historia__container__texto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1132,18 +1132,6 @@ main .btn__comprar {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-}
-
-.historia__container__dos__texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #523024;
-  max-width: 50%;
 }
 
 .historia__container__subtitulo__dos {
@@ -1207,7 +1195,7 @@ main .btn__comprar {
   max-width: 50%;
 }
 
-/*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/
+/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
 @media only screen and (max-width: 599px) {
   .historia__container__uno {
     -webkit-box-orient: vertical;
@@ -1215,7 +1203,7 @@ main .btn__comprar {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .historia__container__uno__texto {
+  .historia__container__texto {
     max-width: 100%;
   }
   .historia__container__dos {
@@ -1223,9 +1211,6 @@ main .btn__comprar {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .historia__container__dos__texto {
-    max-width: 100%;
   }
   .historia__container__tres {
     -webkit-box-orient: vertical;

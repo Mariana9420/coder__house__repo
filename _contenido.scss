@@ -821,6 +821,7 @@ main {
     margin: 30px;
 }
 /*..................INICIO PRIMER CONTAINER CON IMG Y TEXTO HISTORIA DE LA EMPRESA........................*/
+
 .historia__container__uno {
     display: flex;
     flex-direction: row;
@@ -838,15 +839,15 @@ main {
     justify-content: start;
 }
 
-@mixin historia__container__texto {
+@mixin historia__container__textos {
     display: flex;
     flex-direction: column;
     background-color: #523024;
     max-width: 50%;
 }
 
-.historia__container__uno__texto {
-    @include historia__container__texto;
+.historia__container__texto {
+    @include historia__container__textos;
 }
 
 .parrafo__historia {
@@ -879,11 +880,6 @@ main {
 
     display: flex;
     flex-direction: row-reverse;
-}
-
-.historia__container__dos__texto {
-
-    @include historia__container__texto;
 }
 
 .historia__container__subtitulo__dos {
@@ -920,10 +916,10 @@ main {
 
 .historia__container__tres__texto {
     
-  @include historia__container__texto;
+  @include historia__container__textos;
 }
 
-/*..................................... NOSOTROS: MEDIAS QUERIES........................................................*/
+/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
 @media only screen and (max-width: 599px) {
 
     .historia__container__uno {
@@ -931,16 +927,12 @@ main {
 
     }
 
-    .historia__container__uno__texto {
+    .historia__container__texto {
         max-width: 100%;
     }
 
     .historia__container__dos {
         flex-direction: column;
-    }
-
-    .historia__container__dos__texto {
-        max-width: 100%;
     }
 
     .historia__container__tres {
