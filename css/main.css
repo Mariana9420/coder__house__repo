@@ -789,7 +789,6 @@ a#link__al__menu__especial {
     font-size: 8rem;
     color: #000;
   }
-  /*REVISAR Y REHACER VERSION PARA TABLET CON GRID PARA HACER LAYOUT (FUE HECHO EN FORMA MANUAL)*/
   .propuesta__container__grid .container {
     -ms-grid-columns: 3, 1fr;
         grid-template-columns: 3, 1fr;
@@ -811,8 +810,7 @@ a#link__al__menu__especial {
   height: 250px;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form,
-.parrafo__menu {
+.parrafos, .parrafos__descripcion, .parrafo__form, .parrafo__menu {
   height: 30%;
   width: 70%;
   margin-top: 5rem;
