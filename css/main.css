@@ -692,20 +692,17 @@ a#link__al__menu__especial {
 
 /*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
 @media only screen and (max-width: 599px) {
-  .header__title {
-    display: none;
-  }
-  .container-fluid {
+  header nav .container-fluid {
     background-color: greenyellow;
   }
-  header nav li a {
+  header nav .container-fluid header nav li a {
     display: none;
   }
-  .header__nav--carrito {
-    display: none;
-  }
-  .navbar-toggler-icon {
+  header nav .container-fluid .navbar-toggler-icon {
     padding: 40px;
+  }
+  header nav .container-fluid .header__nav--carrito {
+    display: none;
   }
   .portada__titulo {
     font-size: 7rem;
@@ -720,7 +717,7 @@ a#link__al__menu__especial {
   .portada__btn__link__al__menu__container {
     height: auto;
   }
-  .portada__btn__menu {
+  .portada__btn__link__al__menu__container .portada__btn__menu {
     max-width: 200px;
     margin-left: 2rem;
   }

@@ -457,21 +457,21 @@ a {
 /*.....................................MEDIAS QUERIES INDEX : CELULARES...............*/
 
 @media only screen and (max-width: 599px) {
-
-    .header__title {
-        display: none;
-    }
-    .container-fluid {
-        background-color: greenyellow;
-    }
-    header nav li a {
-        display: none;
-    }
-    .header__nav--carrito {
-        display: none;
-    }
-    .navbar-toggler-icon {
-        padding: 40px;
+    header{
+      nav{
+        .container-fluid {
+            background-color: greenyellow;
+            header nav li a {
+                display: none;
+            }
+            .navbar-toggler-icon {
+                padding: 40px;
+            }
+            .header__nav--carrito {
+                display: none;
+            }
+        }
+      }
     }
     .portada__titulo {
         font-size: 7rem;
@@ -486,11 +486,13 @@ a {
      }
     .portada__btn__link__al__menu__container {
         height: auto;
+        
+        .portada__btn__menu {
+            max-width: 200px;
+            margin-left: 2rem;
+        }
     }
-    .portada__btn__menu {
-        max-width: 200px;
-        margin-left: 2rem;
-    }
+  
     .info__contacto__descripcion,
     .subtitulo__principal,
     .propuesta__container__grid,
@@ -570,7 +572,6 @@ a {
         width: auto;
     }
 }
-
 /*.....................................PAGINA NUESTRO MENÚ........................................................*/
 
 .articulo__menu__container {
@@ -589,7 +590,6 @@ a {
     margin-bottom: 3rem;
     padding: 45px;
 }
-
 .platos {
     height: 240px;
     width: 100%;
