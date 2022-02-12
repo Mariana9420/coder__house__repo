@@ -1558,10 +1558,12 @@ footer {
 .footer__redes__logos .logo__instagram__footer {
   height: 5rem;
   margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .footer__redes__logos .logo__fb__footer {
   height: 5rem;
+  margin-top: 2rem;
 }
 
 .btn__enviar__footer {
