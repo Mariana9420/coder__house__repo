@@ -17,7 +17,7 @@
 }
 
 .btn__menu {
-   @extend .btn__base;
+    @extend .btn__base;
     @include btn-medidas(500px, 100px);
     margin-left: 5rem;
     font-size: 3rem;
@@ -49,21 +49,19 @@
     font-size: 2.5rem;
 }
 
-
 .btn__comprar {
     @extend .btn__base;
+    @include btn-medidas(100%, 7.5rem);
+    margin-top: 2rem;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
-    
 }
 
 .btn__seguir {
     @extend .btn__base;
-   display: flex;
-   @include btn-medidas(20%, 50%);
+    @include btn-medidas(20%, 50%);
+    display: flex;
     margin-left: 40%;
     justify-content: center;
     margin-bottom: 3%;
@@ -71,13 +69,13 @@
 }
 
 .btn__enviar__footer {
-    
+
     font-family: "Roboto";
     color: #fff;
     background-color: #3a3838;
- width: 55%;
- height: 20%;
-  justify-content: center;
+    width: 55%;
+    height: 20%;
+    justify-content: center;
     font-size: 1.5rem;
     padding: 1.5rem;
     grid-area: btn;
