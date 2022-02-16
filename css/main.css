@@ -174,17 +174,7 @@ h1 {
 }
 
 /*...........................................BOTONES ESTILOS..............................*/
-.boton__menu, #btn__menu__main, #btn-link-preguntas, main .btn__comprar {
-  width: 500px;
-  height: 100px;
-  margin-left: 5rem;
-  font-size: 3rem;
-  font-family: "Roboto";
-  color: #fff;
-  background-color: #3a3838;
-}
-
-.btn__secundario, .btn__enviar, .btn__enviar__footer, main .btn__comprar, .btn__seguir {
+.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,23 +189,6 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#btn__menu__main {
-  width: 30%;
-  padding: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  margin-left: 35%;
-}
-
-#btn-link-preguntas {
-  width: 230px;
-  height: 50px;
-  font-size: 2rem;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
@@ -261,11 +234,11 @@ a#link__al__menu__especial {
       align-self: center;
 }
 
-.portada__btn__menu {
+.btn__menu {
   margin: auto;
 }
 
-.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, main .btn__comprar, .btn__seguir,
+.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir,
 .btn__enviar,
 .btn__enviar__footer {
   height: 100px;
@@ -701,7 +674,7 @@ a#link__al__menu__especial {
   .portada__btn__link__al__menu__container {
     height: auto;
   }
-  .portada__btn__link__al__menu__container .portada__btn__menu {
+  .portada__btn__link__al__menu__container .btn__menu {
     max-width: 200px;
     margin-left: 2rem;
   }
@@ -840,18 +813,6 @@ main .modal-body {
 
 main .modal-footer {
   background-color: #ffa500;
-}
-
-main .btn__comprar {
-  margin-left: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin-top: 2rem;
 }
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
@@ -1568,5 +1529,90 @@ footer {
   .footer__redes__logos {
     display: none;
   }
+}
+
+/*...........................................BOTONES ESTILOS..............................*/
+.btn__base, .btn__menu, #btn__menu__main, #btn-link-preguntas, .btn__comprar, .btn__seguir {
+  font-family: "Roboto";
+  color: #fff;
+  background-color: #3a3838;
+}
+
+.btn__menu {
+  width: 500px;
+  height: 100px;
+  margin-left: 5rem;
+  font-size: 3rem;
+}
+
+#btn__menu__main {
+  width: 30%;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-left: 35%;
+}
+
+#btn-link-preguntas {
+  width: 230px;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.btn__form {
+  padding: 2rem;
+  color: #fff;
+  background-color: #2c2727;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.btn__comprar {
+  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn__seguir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  height: 50%;
+  margin-left: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3%;
+  padding: 1.5rem;
+}
+
+.btn__enviar__footer {
+  font-family: "Roboto";
+  color: #fff;
+  background-color: #3a3838;
+  width: 55%;
+  height: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: btn;
+  margin-left: 5rem;
+  grid-column: auto;
+  grid-row: auto;
 }
 /*# sourceMappingURL=main.css.map */

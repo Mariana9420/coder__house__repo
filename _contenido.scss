@@ -17,14 +17,6 @@ $color in $colors {
     height: $height;
 }
 
-.boton__menu {
-    @include btn-medidas(500px, 100px);
-    margin-left: 5rem;
-    font-size: 3rem;
-    font-family: "Roboto";
-    color: #fff;
-    background-color: #3a3838;
-}
 
 .btn__secundario {
     display: flex;
@@ -43,22 +35,9 @@ $color in $colors {
     justify-content: center;
 }
 
-#btn__menu__main {
-    @extend .boton__menu;
-    width: 30%;
-    padding: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    margin-left: 35%;
-}
 
-#btn-link-preguntas {
-    @extend .boton__menu;
-    @include btn-medidas(230px, 50px);
-    font-size: 2rem;
-    text-align: center;
-    align-content: center;
-}
+
+
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 .row__portada__index {
@@ -95,11 +74,11 @@ a {
     }
 }
 
-.portada__btn__menu {
+.btn__menu {
     margin: auto;
 }
 
-.portada__btn__menu,
+
 .btn__secundario,
 .btn__enviar,
 .btn__enviar__footer {
@@ -462,7 +441,7 @@ a {
     .portada__btn__link__al__menu__container {
         height: auto;
 
-        .portada__btn__menu {
+        .btn__menu {
             max-width: 200px;
             margin-left: 2rem;
         }
@@ -615,15 +594,7 @@ main {
 .modal-footer{
     background-color: #ffa500;
 }
-    .btn__comprar {
-        @extend .boton__menu;
-        @extend .btn__secundario;
-        margin-left: 1rem;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 2rem;
-    }
+   
 }
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
