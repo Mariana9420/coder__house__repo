@@ -488,12 +488,15 @@ a {
 
     .btn__menu {
         font-size: 3rem;
+
+        &#btn__menu__main {
+            width: 50%;
+            height: 15rem;
+        }
+       
     }
 
-    #btn__menu__main {
-        width: 50%;
-        height: 15rem;
-    }
+  
 
     textarea {
         max-height: 320px;
