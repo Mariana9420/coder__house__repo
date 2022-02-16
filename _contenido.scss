@@ -495,12 +495,20 @@ a {
         }
        
     }
-
+    .contacto__container{
+        max-width: 100%;
+        form{
+            .campo{
+                width: 100%;
+            }
+            textarea {
+                max-height: 320px;
+            }
+        }
+    }
   
 
-    textarea {
-        max-height: 320px;
-    }
+    
 
     .container__btn__wsp,
     .btn__wsp {

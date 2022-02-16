@@ -721,7 +721,13 @@ a#link__al__menu__especial {
     width: 50%;
     height: 15rem;
   }
-  textarea {
+  .contacto__container {
+    max-width: 100%;
+  }
+  .contacto__container form .campo {
+    width: 100%;
+  }
+  .contacto__container form textarea {
     max-height: 320px;
   }
   .container__btn__wsp,
