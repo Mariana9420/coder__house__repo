@@ -68,13 +68,10 @@
     padding: 1.5rem;
 }
 
-.btn__enviar__footer {
 
-    font-family: "Roboto";
-    color: #fff;
-    background-color: #3a3838;
-    width: 55%;
-    height: 20%;
+.btn__enviar__footer {
+    @extend .btn__base;
+    @include btn-medidas(55%, 20%);
     justify-content: center;
     font-size: 1.5rem;
     padding: 1.5rem;
