@@ -47,6 +47,11 @@ footer {
     font-size: 2rem;
     font-family: cursive;
     color: #fff;
+    text-decoration: none;
+
+    &#link__naranja__footer:hover{
+        color: #ff4500;
+    }
 }
 
 .footer__nav li {
@@ -101,8 +106,6 @@ footer {
     }
 }
 
-
-
 /*.....................................MEDIAS QUERIES INDEX: CELULARES...............*/
 @media only screen and (max-width: 599px) {
     .footer__container {
@@ -111,12 +114,10 @@ footer {
         grid-template-rows: 1fr;
         grid-template-areas: "tarjeta__contacto"
             "footer__logo";
-
     }
 
     .tarjeta__contacto {
         font-size: 2rem;
-
     }
 
     .footer__logo {
