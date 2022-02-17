@@ -726,6 +726,7 @@ a#link__al__menu__especial {
   }
   .contacto__container form .campo {
     width: 100%;
+    font-size: 1.5rem;
   }
   .contacto__container form textarea {
     max-height: 320px;
