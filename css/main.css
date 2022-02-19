@@ -647,6 +647,7 @@ a#link__al__menu__especial {
   .portada__btn__link__al__menu__container .btn__menu {
     max-width: 200px;
     margin-left: 2rem;
+    margin-top: 5rem;
   }
   .info__contacto__descripcion,
   .subtitulo__principal,
