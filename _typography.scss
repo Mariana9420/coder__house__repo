@@ -88,6 +88,11 @@ $caja-titulos-anim-index:(
     font-family: $main-font-family;
     background-color: #fff;
 }
+.parrafo__input__newsletter{
+    @extend .parrafos;
+    @extend .parrafo__form;
+    font-size: 2rem;
+}
 /*..............PREGUNTAS FRECUENTES................*/
 
 $botones-acordeon-preguntas:(
