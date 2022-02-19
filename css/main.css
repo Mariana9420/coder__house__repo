@@ -173,24 +173,6 @@ h1 {
   background-color: #523024;
 }
 
-/*...........................................BOTONES ESTILOS..............................*/
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 25%;
-  height: 50%;
-  margin-left: 33rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-}
-
-.btn__enviar__footer {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
 .row__portada__index {
   max-width: 100%;
@@ -236,18 +218,6 @@ a#link__al__menu__especial {
 
 .btn__menu {
   margin: auto;
-}
-
-.btn__secundario, .btn__enviar, .btn__enviar__footer, .btn__seguir,
-.btn__enviar,
-.btn__enviar__footer {
-  height: 100px;
-  width: 500px;
-  margin-left: 5rem;
-  font-size: 3rem;
-  font-family: "Roboto";
-  color: #fff;
-  background-color: #3a3838;
 }
 
 /*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
@@ -1290,15 +1260,10 @@ form .campo#mensaje {
 }
 
 .btn__seguir {
-  width: 20%;
-  margin-left: 40%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 3%;
+  font-size: 2rem;
 }
 
-/*..................................... CONTACTO: MEDIAS QUERIES CELULARES........................................................*/
+/*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/
 @media only screen and (max-width: 599px) {
   .parrafo__form {
     display: none;
