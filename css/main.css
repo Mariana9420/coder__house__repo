@@ -91,7 +91,7 @@ h1 {
   font: "Indie Flower";
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form {
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form {
   line-height: 3rem;
   font-size: 2rem;
   font-family: "Indie Flower";
@@ -135,8 +135,13 @@ h1 {
   margin-left: 3.2rem;
 }
 
+.parrafo__form__encabezado {
+  font-family: "Indie Flower";
+}
+
 .parrafo__form {
   font-family: "Indie Flower";
+  background-color: #fff;
 }
 
 /*..............PREGUNTAS FRECUENTES................*/
@@ -685,6 +690,9 @@ a#link__al__menu__especial {
   .contacto__container {
     margin: 5%;
   }
+  .contacto__container .parrafo__form__encabezado {
+    display: none;
+  }
   .contacto__container form .campo {
     width: 100%;
     font-size: 1.5rem;
@@ -738,7 +746,7 @@ a#link__al__menu__especial {
   margin-left: 2rem;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form,
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form,
 .parrafo__menu {
   height: 30%;
   width: 70%;
@@ -955,7 +963,7 @@ main .modal-footer {
           justify-content: center;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form,
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form,
 .parrafo__descripcion {
   width: 100%;
   height: auto;

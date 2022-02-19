@@ -443,7 +443,9 @@ a {
     .contacto__container{
         
             margin: 5%;
-       
+       .parrafo__form__encabezado{
+display: none;
+       }
         form{
             .campo{
                 width: 100%;

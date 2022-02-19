@@ -79,9 +79,14 @@ $caja-titulos-anim-index:(
     margin-bottom: 3rem;
     margin-left: 3.2rem;
 }
+.parrafo__form__encabezado {
+    @extend .parrafos;
+    font-family: $main-font-family;
+}
 .parrafo__form {
     @extend .parrafos;
     font-family: $main-font-family;
+    background-color: #fff;
 }
 /*..............PREGUNTAS FRECUENTES................*/
 
