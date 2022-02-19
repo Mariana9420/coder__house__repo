@@ -488,7 +488,9 @@ a {
        
     }
     .contacto__container{
-        max-width: 100%;
+        
+            margin: 5%;
+       
         form{
             .campo{
                 width: 100%;
@@ -499,10 +501,10 @@ a {
             }
         }
     }
-  
 
-    
-
+    .pagos__container{
+        margin-top: 5rem;
+    }
     .container__btn__wsp,
     .btn__wsp {
         display: none;
@@ -530,7 +532,6 @@ a {
 
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
-
         grid-area:
             "solucion__descripcion__grid"
             "aside__grid";
@@ -763,7 +764,6 @@ main {
                 "imgDos"
                 "imgTres"
             ;
-
         }
 
         .preguntas__container {
@@ -774,7 +774,6 @@ main {
             justify-content: center;
         }
     }
-
 }
 
 /*...........................................PORTADA PAGINA NOSOTROS..............................*/
