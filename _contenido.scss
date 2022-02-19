@@ -523,18 +523,21 @@ a {
         }
     }
 
-    .banner__text {
-        h1 {
+    .banner__text h1 {
             font-size: 8rem;
             color: #000;
         }
-    }
+    
 
     .propuesta__container__grid {
         grid-template-columns: (3, 1fr);
         grid-area:
             "solucion__descripcion__grid"
             "aside__grid";
+    }
+
+  .contacto__container form .campo{
+        width: 85%;
     }
 
     .pagos__container .container {

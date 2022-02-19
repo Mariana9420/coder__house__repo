@@ -749,6 +749,9 @@ a#link__al__menu__especial {
         grid-template-columns: 3, 1fr;
     grid-area: "solucion__descripcion__grid" "aside__grid";
   }
+  .contacto__container form .campo {
+    width: 85%;
+  }
   .pagos__container .container {
     width: auto;
   }
