@@ -119,14 +119,15 @@ $caja-titulos-anim-index:(fuenteTam: 5rem,
     font-size: 2rem;
 }
 
-$botones-acordeon-preguntas:(colorFuente: #000,
+$botones-acordeon-preguntas:(
+    colorFuente: #000,
     fuenteTam: 3rem,
-    fuenteFamilia: $special-font-family,
+    font-family: $main-font-family,
 );
 
 .fuente__preguntas {
     color: map-get($botones-acordeon-preguntas, colorFuente);
-    font-family: map-get($botones-acordeon-preguntas, fuenteFamilia);
+    font-family: map-get($botones-acordeon-preguntas, font-family);
     font-size: map-get($botones-acordeon-preguntas, fuenteTam);
 }
 
