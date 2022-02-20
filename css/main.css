@@ -650,7 +650,11 @@ a#link__al__menu__especial {
     display: none;
   }
   .portada__titulo {
+    /*CLASE NO USADA EN EL INDEX PERO SÍ EN LAS OTRAS PORTADAS */
     font-size: 7rem;
+  }
+  .portada__index {
+    height: 100%;
   }
   .banner__text h1 {
     font-size: 4.5rem;
@@ -811,6 +815,9 @@ main .modal-footer {
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
 @media only screen and (max-width: 599px) {
+  .portada__menu {
+    height: 100%;
+  }
   .parrafo__menu {
     font-size: 3rem;
   }
@@ -977,6 +984,9 @@ main .modal-footer {
 
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
 @media only screen and (max-width: 599px) {
+  .portada__preguntas {
+    height: 100%;
+  }
   main .funcionamiento__container {
     display: -ms-grid;
     display: grid;
@@ -1149,6 +1159,9 @@ main .modal-footer {
 
 /*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
 @media only screen and (max-width: 599px) {
+  .portada__nosotros {
+    height: 100%;
+  }
   .historia__container__uno {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1272,6 +1285,9 @@ form .campo#mensaje {
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/
 @media only screen and (max-width: 599px) {
+  .portada__contacto {
+    height: 100%;
+  }
   .parrafo__form {
     display: none;
   }
