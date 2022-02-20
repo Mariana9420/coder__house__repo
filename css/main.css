@@ -700,6 +700,7 @@ a#link__al__menu__especial {
         grid-template-rows: auto;
         grid-template-areas: "comidaUno" "comidaDos" "comidaTres";
     max-width: 599px;
+    margin-top: 5rem;
   }
   .subtitulos__especiales {
     font-size: 5rem;
