@@ -1172,17 +1172,34 @@ main .modal-footer {
   .historia__container__texto {
     max-width: 100%;
   }
+  .historia__container__texto .historia__container__subtitulo__uno {
+    margin-bottom: 3rem;
+  }
+  .img__historia__container__uno {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .historia__container__dos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .historia__container__dos .historia__container__subtitulo__dos {
+    margin-bottom: 3rem;
+  }
+  .historia__container__dos .img__historia__container__dos {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .historia__container__tres {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .historia__container__tres .img__historia__container__tres {
+    margin-bottom: 3rem;
   }
   .historia__container__tres__texto {
     max-width: 100%;

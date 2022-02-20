@@ -866,14 +866,32 @@ main {
 
     .historia__container__texto {
         max-width: 100%;
+        .historia__container__subtitulo__uno{
+            margin-bottom: 3rem;
+        }
+    }
+
+    .img__historia__container__uno{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .historia__container__dos {
         flex-direction: column;
+        .historia__container__subtitulo__dos{
+            margin-bottom: 3rem;
+        }
+        .img__historia__container__dos{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
     }
 
     .historia__container__tres {
         flex-direction: column;
+        .img__historia__container__tres{
+             margin-bottom: 3rem;
+        }
     }
 
     .historia__container__tres__texto {
