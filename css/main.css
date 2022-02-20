@@ -91,6 +91,10 @@ h1 {
   font-family: "Indie Flower";
 }
 
+.box {
+  font-family: "Indie Flower";
+}
+
 .parrafos, .parrafo__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__menu, .parrafo__preguntas__frec__descripcion, .parrafo__historia {
   line-height: 3rem;
   font-size: 2rem;

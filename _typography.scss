@@ -35,8 +35,15 @@ h1 {
     font-family: $main-font-family;
 }
 
-$caja-titulos-anim-index:(fuenteTam: 5rem,
+$caja-titulos-anim-index:(
+    fuenteTam: 5rem,
+    
 );
+
+.box{
+    
+    font-family: $main-font-family;
+}
 
 .parrafos {
     line-height: 3rem;
