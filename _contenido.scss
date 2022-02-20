@@ -217,7 +217,7 @@ a {
         }
     }
 }
-
+/*------------------------INDEX: MAIN (VALORES DE LA EMPRESA)----------------*/
 .main {
     display: flex;
     flex-direction: column;
@@ -335,7 +335,7 @@ a {
     }
 }
 
-/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR(CLASES RECICLABLES EN TODAS LAS PÁG)...........................*/
+/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR...........................*/
 .iconos__container {
     display: flex;
     flex-direction: row;
@@ -517,16 +517,6 @@ a {
 .articulo__menu__container {
     margin-right: 4rem;
     margin-left: 2rem;
-}
-
-.parrafos,
-.parrafo__menu {
-    height: 30%;
-    width: 70%;
-    margin-top: 5rem;
-    margin-left: 19%;
-    margin-bottom: 3rem;
-    padding: 45px;
 }
 
 main {
@@ -711,12 +701,6 @@ main {
     }
 }
 
-.parrafos,
-.parrafo__descripcion {
-    width: 100%;
-    height: auto;
-    margin-left: 1%;
-}
 
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
 @media only screen and (max-width: 599px) {

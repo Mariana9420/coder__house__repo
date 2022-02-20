@@ -91,7 +91,7 @@ h1 {
   font: "Indie Flower";
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__preguntas__frec__descripcion {
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__menu, .parrafo__preguntas__frec__descripcion {
   line-height: 3rem;
   font-size: 2rem;
   font-family: "Indie Flower";
@@ -142,6 +142,16 @@ h1 {
 .parrafo__form {
   font-family: "Indie Flower";
   background-color: #fff;
+}
+
+/*.....................NUESTRO MENU........................*/
+.parrafo__menu {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding: 45px;
+  font-size: 2rem;
 }
 
 /*..............PREGUNTAS FRECUENTES................*/
@@ -461,6 +471,7 @@ a#link__al__menu__especial {
   margin-left: 3.2rem;
 }
 
+/*------------------------INDEX: MAIN (VALORES DE LA EMPRESA)----------------*/
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -601,7 +612,7 @@ a#link__al__menu__especial {
   margin-bottom: 0.5%;
 }
 
-/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR(CLASES RECICLABLES EN TODAS LAS PÁG)...........................*/
+/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR...........................*/
 .iconos__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,16 +765,6 @@ a#link__al__menu__especial {
 .articulo__menu__container {
   margin-right: 4rem;
   margin-left: 2rem;
-}
-
-.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__preguntas__frec__descripcion,
-.parrafo__menu {
-  height: 30%;
-  width: 70%;
-  margin-top: 5rem;
-  margin-left: 19%;
-  margin-bottom: 3rem;
-  padding: 45px;
 }
 
 main #galeria img {
@@ -971,13 +972,6 @@ main .modal-footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__preguntas__frec__descripcion,
-.parrafo__descripcion {
-  width: 100%;
-  height: auto;
-  margin-left: 1%;
 }
 
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
@@ -1556,7 +1550,6 @@ footer {
   height: 7.5rem;
   font-size: 3rem;
   margin-top: 2rem;
-  margin-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
