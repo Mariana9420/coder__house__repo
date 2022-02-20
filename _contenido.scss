@@ -899,7 +899,6 @@ main {
     @include logos-redes-box-model(5rem, 2rem, 2rem, 2rem);
 }
 
-/* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
 form {
     .campo {
         @include campo-form;
@@ -909,8 +908,6 @@ form {
         }
     }
 }
-
-/* FIN CÓDIGO PARA EL FORMULARIO*/
 
 .mapa__container {
     display: flex;
@@ -947,10 +944,6 @@ form {
     .redes__sociales__contenedor__padre div {
         justify-content: center;
     }
-}
-
-.btn__seguir {
-    font-size: 2rem;
 }
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/

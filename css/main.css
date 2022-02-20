@@ -1208,7 +1208,6 @@ main .modal-footer {
   margin-bottom: 2rem;
 }
 
-/* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
 form .campo {
   display: block;
   width: 50%;
@@ -1221,7 +1220,6 @@ form .campo#mensaje {
   height: 30rem;
 }
 
-/* FIN CÓDIGO PARA EL FORMULARIO*/
 .mapa__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1271,10 +1269,6 @@ form .campo#mensaje {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.btn__seguir {
-  font-size: 2rem;
 }
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/
@@ -1568,6 +1562,7 @@ footer {
 .btn__seguir {
   width: 20%;
   height: 50%;
+  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

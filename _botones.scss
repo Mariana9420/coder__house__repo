@@ -61,6 +61,7 @@
 .btn__seguir {
     @extend .btn__base;
     @include btn-medidas(20%, 50%);
+    font-size: 2rem;
     display: flex;
     margin-left: 40%;
     justify-content: center;
