@@ -546,6 +546,7 @@ main {
 
     .modal-header {
         background-color: orange;
+        border-bottom: none;
     }
 
     .modal-body {
@@ -556,6 +557,7 @@ main {
 
     .modal-footer {
         background-color: #ffa500;
+        border-top: none;
     }
 
 }

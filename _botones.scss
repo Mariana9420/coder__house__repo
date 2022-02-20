@@ -46,12 +46,16 @@
 
 .btn__comprar {
     @extend .btn__base;
-    @include btn-medidas(100%, 7.5rem);
+    @include btn-medidas(100%, 6.5rem);
     font-size: 3rem;
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.btn-secondary{
+    background-color: #2c2727;
 }
 
 .btn__seguir {
