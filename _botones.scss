@@ -47,10 +47,12 @@
 .btn__comprar {
     @extend .btn__base;
     @include btn-medidas(100%, 7.5rem);
+    font-size: 3rem;
     margin-top: 2rem;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .btn__seguir {
