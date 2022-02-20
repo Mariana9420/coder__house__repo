@@ -91,7 +91,7 @@ h1 {
   font: "Indie Flower";
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__input__newsletter {
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__preguntas__frec__descripcion {
   line-height: 3rem;
   font-size: 2rem;
   font-family: "Indie Flower";
@@ -139,16 +139,21 @@ h1 {
   font-family: "Indie Flower";
 }
 
-.parrafo__form, .parrafo__input__newsletter {
+.parrafo__form {
   font-family: "Indie Flower";
   background-color: #fff;
 }
 
-.parrafo__input__newsletter {
+/*..............PREGUNTAS FRECUENTES................*/
+.parrafo__preguntas__frec__descripcion {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-left: 1%;
+  padding: 45px;
   font-size: 2rem;
 }
 
-/*..............PREGUNTAS FRECUENTES................*/
 .fuente__preguntas {
   color: #000;
   font-family: "cursive";
@@ -751,7 +756,7 @@ a#link__al__menu__especial {
   margin-left: 2rem;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__input__newsletter,
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__preguntas__frec__descripcion,
 .parrafo__menu {
   height: 30%;
   width: 70%;
@@ -968,7 +973,7 @@ main .modal-footer {
           justify-content: center;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__input__newsletter,
+.parrafos, .parrafos__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__preguntas__frec__descripcion,
 .parrafo__descripcion {
   width: 100%;
   height: auto;
@@ -1278,7 +1283,7 @@ form .campo#mensaje {
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/
 @media only screen and (max-width: 599px) {
-  .parrafo__form, .parrafo__input__newsletter {
+  .parrafo__form {
     display: none;
   }
   .campo {

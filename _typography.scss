@@ -11,10 +11,10 @@ a {
     font: $special-font-family;
 }
 
-$datos-de-contacto-header:(
-    fuenteTam: 2rem,
+$datos-de-contacto-header:(fuenteTam: 2rem,
     fuenteFamilia: $special-font-family,
 );
+
 .portada__titulo {
     text-align: center;
     font-size: 15rem;
@@ -23,6 +23,7 @@ $datos-de-contacto-header:(
     padding-bottom: 5rem;
     color: #221919;
 }
+
 .info__contacto__descripcion {
     font-size: map-get($datos-de-contacto-header, fuenteTam);
     font-family: $special-font-family;
@@ -34,8 +35,7 @@ h1 {
     font: $main-font-family;
 }
 
-$caja-titulos-anim-index:(
-    fuenteTam: 5rem,
+$caja-titulos-anim-index:(fuenteTam: 5rem,
 );
 
 .parrafos {
@@ -60,17 +60,20 @@ $caja-titulos-anim-index:(
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
+
 .subtitulos__especiales {
     font: $subtitulos-font-family;
     font-size: 2.5rem;
     text-align: center;
 }
-.aside__titulo{
+
+.aside__titulo {
     font-family: $subtitulos-font-family;
     font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
 }
+
 .aside__descripcion {
     font-family: $main-font-family;
     font-size: 3rem;
@@ -79,24 +82,31 @@ $caja-titulos-anim-index:(
     margin-bottom: 3rem;
     margin-left: 3.2rem;
 }
+
 .parrafo__form__encabezado {
     @extend .parrafos;
     font-family: $main-font-family;
 }
+
 .parrafo__form {
     @extend .parrafos;
     font-family: $main-font-family;
     background-color: #fff;
 }
-.parrafo__input__newsletter{
-    @extend .parrafos;
-    @extend .parrafo__form;
-    font-size: 2rem;
-}
+
 /*..............PREGUNTAS FRECUENTES................*/
 
-$botones-acordeon-preguntas:(
-    colorFuente: #000,
+.parrafo__preguntas__frec__descripcion {
+    @extend .parrafos;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    margin-left: 1%;
+    padding: 45px;
+    font-size: 2rem;
+}
+
+$botones-acordeon-preguntas:(colorFuente: #000,
     fuenteTam: 3rem,
     fuenteFamilia: $special-font-family,
 );
@@ -114,6 +124,7 @@ $botones-acordeon-preguntas:(
     width: 100%;
     margin-top: 2rem;
 }
+
 /*....................NOSOTROS.................................*/
 .subtitulo__historia {
     font-size: 3.5rem;
