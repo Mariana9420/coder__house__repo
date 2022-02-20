@@ -48,10 +48,11 @@ $caja-titulos-anim-index:(fuenteTam: 5rem,
     margin: auto;
 }
 
-.parrafos__descripcion {
+.parrafo__descripcion {
     @extend .parrafos;
-    width: 85%;
-    margin-left: 1%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding: 45px;
 }
 
 .subtitulo__principal {
@@ -85,7 +86,7 @@ $caja-titulos-anim-index:(fuenteTam: 5rem,
 
 .parrafo__form__encabezado {
     @extend .parrafos;
-    font-family: $main-font-family;
+    @extend .parrafo__descripcion;
 }
 
 .parrafo__form {
@@ -93,8 +94,9 @@ $caja-titulos-anim-index:(fuenteTam: 5rem,
     font-family: $main-font-family;
     background-color: #fff;
 }
+
 /*.....................NUESTRO MENU........................*/
-.parrafo__menu{
+.parrafo__menu {
     @extend .parrafos;
     width: 100%;
     height: auto;
@@ -140,4 +142,10 @@ $botones-acordeon-preguntas:(colorFuente: #000,
     font-size: 3.5rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
+}
+
+.parrafo__historia{
+    @extend .parrafos;
+    height: auto;
+    padding: 45px;
 }

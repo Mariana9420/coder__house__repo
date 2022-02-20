@@ -297,17 +297,16 @@ a {
     background-color: #ff4500;
     border-radius: 4px;
 
-    form {
-        .campo {
+    form .campo {
             @include campo-form;
 
             &#consulta {
                 height: 30rem;
             }
         }
-    }
-
+    
 }
+
 
 /*............................... INDEX: MEDIOS DE PAGO...........................*/
 
@@ -498,9 +497,7 @@ a {
             "aside__grid";
     }
 
-    .contacto__container form .campo {
-        width: 85%;
-    }
+   
 
     .pagos__container .container {
         width: auto;
@@ -975,7 +972,6 @@ form {
     transition: ease 0.3s;
     animation: anim-wsp 1.2s infinite;
 }
-
 
 .container__btn__wsp:hover {
     transform: scale(1.1);
