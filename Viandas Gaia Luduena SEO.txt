@@ -22,7 +22,4 @@ Palabras Clave: dependiendo la sección usé palabras clave relacionadas al cont
 4) Minimizados nombres de los colores negro y blanco en cada archivo sass
 
 
-5)  Modificadas etiq title en todas las secciones agregando el nombre de la empresa 
-
-
-6) Encabezado: usada en cada sección una etiqueta h1 con el nombre de la misma. Ej: Contacto
+5) Encabezado: usada en cada sección una etiqueta h1 con el nombre de la misma. Ej: Contacto

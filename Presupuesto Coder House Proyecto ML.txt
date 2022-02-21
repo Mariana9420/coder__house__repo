@@ -1,16 +1,20 @@
 
 Presupuesto Desarollo Web 
 
-Nombre                           Fecha                  Nº de proyecto        Válido hasta
+Nombre                           Fecha                  NÂº de proyecto        VÃ¡lido hasta
 
 Viandas Gaia SRL               20/11/2021                     007                01/12/2021
 
 
-Servicio        Descripción                                            Horas             Precio total (Pesos arg) 
+Servicio        DescripciÃ³n                                            Horas             Precio total (Pesos arg) 
 
   1             Armado del wireframe de 5 (cinco) secciones              5 hs             3.000       
 
+<<<<<<< HEAD
   2             Maquetación de todo el sitio                            20 hs             20.000  
+=======
+  2             MaquetaciÃ³n de todo el sitio                            20 hs             20.000  
+>>>>>>> lab
 
   3             Desarrollo  de todo el sitio                            60 hs             70.000
 
@@ -28,17 +32,24 @@ Servicio        Descripción                                            Horas    
 
 
 
-Términos y condiciones: 
+TÃ©rminos y condiciones: 
 
-- El pago se realizará 50% al comienzo del proyecto y el 50% al finalizarlo a través de transferencia bancaria o Mercado Pago.
+- El pago se realizarÃ¡ 50% al comienzo del proyecto y el 50% al finalizarlo a travÃ©s de transferencia bancaria o Mercado Pago.
 
-- Aprobado el presupuesto, el mismo tomará el carácter de contrato que será firmado por el cliente donde ponga por escrito su conformidad con los servicios
+- Aprobado el presupuesto, el mismo tomarÃ¡ el carÃ¡cter de contrato que serÃ¡ firmado por el cliente donde ponga por escrito su conformidad con los servicios
  descritos.
 
+<<<<<<< HEAD
 - Cualquier cambio que el cliente deseé ya siendo desarrollado el sitio se le cobrará un porcentaje que variará según el tiempo que requiera hacer las modificaciones.
+=======
+- Cualquier cambio que el cliente deseÃ© ya siendo desarrollado el sitio se le cobrarÃ¡ un porcentaje que variarÃ¡ segÃºn el tiempo que requiera hacer las modificaciones.
 
-Descripción: 
+DescripciÃ³n: 
+>>>>>>> lab
 
+Objetivos y proceso de desarrollo:
+
+<<<<<<< HEAD
 Objetivos y proceso de desarrollo:
 
 - Entrevista: se iniciará el proceso con una entrevista con el cliente para conocer sus necesidades, objetivos y alcance de la página. Será el cliente quien pondrá a disposición los materiales 
@@ -49,34 +60,61 @@ el wireframe, el diseño pasará a ser desarrollado.
 
 - Maquetación y Desarrollo: se desarrollará la maquetación, diseño responsive, hosting, subida al servidor, SEO y servicios básicos de seguridad de una página web que
  constará de 5 (cinco) secciones. Las mismas serán:
+=======
+- Entrevista: se iniciarÃ¡ el proceso con una entrevista con el cliente para conocer sus necesidades, objetivos y alcance de la pÃ¡gina. SerÃ¡ el cliente quien pondrÃ¡ a disposiciÃ³n los materiales 
+ (imÃ¡genes, videos, textos, etc) para aÃ±adir a su sitio web.
+
+- Wireframe: se iniciarÃ¡ el proceso de armado del wireframe de todas las secciones. Una vez terminado el cliente podrÃ¡ aprobarlo y, de ser necesario, pedir modificaciones. Aprobado
+el wireframe, el diseÃ±o pasarÃ¡ a ser desarrollado.
+
+- MaquetaciÃ³n y Desarrollo: se desarrollarÃ¡ la maquetaciÃ³n, diseÃ±o responsive, hosting, subida al servidor, SEO y servicios bÃ¡sicos de seguridad de una pÃ¡gina web que
+ constarÃ¡ de 5 (cinco) secciones. Las mismas serÃ¡n:
+>>>>>>> lab
 
 - Home
-- Nuestro menú
+- Nuestro menÃº
 - Preguntas frecuentes
 - Nosotros
 - Contacto
 
-Herramientas y/o tecnologías implementadas en el desarrollo de la web de Viandas Gaia:
+Herramientas y/o tecnologÃ­as implementadas en el desarrollo de la web de Viandas Gaia:
 
-- Marvel versión paga (para el desarrollo del wireframe)
+- Marvel versiÃ³n paga (para el desarrollo del wireframe)
 - HTML
 - CSS y SASS
 - Framework: Bootstrap 5
 
+<<<<<<< HEAD
 - Hosting: si el cliente no tiene definido un hosting se le ofrecerá el hosting más adecuado según el alcance y tamaño de la página. 
+=======
+- Hosting: si el cliente no tiene definido un hosting se le ofrecerÃ¡ el hosting mÃ¡s adecuado segÃºn el alcance y tamaÃ±o de la pÃ¡gina. 
+>>>>>>> lab
 
 Servicios incluidos:
 
 - Responsive design
+<<<<<<< HEAD
 - Optimización para SEO
 - SEO con Google Analitics
 - Subida al servidor y hosting
 - Seguridad básica
+=======
+- OptimizaciÃ³n para SEO
+- SEO con Google Analitics
+- Subida al servidor y hosting
+- Seguridad bÃ¡sica
+>>>>>>> lab
 
 No incluye:
 
 - Registro del dominio
+<<<<<<< HEAD
 - Renovación de dominio
 - Instalación adicionales de plugglins
+=======
+- RenovaciÃ³n de dominio
+- InstalaciÃ³n adicionales de plugglins
+
+>>>>>>> lab
 
 

@@ -63,6 +63,7 @@ header nav .header__logo img {
   height: auto;
 }
 
+/*.....................TIPOGRAFÍA GENERAL APLICADA EN EL INDEX........................*/
 p {
   font: "Indie Flower";
 }
@@ -77,7 +78,7 @@ a {
   font-style: "Roboto";
   padding-top: 3rem;
   padding-bottom: 5rem;
-  color: #221919;
+  color: #221e19;
 }
 
 .info__contacto__descripcion {
@@ -88,10 +89,14 @@ a {
 }
 
 h1 {
-  font: "Indie Flower";
+  font-family: "Indie Flower";
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form {
+.box {
+  font-family: "Indie Flower";
+}
+
+.parrafos, .parrafo__descripcion, .parrafo__form__encabezado, .parrafo__form, .parrafo__menu, .parrafo__preguntas__frec__descripcion, .parrafo__historia {
   line-height: 3rem;
   font-size: 2rem;
   font-family: "Indie Flower";
@@ -101,9 +106,10 @@ h1 {
   margin: auto;
 }
 
-.parrafos__descripcion {
-  width: 85%;
-  margin-left: 1%;
+.parrafo__descripcion, .parrafo__form__encabezado {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding: 45px;
 }
 
 .subtitulo__principal {
@@ -114,9 +120,10 @@ h1 {
 }
 
 .subtitulos__especiales {
-  font: "Roboto";
-  font-size: 2.5rem;
+  font-family: "cursive";
+  font-size: 3.5rem;
   text-align: center;
+  margin-top: 3rem;
 }
 
 .aside__titulo {
@@ -137,12 +144,32 @@ h1 {
 
 .parrafo__form {
   font-family: "Indie Flower";
+  background-color: #fff;
 }
 
-/*..............PREGUNTAS FRECUENTES................*/
+/*.....................TIPOGRAFÍA NUESTRO MENU........................*/
+.parrafo__menu {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding: 45px;
+  font-size: 2rem;
+}
+
+/*.............. TIPOGRAFÍA PREGUNTAS FRECUENTES................*/
+.parrafo__preguntas__frec__descripcion {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-left: 1%;
+  padding: 45px;
+  font-size: 2rem;
+}
+
 .fuente__preguntas {
   color: #000;
-  font-family: "cursive";
+  font-family: "Indie Flower";
   font-size: 3rem;
 }
 
@@ -154,11 +181,16 @@ h1 {
   margin-top: 2rem;
 }
 
-/*....................NOSOTROS.................................*/
+/*.................... TIPOGRAFÍA NOSOTROS.................................*/
 .subtitulo__historia {
   font-size: 3.5rem;
   margin-bottom: 2rem;
   margin-left: 1rem;
+}
+
+.parrafo__historia {
+  height: auto;
+  padding: 45px;
 }
 
 .bg--orange {
@@ -171,51 +203,6 @@ h1 {
 
 .bg--brown {
   background-color: #523024;
-}
-
-/*...........................................BOTONES ESTILOS..............................*/
-.boton__menu, #btn__menu__main, #btn-link-preguntas, main .btn__comprar {
-  width: 500px;
-  height: 100px;
-  margin-left: 5rem;
-  font-size: 3rem;
-  font-family: "Roboto";
-  color: #fff;
-  background-color: #3a3838;
-}
-
-.btn__secundario, .btn__enviar, .btn__enviar__footer, main .btn__comprar, .btn__seguir {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 25%;
-  height: 50%;
-  margin-left: 33rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-}
-
-.btn__enviar__footer {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#btn__menu__main {
-  width: 30%;
-  padding: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  margin-left: 35%;
-}
-
-#btn-link-preguntas {
-  width: 230px;
-  height: 50px;
-  font-size: 2rem;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
@@ -261,20 +248,8 @@ a#link__al__menu__especial {
       align-self: center;
 }
 
-.portada__btn__menu {
+.btn__menu {
   margin: auto;
-}
-
-.portada__btn__menu, .btn__secundario, .btn__enviar, .btn__enviar__footer, main .btn__comprar, .btn__seguir,
-.btn__enviar,
-.btn__enviar__footer {
-  height: 100px;
-  width: 500px;
-  margin-left: 5rem;
-  font-size: 3rem;
-  font-family: "Roboto";
-  color: #fff;
-  background-color: #3a3838;
 }
 
 /*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
@@ -504,6 +479,7 @@ a#link__al__menu__especial {
   margin-left: 3.2rem;
 }
 
+/*------------------------INDEX: MAIN (VALORES DE LA EMPRESA)----------------*/
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -612,15 +588,6 @@ a#link__al__menu__especial {
   height: 30rem;
 }
 
-.contacto__container .btn__form {
-  padding: 2rem;
-  color: #fff;
-  background-color: #2c2727;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 2.5rem;
-}
-
 /*............................... INDEX: MEDIOS DE PAGO...........................*/
 .pagos__container {
   display: -webkit-box;
@@ -653,7 +620,7 @@ a#link__al__menu__especial {
   margin-bottom: 0.5%;
 }
 
-/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR(CLASES RECICLABLES EN TODAS LAS PÁG)...........................*/
+/*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR...........................*/
 .iconos__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -689,7 +656,11 @@ a#link__al__menu__especial {
     display: none;
   }
   .portada__titulo {
+    /*CLASE NO USADA EN EL INDEX PERO SÍ EN LAS OTRAS PORTADAS */
     font-size: 7rem;
+  }
+  .portada__index {
+    height: 100%;
   }
   .banner__text h1 {
     font-size: 4.5rem;
@@ -701,9 +672,10 @@ a#link__al__menu__especial {
   .portada__btn__link__al__menu__container {
     height: auto;
   }
-  .portada__btn__link__al__menu__container .portada__btn__menu {
+  .portada__btn__link__al__menu__container .btn__menu {
     max-width: 200px;
     margin-left: 2rem;
+    margin-top: 5rem;
   }
   .info__contacto__descripcion,
   .subtitulo__principal,
@@ -734,22 +706,36 @@ a#link__al__menu__especial {
         grid-template-rows: auto;
         grid-template-areas: "comidaUno" "comidaDos" "comidaTres";
     max-width: 599px;
+    margin-top: 5rem;
   }
   .subtitulos__especiales {
     font-size: 5rem;
   }
-  .parrafo__descripcion {
+  .parrafo__descripcion, .parrafo__form__encabezado {
     font-size: 3rem;
   }
   .btn__menu {
     font-size: 3rem;
   }
-  #btn__menu__main {
+  .btn__menu#btn__menu__main {
     width: 50%;
     height: 15rem;
   }
-  textarea {
+  .contacto__container {
+    margin: 5%;
+  }
+  .contacto__container .parrafo__form__encabezado {
+    display: none;
+  }
+  .contacto__container form .campo {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .contacto__container form textarea {
     max-height: 320px;
+  }
+  .pagos__container {
+    margin-top: 5rem;
   }
   .container__btn__wsp,
   .btn__wsp {
@@ -791,16 +777,6 @@ a#link__al__menu__especial {
   margin-left: 2rem;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form,
-.parrafo__menu {
-  height: 30%;
-  width: 70%;
-  margin-top: 5rem;
-  margin-left: 19%;
-  margin-bottom: 3rem;
-  padding: 45px;
-}
-
 main #galeria img {
   width: 100%;
   height: 250px;
@@ -830,32 +806,26 @@ main .card-title {
 
 main .modal-header {
   background-color: orange;
+  border-bottom: none;
 }
 
 main .modal-body {
   font-size: 3rem;
   font-family: "Indie Flower";
+  color: #000;
   background-color: #ffa500;
 }
 
 main .modal-footer {
   background-color: #ffa500;
-}
-
-main .btn__comprar {
-  margin-left: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin-top: 2rem;
+  border-top: none;
 }
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
 @media only screen and (max-width: 599px) {
+  .portada__menu {
+    height: 100%;
+  }
   .parrafo__menu {
     font-size: 3rem;
   }
@@ -1020,15 +990,11 @@ main .btn__comprar {
           justify-content: center;
 }
 
-.parrafos, .parrafos__descripcion, .parrafo__form,
-.parrafo__descripcion {
-  width: 100%;
-  height: auto;
-  margin-left: 1%;
-}
-
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
 @media only screen and (max-width: 599px) {
+  .portada__preguntas {
+    height: 100%;
+  }
   main .funcionamiento__container {
     display: -ms-grid;
     display: grid;
@@ -1041,6 +1007,7 @@ main .btn__comprar {
     -ms-grid-rows: auto;
         grid-template-rows: auto;
         grid-template-areas: "imgUno" "imgDos" "imgTres";
+    margin-bottom: 3rem;
   }
   main .preguntas__container {
     display: -ms-grid;
@@ -1199,8 +1166,11 @@ main .btn__comprar {
   max-width: 50%;
 }
 
-/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
+/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES..............................................*/
 @media only screen and (max-width: 599px) {
+  .portada__nosotros {
+    height: 100%;
+  }
   .historia__container__uno {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1210,17 +1180,34 @@ main .btn__comprar {
   .historia__container__texto {
     max-width: 100%;
   }
+  .historia__container__texto .historia__container__subtitulo__uno {
+    margin-bottom: 3rem;
+  }
+  .img__historia__container__uno {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .historia__container__dos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .historia__container__dos .historia__container__subtitulo__dos {
+    margin-bottom: 3rem;
+  }
+  .historia__container__dos .img__historia__container__dos {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .historia__container__tres {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .historia__container__tres .img__historia__container__tres {
+    margin-bottom: 3rem;
   }
   .historia__container__tres__texto {
     max-width: 100%;
@@ -1259,7 +1246,6 @@ main .btn__comprar {
   margin-bottom: 2rem;
 }
 
-/* EL FORMULARIO TIENE LAS MISMAS CLASES QUE EL DEL INDEX EXCEPTO EL ID*/
 form .campo {
   display: block;
   width: 50%;
@@ -1272,7 +1258,6 @@ form .campo#mensaje {
   height: 30rem;
 }
 
-/* FIN CÓDIGO PARA EL FORMULARIO*/
 .mapa__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1324,17 +1309,11 @@ form .campo#mensaje {
           justify-content: center;
 }
 
-.btn__seguir {
-  width: 20%;
-  margin-left: 40%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 3%;
-}
-
-/*..................................... CONTACTO: MEDIAS QUERIES CELULARES........................................................*/
+/*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/
 @media only screen and (max-width: 599px) {
+  .portada__contacto {
+    height: 100%;
+  }
   .parrafo__form {
     display: none;
   }
@@ -1457,6 +1436,11 @@ footer {
   font-size: 2rem;
   font-family: cursive;
   color: #fff;
+  text-decoration: none;
+}
+
+.footer__nav a#link__naranja__footer:hover {
+  color: #ff4500;
 }
 
 .footer__nav li {
@@ -1504,7 +1488,26 @@ footer {
 }
 
 .newsletter__footer__input {
+  font-family: "Indie Flower";
   margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.modal-header {
+  background-color: orange;
+  border-bottom: none;
+}
+
+.modal-body {
+  font-size: 3rem;
+  font-family: "Indie Flower";
+  color: #000;
+  background-color: #ffa500;
+}
+
+.modal-footer {
+  background-color: #ffa500;
+  border-top: none;
 }
 
 .footer__redes__logos {
@@ -1522,20 +1525,6 @@ footer {
 .footer__redes__logos .logo__fb__footer {
   height: 5rem;
   margin-top: 2rem;
-}
-
-.btn__enviar__footer {
-  height: 20%;
-  width: 55%;
-  margin-left: 33rem;
-  font-size: 1.5rem;
-  padding: 1.5rem;
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-  grid-area: btn;
-  margin-left: 5rem;
-  grid-column: auto;
-  grid-row: auto;
 }
 
 /*.....................................MEDIAS QUERIES INDEX: CELULARES...............*/
@@ -1568,5 +1557,94 @@ footer {
   .footer__redes__logos {
     display: none;
   }
+}
+
+/*...........................................BOTONES ESTILOS..............................*/
+.btn__base, .btn__menu, #btn__menu__main, #btn-link-preguntas, .btn__comprar, .btn__seguir, .btn__enviar__footer {
+  font-family: "Roboto";
+  color: #fff;
+  background-color: #3a3838;
+}
+
+.btn__menu {
+  width: 500px;
+  height: 100px;
+  margin-left: 5rem;
+  font-size: 3rem;
+}
+
+#btn__menu__main {
+  width: 30%;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-left: 35%;
+}
+
+#btn-link-preguntas {
+  width: 230px;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.btn__form {
+  padding: 2rem;
+  color: #fff;
+  background-color: #2c2727;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.btn__comprar {
+  width: 100%;
+  height: 6.5rem;
+  font-size: 3rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #2c2727;
+}
+
+.btn__seguir {
+  width: 20%;
+  height: 50%;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3%;
+  padding: 1.5rem;
+}
+
+.btn__enviar__footer {
+  width: 55%;
+  height: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+  padding: 1.5rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: btn;
+  margin-left: 5rem;
+  grid-column: auto;
+  grid-row: auto;
 }
 /*# sourceMappingURL=main.css.map */
