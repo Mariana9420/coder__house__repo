@@ -3,6 +3,8 @@ $special-font-family:"cursive";
 $subtitulos-font-family:"Roboto";
 $placeholder-font-size: "2rem";
 
+/*.....................TIPOGRAFÍA GENERAL APLICADA EN EL INDEX........................*/
+
 p {
     font: $main-font-family;
 }
@@ -103,7 +105,7 @@ $caja-titulos-anim-index:(
     background-color: #fff;
 }
 
-/*.....................NUESTRO MENU........................*/
+/*.....................TIPOGRAFÍA NUESTRO MENU........................*/
 .parrafo__menu {
     @extend .parrafos;
     width: 100%;
@@ -114,7 +116,7 @@ $caja-titulos-anim-index:(
     font-size: 2rem;
 }
 
-/*..............PREGUNTAS FRECUENTES................*/
+/*.............. TIPOGRAFÍA PREGUNTAS FRECUENTES................*/
 
 .parrafo__preguntas__frec__descripcion {
     @extend .parrafos;
@@ -146,7 +148,7 @@ $botones-acordeon-preguntas:(
     margin-top: 2rem;
 }
 
-/*....................NOSOTROS.................................*/
+/*.................... TIPOGRAFÍA NOSOTROS.................................*/
 .subtitulo__historia {
     font-size: 3.5rem;
     margin-bottom: 2rem;

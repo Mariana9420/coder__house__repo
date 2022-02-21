@@ -63,6 +63,7 @@ header nav .header__logo img {
   height: auto;
 }
 
+/*.....................TIPOGRAFÍA GENERAL APLICADA EN EL INDEX........................*/
 p {
   font: "Indie Flower";
 }
@@ -146,7 +147,7 @@ h1 {
   background-color: #fff;
 }
 
-/*.....................NUESTRO MENU........................*/
+/*.....................TIPOGRAFÍA NUESTRO MENU........................*/
 .parrafo__menu {
   width: 100%;
   height: auto;
@@ -156,7 +157,7 @@ h1 {
   font-size: 2rem;
 }
 
-/*..............PREGUNTAS FRECUENTES................*/
+/*.............. TIPOGRAFÍA PREGUNTAS FRECUENTES................*/
 .parrafo__preguntas__frec__descripcion {
   width: 100%;
   height: auto;
@@ -180,7 +181,7 @@ h1 {
   margin-top: 2rem;
 }
 
-/*....................NOSOTROS.................................*/
+/*.................... TIPOGRAFÍA NOSOTROS.................................*/
 .subtitulo__historia {
   font-size: 3.5rem;
   margin-bottom: 2rem;
@@ -1165,7 +1166,7 @@ main .modal-footer {
   max-width: 50%;
 }
 
-/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
+/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES..............................................*/
 @media only screen and (max-width: 599px) {
   .portada__nosotros {
     height: 100%;

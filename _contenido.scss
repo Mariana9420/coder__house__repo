@@ -13,6 +13,7 @@ $color in $colors {
 }
 
 /*--------------------------------------------INDEX: PORTADA-----------------------------------------------------*/
+
 .row__portada__index {
     max-width: 100%;
     margin: auto;
@@ -52,6 +53,7 @@ a {
 }
 
 /*............................ANIMACIÓN TÍTULOS PORTADA INDEX........................*/
+
 .banner__text {
     transform: translate(-5%, -5%);
 
@@ -62,6 +64,7 @@ a {
 }
 
 /*..........................CLASE BOX PARA ANIMACION DE PORTADA DEL INDEX..................*/
+
 .box {
     font-size: map-get($caja-titulos-anim-index, fuenteTam);
     opacity: 0;
@@ -162,6 +165,7 @@ a {
 }
 
 /*------------------------INDEX: SOLUCION DE LA EMPRESA----------------*/
+
 .propuesta__container__grid {
     display: flex;
     flex-direction: row;
@@ -218,6 +222,7 @@ a {
     }
 }
 /*------------------------INDEX: MAIN (VALORES DE LA EMPRESA)----------------*/
+
 .main {
     display: flex;
     flex-direction: column;
@@ -335,6 +340,7 @@ a {
 }
 
 /*............................... INDEX: WHATSAPP Y FLECHA PARA SUBIR...........................*/
+
 .iconos__container {
     display: flex;
     flex-direction: row;
@@ -479,6 +485,7 @@ a {
 }
 
 /*.....................................MEDIAS QUERIES INDEX: TABLETS...............*/
+
 @media only screen and (min-width: 768px) {
 
     nav {
@@ -508,6 +515,7 @@ a {
 }
 
 /*...........................................INICIO PORTADA PAGINA MENU..............................*/
+
 .portada__menu {
     @extend .portada__container;
     background-image: url("../images/viandas_calabaza.jpg");
@@ -565,6 +573,7 @@ main {
 }
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
+
 @media only screen and (max-width: 599px) {
 
     .portada__menu{
@@ -582,6 +591,7 @@ main {
 }
 
 /*...........................................PORTADA PAGINA PREGUNTAS FREC..............................*/
+
 .portada__preguntas {
     @extend .portada__container;
     background-image: url("../images/viandas_empresariales.jpg");
@@ -677,6 +687,7 @@ main {
 }
 
 /*......................  CONTAINER PREGUNTAS..................................*/
+
 .preguntas__container__principal {
     display: flex;
     flex-direction: column;
@@ -711,6 +722,7 @@ main {
 
 
 /*...................... PREGUNTAS FRECUENTES: MEDIAS QUERIES CELULARES..................................*/
+
 @media only screen and (max-width: 599px) {
 
     .portada__preguntas{
@@ -743,6 +755,7 @@ main {
 }
 
 /*...........................................PORTADA PAGINA NOSOTROS..............................*/
+
 .portada__nosotros {
     @extend .portada__container;
     background-image: url("../images/plato_7.jpg");
@@ -854,7 +867,8 @@ main {
     @include historia__container__textos;
 }
 
-/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES........................................................*/
+/*..................................... NOSOTROS: MEDIAS QUERIES CELULARES..............................................*/
+
 @media only screen and (max-width: 599px) {
 
     .portada__nosotros{
@@ -906,12 +920,14 @@ main {
 }
 
 /*...........................................PORTADA PAGINA CONTACTO..............................*/
+
 .portada__contacto {
     @extend .portada__container;
     background-image: url("../images/small-images/viandas_varias.jpg");
 }
 
 /*..................................... PAGINA CONTACTO........................................................*/
+
 .redes__sociales__logos__container {
     display: flex;
     justify-content: flex-start;
@@ -981,6 +997,7 @@ form {
 }
 
 /*..................................... CONTACTO: MEDIAS QUERIES CELULARES..........................................*/
+
 @media only screen and (max-width: 599px) {
 
     .portada__contacto{
@@ -1002,6 +1019,7 @@ form {
 }
 
 /*......................WHATSAPP ANIMACIÓN...................*/
+
 .container__btn__wsp {
     background-color: #008000;
     border: 1px solid #fff;
