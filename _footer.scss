@@ -86,8 +86,24 @@ footer {
 .newsletter__footer__input {
     font-family: $main-font-family;
     margin-bottom: 2rem;
-    font-size: 2.5rem;
-  
+    font-size: 2.5rem; 
+}
+
+.modal-header {
+    background-color: orange;
+    border-bottom: none;
+}
+
+.modal-body {
+    font-size: 3rem;
+    font-family: $main-font-family;
+    color: #000;
+    background-color: #ffa500;
+}
+
+.modal-footer {
+    background-color: #ffa500;
+    border-top: none;
 }
 
 .footer__redes__logos {

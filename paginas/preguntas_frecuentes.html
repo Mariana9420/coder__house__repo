@@ -298,8 +298,27 @@
              <a href="https://www.instagram.com" target="about_blanck"><img src="../images/small-images/instagram.svg" class="logo__instagram__footer" alt="Instagram logo" /></a>
            <a href="https://www.facebook.com" target="about_blanck"><img src="../images/small-images/facebook.svg" class="logo__fb__footer" alt="Facebook logo" /></a>
             </div>
-            <button class="btn__enviar__footer" type="button">Enviar</button>
+            <button class="btn__enviar__footer" type="button" data-bs-toggle="modal"
+            data-bs-target="#btn__footer__newsletter">Enviar</button>
           </div>
+
+<!-- Modal -->
+<div class="modal fade" id="btn__footer__newsletter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Muchas gracias por suscribirte!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         </article>
     </div>
     <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
