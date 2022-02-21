@@ -588,6 +588,24 @@ a#link__al__menu__especial {
   height: 30rem;
 }
 
+.modal-header {
+  background-color: orange;
+  border-bottom: none;
+}
+
+.modal-body {
+  font-size: 3rem;
+  font-family: "Indie Flower";
+  text-align: center;
+  color: #000;
+  background-color: #ffa500;
+}
+
+.modal-footer {
+  background-color: #ffa500;
+  border-top: none;
+}
+
 /*............................... INDEX: MEDIOS DE PAGO...........................*/
 .pagos__container {
   display: -webkit-box;
@@ -802,23 +820,6 @@ main .card-title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-main .modal-header {
-  background-color: orange;
-  border-bottom: none;
-}
-
-main .modal-body {
-  font-size: 3rem;
-  font-family: "Indie Flower";
-  color: #000;
-  background-color: #ffa500;
-}
-
-main .modal-footer {
-  background-color: #ffa500;
-  border-top: none;
 }
 
 /*..............................................NUESTRO MENU: MEDIAS QUERIES...................*/
@@ -1501,6 +1502,7 @@ footer {
 .modal-body {
   font-size: 3rem;
   font-family: "Indie Flower";
+  text-align: center;
   color: #000;
   background-color: #ffa500;
 }
