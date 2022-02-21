@@ -94,8 +94,7 @@
           </div>
 
           <div class="portada__btn__link__al__menu__container">
-            <a id="link__al__menu__especial" href="./paginas/menu.html"><button class="btn__menu"
-                type="button">
+            <a id="link__al__menu__especial" href="./paginas/menu.html"><button class="btn__menu" type="button">
                 Ver menú
               </button></a>
           </div>
@@ -218,15 +217,37 @@
     </p>
     <form>
       <div>
-        <input class="campo parrafo__form" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre*" required />
+        <input class="campo parrafo__form" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre*"
+          required />
         <input class="campo parrafo__form" type="text" name="apellido" placeholder="Ingresa tu apellido*" required />
         <input class="campo parrafo__form" type="text" name="mail" placeholder="Ingresa tu email*" required />
 
       </div>
       <textarea class="campo parrafo__form" name="consulta" id="consulta" cols="50" rows="20"
         placeholder="Ingresá tu mensaje"></textarea>
-      <input type="submit" class="btn__form" />
+      <button type="button" class="btn__form" data-bs-toggle="modal"
+      data-bs-target="#btn__formulario">Enviar</button>
+
     </form>
+
+          <!-- Modal -->
+          <div class="modal fade" id="btn__formulario" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Mensaje enviado con éxito!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
   </section>
 
   <section class="container">
@@ -243,7 +264,8 @@
   <aside>
     <div class="iconos__container bg--orange">
       <div>
-       <a href="#header"><img class="iconos__wspYFlecha" src="./images/small-images/flecha_arriba_subir.png" alt="flecha arriba" /></a>
+        <a href="#header"><img class="iconos__wspYFlecha" src="./images/small-images/flecha_arriba_subir.png"
+            alt="flecha arriba" /></a>
       </div>
 
       <div class="container__btn__wsp">
@@ -257,7 +279,7 @@
   <footer class="bg--brown">
 
     <!----------------------INICIO DEL CONTENEDOR GRID  DEL FOOTER------->
-    
+
     <div class="footer__container">
       <section>
         <div class="footer__tarjeta">
@@ -308,32 +330,36 @@
 
           <div class=" btn__footer__container">
             <div class="footer__redes__logos">
-             <a href="https://www.instagram.com" target="about_blanck"><img src="./images/small-images/instagram.svg" class="logo__instagram__footer" alt="Instagram logo" /></a>
-           <a href="https://www.facebook.com" target="about_blanck"><img src="./images/small-images/facebook.svg" class="logo__fb__footer" alt="Facebook logo" /></a>
+              <a href="https://www.instagram.com" target="about_blanck"><img src="./images/small-images/instagram.svg"
+                  class="logo__instagram__footer" alt="Instagram logo" /></a>
+              <a href="https://www.facebook.com" target="about_blanck"><img src="./images/small-images/facebook.svg"
+                  class="logo__fb__footer" alt="Facebook logo" /></a>
             </div>
             <button class="btn__enviar__footer" type="button" data-bs-toggle="modal"
-            data-bs-target="#btn__footer__newsletter">Enviar</button>
+              data-bs-target="#btn__footer__newsletter">Enviar</button>
           </div>
-<!-- Modal -->
-<div class="modal fade" id="btn__footer__newsletter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Muchas gracias por suscribirte!
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="btn__footer__newsletter" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Muchas gracias por suscribirte!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </article>
-    </div>
-    <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
+      </div>
+      <!-----------------------FIN DEL CONTENEDOR GRID DEL FOOTER-------->
   </footer>
   <script src="./js/bootstrap.min.js"></script>
 </body>
