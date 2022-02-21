@@ -309,9 +309,26 @@ a {
                 height: 30rem;
             }
         }
-    
 }
 
+
+.modal-header {
+    background-color: orange;
+    border-bottom: none;
+}
+
+.modal-body {
+    font-size: 3rem;
+    font-family: $main-font-family;
+    text-align: center;
+    color: #000;
+    background-color: #ffa500;
+}
+
+.modal-footer {
+    background-color: #ffa500;
+    border-top: none;
+}
 
 /*............................... INDEX: MEDIOS DE PAGO...........................*/
 
@@ -551,23 +568,6 @@ main {
         font-size: 2.5rem;
         display: flex;
         justify-content: center;
-    }
-
-    .modal-header {
-        background-color: orange;
-        border-bottom: none;
-    }
-
-    .modal-body {
-        font-size: 3rem;
-        font-family: $main-font-family;
-        color: #000;
-        background-color: #ffa500;
-    }
-
-    .modal-footer {
-        background-color: #ffa500;
-        border-top: none;
     }
 
 }
