@@ -1170,8 +1170,9 @@ footer {
 /*...........................................BOTONES ESTILOS..............................*/
 .btn__base, .btn__enviar__footer, .btn__seguir, .btn__comprar, #btn-link-preguntas, #btn__menu__main, .btn__menu {
   font-family: "Roboto";
-  color: #fff;
+  color: whitesmoke;
   background-color: #79a323;
+  border-radius: 10px;
 }
 
 .btn__menu {
