@@ -23,6 +23,7 @@ header {
 }
 header nav .navbar-nav {
   background-color: yellowgreen;
+  
 }
 header nav ul a {
   text-transform: uppercase;
@@ -1181,6 +1182,7 @@ footer {
   margin-left: 5rem;
   font-size: 3rem;
   border-radius: 10px;
+  background-color: #79a323;
 }
 
 #btn__menu__main {
