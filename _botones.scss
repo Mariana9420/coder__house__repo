@@ -8,14 +8,16 @@
 .btn__base {
     font-family: "Roboto";
     color: #fff;
-    background-color: #3a3838;
+    //background-color: #3a3838;
+    background-color: #79a323;
 }
 
 .btn__menu {
     @extend .btn__base;
-    @include btn-medidas(500px, 100px);
+    @include btn-medidas(250px, 100px);
     margin-left: 5rem;
     font-size: 3rem;
+    border-radius: 10px; 
 }
 
 #btn__menu__main {
